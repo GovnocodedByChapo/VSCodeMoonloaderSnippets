@@ -1,6 +1,39 @@
 // Visual Studio Code Snippets for MOONLOADER by chapo
 // version: 10.10.2022 - 17:31
 {
+	"onD3DDeviceLost": {
+		"scope": "lua",
+		"prefix": "onD3DDeviceLost",
+		"body": [
+			"function onD3DDeviceLost()",
+			"\t$0",
+			"end"
+		],
+		"description": "onD3DDeviceLost"
+	},
+	
+	"onD3DDeviceReset": {
+		"scope": "lua",
+		"prefix": "onD3DDeviceReset",
+		"body": [
+			"function onD3DDeviceReset()",
+			"\t$0",
+			"end"
+		],
+		"description": "onD3DDeviceReset"
+	},
+	
+	"onD3DPresent": {
+		"scope": "lua",
+		"prefix": "onD3DPresent",
+		"body": [
+			"function onD3DPresent()",
+			"\t$0",
+			"end"
+		],
+		"description": "onD3DPresent"
+	},
+	
 	"sampRegisterChatCommand || Зарегестрировать чат-команду": {
 		"scope": "lua",
 		"prefix": "sampRegisterChatCommand || Зарегестрировать чат-команду",
