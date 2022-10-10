@@ -1,0 +1,1785 @@
+// Visual Studio Code Snippets for SAMP.lua by chapo
+// version: 10.10.2022 - 17:31
+{
+    "sampev || local sampev = require('lib.samp.events')": {
+        "scope": "lua",
+        "prefix": "sampev",
+        "body": [
+            "local sampev = require('lib.samp.events')"
+        ],
+        "description": "Connect SAMP.lua to your script (pizda)"
+    },
+
+    
+
+    "sampev.onSendEnterVehicle(vehicleId, passenger)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendEnterVehicle(vehicleId, passenger)",
+        "body": [
+        	"function sampev.onSendEnterVehicle(vehicleId, passenger)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendClickPlayer(playerId, source)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendClickPlayer(playerId, source)",
+        "body": [
+        	"function sampev.onSendClickPlayer(playerId, source)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendClientJoin(version, mod, nickname, challengeResponse, joinAuthKey, clientVer, challengeResponse2)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendClientJoin(version, mod, nickname, challengeResponse, joinAuthKey, clientVer, challengeResponse2)",
+        "body": [
+        	"function sampev.onSendClientJoin(version, mod, nickname, challengeResponse, joinAuthKey, clientVer, challengeResponse2)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendEnterEditObject(type, objectId, model, position)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendEnterEditObject(type, objectId, model, position)",
+        "body": [
+        	"function sampev.onSendEnterEditObject(type, objectId, model, position)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendCommand(command)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendCommand(command)",
+        "body": [
+        	"function sampev.onSendCommand(command)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendDeathNotification(reason, killerId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendDeathNotification(reason, killerId)",
+        "body": [
+        	"function sampev.onSendDeathNotification(reason, killerId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendDialogResponse(dialogId, button, listboxId, input)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendDialogResponse(dialogId, button, listboxId, input)",
+        "body": [
+        	"function sampev.onSendDialogResponse(dialogId, button, listboxId, input)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendClickTextDraw(textdrawId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendClickTextDraw(textdrawId)",
+        "body": [
+        	"function sampev.onSendClickTextDraw(textdrawId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendVehicleTuningNotification(vehicleId, param1, param2, event)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendVehicleTuningNotification(vehicleId, param1, param2, event)",
+        "body": [
+        	"function sampev.onSendVehicleTuningNotification(vehicleId, param1, param2, event)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendChat(message)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendChat(message)",
+        "body": [
+        	"function sampev.onSendChat(message)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendClientCheckResponse(requestType, result1, result2)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendClientCheckResponse(requestType, result1, result2)",
+        "body": [
+        	"function sampev.onSendClientCheckResponse(requestType, result1, result2)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendVehicleDamaged(vehicleId, panelDmg, doorDmg, lights, tires)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendVehicleDamaged(vehicleId, panelDmg, doorDmg, lights, tires)",
+        "body": [
+        	"function sampev.onSendVehicleDamaged(vehicleId, panelDmg, doorDmg, lights, tires)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendEditAttachedObject(response, index, model, bone, position, rotation, scale, color1, color2)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendEditAttachedObject(response, index, model, bone, position, rotation, scale, color1, color2)",
+        "body": [
+        	"function sampev.onSendEditAttachedObject(response, index, model, bone, position, rotation, scale, color1, color2)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendEditObject(playerObject, objectId, response, position, rotation)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendEditObject(playerObject, objectId, response, position, rotation)",
+        "body": [
+        	"function sampev.onSendEditObject(playerObject, objectId, response, position, rotation)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendInteriorChangeNotification(interior)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendInteriorChangeNotification(interior)",
+        "body": [
+        	"function sampev.onSendInteriorChangeNotification(interior)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendMapMarker(position)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendMapMarker(position)",
+        "body": [
+        	"function sampev.onSendMapMarker(position)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendRequestClass(classId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendRequestClass(classId)",
+        "body": [
+        	"function sampev.onSendRequestClass(classId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendPickedUpPickup(pickupId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendPickedUpPickup(pickupId)",
+        "body": [
+        	"function sampev.onSendPickedUpPickup(pickupId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendMenuSelect(row)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendMenuSelect(row)",
+        "body": [
+        	"function sampev.onSendMenuSelect(row)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendVehicleDestroyed(vehicleId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendVehicleDestroyed(vehicleId)",
+        "body": [
+        	"function sampev.onSendVehicleDestroyed(vehicleId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendExitVehicle(vehicleId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendExitVehicle(vehicleId)",
+        "body": [
+        	"function sampev.onSendExitVehicle(vehicleId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendMoneyIncreaseNotification(amount, increaseType)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendMoneyIncreaseNotification(amount, increaseType)",
+        "body": [
+        	"function sampev.onSendMoneyIncreaseNotification(amount, increaseType)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendNPCJoin(version, mod, nickname, challengeResponse)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendNPCJoin(version, mod, nickname, challengeResponse)",
+        "body": [
+        	"function sampev.onSendNPCJoin(version, mod, nickname, challengeResponse)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendPickedUpWeapon(id)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendPickedUpWeapon(id)",
+        "body": [
+        	"function sampev.onSendPickedUpWeapon(id)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendCameraTargetUpdate(objectId, vehicleId, playerId, actorId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendCameraTargetUpdate(objectId, vehicleId, playerId, actorId)",
+        "body": [
+        	"function sampev.onSendCameraTargetUpdate(objectId, vehicleId, playerId, actorId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendGiveActorDamage(_unused, actorId, damage, weapon, bodypart)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendGiveActorDamage(_unused, actorId, damage, weapon, bodypart)",
+        "body": [
+        	"function sampev.onSendGiveActorDamage(_unused, actorId, damage, weapon, bodypart)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayerJoin(playerId, color, isNpc, nickname)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayerJoin(playerId, color, isNpc, nickname)",
+        "body": [
+        	"function sampev.onPlayerJoin(playerId, color, isNpc, nickname)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayerQuit(playerId, reason)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayerQuit(playerId, reason)",
+        "body": [
+        	"function sampev.onPlayerQuit(playerId, reason)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onRequestClassResponse(canSpawn, team, skin, _unused, positon, rotation, weapons, ammo)": {
+        "scope": "lua",
+        "prefix": "sampev.onRequestClassResponse(canSpawn, team, skin, _unused, positon, rotation, weapons, ammo)",
+        "body": [
+        	"function sampev.onRequestClassResponse(canSpawn, team, skin, _unused, positon, rotation, weapons, ammo)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onRequestSpawnResponse(response)": {
+        "scope": "lua",
+        "prefix": "sampev.onRequestSpawnResponse(response)",
+        "body": [
+        	"function sampev.onRequestSpawnResponse(response)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerName(playerId, name, success)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerName(playerId, name, success)",
+        "body": [
+        	"function sampev.onSetPlayerName(playerId, name, success)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerPos(position)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerPos(position)",
+        "body": [
+        	"function sampev.onSetPlayerPos(position)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerPosFindZ(position)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerPosFindZ(position)",
+        "body": [
+        	"function sampev.onSetPlayerPosFindZ(position)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerHealth(health)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerHealth(health)",
+        "body": [
+        	"function sampev.onSetPlayerHealth(health)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onTogglePlayerControllable(controllable)": {
+        "scope": "lua",
+        "prefix": "sampev.onTogglePlayerControllable(controllable)",
+        "body": [
+        	"function sampev.onTogglePlayerControllable(controllable)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlaySound(soundId, position)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlaySound(soundId, position)",
+        "body": [
+        	"function sampev.onPlaySound(soundId, position)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetWorldBounds(maxX, minX, maxY, minY)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetWorldBounds(maxX, minX, maxY, minY)",
+        "body": [
+        	"function sampev.onSetWorldBounds(maxX, minX, maxY, minY)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onGivePlayerMoney(money)": {
+        "scope": "lua",
+        "prefix": "sampev.onGivePlayerMoney(money)",
+        "body": [
+        	"function sampev.onGivePlayerMoney(money)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerFacingAngle(angle)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerFacingAngle(angle)",
+        "body": [
+        	"function sampev.onSetPlayerFacingAngle(angle)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onGivePlayerWeapon(weaponId, ammo)": {
+        "scope": "lua",
+        "prefix": "sampev.onGivePlayerWeapon(weaponId, ammo)",
+        "body": [
+        	"function sampev.onGivePlayerWeapon(weaponId, ammo)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerTime(hour, minute)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerTime(hour, minute)",
+        "body": [
+        	"function sampev.onSetPlayerTime(hour, minute)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetToggleClock(state)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetToggleClock(state)",
+        "body": [
+        	"function sampev.onSetToggleClock(state)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayerStreamIn(playerId, team, model, position, rotation, color, fightingStyle)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayerStreamIn(playerId, team, model, position, rotation, color, fightingStyle)",
+        "body": [
+        	"function sampev.onPlayerStreamIn(playerId, team, model, position, rotation, color, fightingStyle)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetShopName(name)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetShopName(name)",
+        "body": [
+        	"function sampev.onSetShopName(name)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerSkillLevel(playerId, skill, level)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerSkillLevel(playerId, skill, level)",
+        "body": [
+        	"function sampev.onSetPlayerSkillLevel(playerId, skill, level)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerDrunk(drunkLevel)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerDrunk(drunkLevel)",
+        "body": [
+        	"function sampev.onSetPlayerDrunk(drunkLevel)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onCreate3DText(id, color, position, distance, testLOS, attachedPlayerId, attachedVehicleId, text)": {
+        "scope": "lua",
+        "prefix": "sampev.onCreate3DText(id, color, position, distance, testLOS, attachedPlayerId, attachedVehicleId, text)",
+        "body": [
+        	"function sampev.onCreate3DText(id, color, position, distance, testLOS, attachedPlayerId, attachedVehicleId, text)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetRaceCheckpoint(type, position, nextPosition, size)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetRaceCheckpoint(type, position, nextPosition, size)",
+        "body": [
+        	"function sampev.onSetRaceCheckpoint(type, position, nextPosition, size)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayAudioStream(url, position, radius, usePosition)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayAudioStream(url, position, radius, usePosition)",
+        "body": [
+        	"function sampev.onPlayAudioStream(url, position, radius, usePosition)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onRemoveBuilding(modelId, position, radius)": {
+        "scope": "lua",
+        "prefix": "sampev.onRemoveBuilding(modelId, position, radius)",
+        "body": [
+        	"function sampev.onRemoveBuilding(modelId, position, radius)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetObjectPosition(objectId, position)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetObjectPosition(objectId, position)",
+        "body": [
+        	"function sampev.onSetObjectPosition(objectId, position)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetObjectRotation(objectId, rotation)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetObjectRotation(objectId, rotation)",
+        "body": [
+        	"function sampev.onSetObjectRotation(objectId, rotation)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onDestroyObject(objectId)": {
+        "scope": "lua",
+        "prefix": "sampev.onDestroyObject(objectId)",
+        "body": [
+        	"function sampev.onDestroyObject(objectId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayerDeathNotification(killerId, killedId, reason)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayerDeathNotification(killerId, killedId, reason)",
+        "body": [
+        	"function sampev.onPlayerDeathNotification(killerId, killedId, reason)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetMapIcon(iconId, position, type, color, style)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetMapIcon(iconId, position, type, color, style)",
+        "body": [
+        	"function sampev.onSetMapIcon(iconId, position, type, color, style)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onRemoveVehicleComponent(vehicleId, componentId)": {
+        "scope": "lua",
+        "prefix": "sampev.onRemoveVehicleComponent(vehicleId, componentId)",
+        "body": [
+        	"function sampev.onRemoveVehicleComponent(vehicleId, componentId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onRemove3DTextLabel(textLabelId)": {
+        "scope": "lua",
+        "prefix": "sampev.onRemove3DTextLabel(textLabelId)",
+        "body": [
+        	"function sampev.onRemove3DTextLabel(textLabelId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayerChatBubble(playerId, color, distance, duration, message)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayerChatBubble(playerId, color, distance, duration, message)",
+        "body": [
+        	"function sampev.onPlayerChatBubble(playerId, color, distance, duration, message)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onUpdateGlobalTimer(time)": {
+        "scope": "lua",
+        "prefix": "sampev.onUpdateGlobalTimer(time)",
+        "body": [
+        	"function sampev.onUpdateGlobalTimer(time)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onShowDialog(dialogId, style, title, button1, button2, text)": {
+        "scope": "lua",
+        "prefix": "sampev.onShowDialog(dialogId, style, title, button1, button2, text)",
+        "body": [
+        	"function sampev.onShowDialog(dialogId, style, title, button1, button2, text)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onDestroyPickup(id)": {
+        "scope": "lua",
+        "prefix": "sampev.onDestroyPickup(id)",
+        "body": [
+        	"function sampev.onDestroyPickup(id)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onLinkVehicleToInterior(vehicleId, interiorId)": {
+        "scope": "lua",
+        "prefix": "sampev.onLinkVehicleToInterior(vehicleId, interiorId)",
+        "body": [
+        	"function sampev.onLinkVehicleToInterior(vehicleId, interiorId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerArmour(armour)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerArmour(armour)",
+        "body": [
+        	"function sampev.onSetPlayerArmour(armour)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerArmedWeapon(weaponId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerArmedWeapon(weaponId)",
+        "body": [
+        	"function sampev.onSetPlayerArmedWeapon(weaponId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetSpawnInfo(team, skin, _unused, position, rotation, weapons, ammo)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetSpawnInfo(team, skin, _unused, position, rotation, weapons, ammo)",
+        "body": [
+        	"function sampev.onSetSpawnInfo(team, skin, _unused, position, rotation, weapons, ammo)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerTeam(playerId, teamId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerTeam(playerId, teamId)",
+        "body": [
+        	"function sampev.onSetPlayerTeam(playerId, teamId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPutPlayerInVehicle(vehicleId, seatId)": {
+        "scope": "lua",
+        "prefix": "sampev.onPutPlayerInVehicle(vehicleId, seatId)",
+        "body": [
+        	"function sampev.onPutPlayerInVehicle(vehicleId, seatId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerColor(playerId, color)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerColor(playerId, color)",
+        "body": [
+        	"function sampev.onSetPlayerColor(playerId, color)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onDisplayGameText(style, time, text)": {
+        "scope": "lua",
+        "prefix": "sampev.onDisplayGameText(style, time, text)",
+        "body": [
+        	"function sampev.onDisplayGameText(style, time, text)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onAttachObjectToPlayer(objectId, playerId, offsets, rotation)": {
+        "scope": "lua",
+        "prefix": "sampev.onAttachObjectToPlayer(objectId, playerId, offsets, rotation)",
+        "body": [
+        	"function sampev.onAttachObjectToPlayer(objectId, playerId, offsets, rotation)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onShowMenu(menuId)": {
+        "scope": "lua",
+        "prefix": "sampev.onShowMenu(menuId)",
+        "body": [
+        	"function sampev.onShowMenu(menuId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onHideMenu(menuId)": {
+        "scope": "lua",
+        "prefix": "sampev.onHideMenu(menuId)",
+        "body": [
+        	"function sampev.onHideMenu(menuId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onCreateExplosion(position, style, radius)": {
+        "scope": "lua",
+        "prefix": "sampev.onCreateExplosion(position, style, radius)",
+        "body": [
+        	"function sampev.onCreateExplosion(position, style, radius)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onShowPlayerNameTag(playerId, show)": {
+        "scope": "lua",
+        "prefix": "sampev.onShowPlayerNameTag(playerId, show)",
+        "body": [
+        	"function sampev.onShowPlayerNameTag(playerId, show)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onAttachCameraToObject(objectId)": {
+        "scope": "lua",
+        "prefix": "sampev.onAttachCameraToObject(objectId)",
+        "body": [
+        	"function sampev.onAttachCameraToObject(objectId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onInterpolateCamera(setPos, fromPos, destPos, time, mode)": {
+        "scope": "lua",
+        "prefix": "sampev.onInterpolateCamera(setPos, fromPos, destPos, time, mode)",
+        "body": [
+        	"function sampev.onInterpolateCamera(setPos, fromPos, destPos, time, mode)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onGangZoneStopFlash(zoneId)": {
+        "scope": "lua",
+        "prefix": "sampev.onGangZoneStopFlash(zoneId)",
+        "body": [
+        	"function sampev.onGangZoneStopFlash(zoneId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onApplyPlayerAnimation(playerId, animLib, animName, frameDelta, loop, lockX, lockY, freeze, time)": {
+        "scope": "lua",
+        "prefix": "sampev.onApplyPlayerAnimation(playerId, animLib, animName, frameDelta, loop, lockX, lockY, freeze, time)",
+        "body": [
+        	"function sampev.onApplyPlayerAnimation(playerId, animLib, animName, frameDelta, loop, lockX, lockY, freeze, time)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onClearPlayerAnimation(playerId)": {
+        "scope": "lua",
+        "prefix": "sampev.onClearPlayerAnimation(playerId)",
+        "body": [
+        	"function sampev.onClearPlayerAnimation(playerId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerSpecialAction(actionId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerSpecialAction(actionId)",
+        "body": [
+        	"function sampev.onSetPlayerSpecialAction(actionId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerFightingStyle(playerId, styleId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerFightingStyle(playerId, styleId)",
+        "body": [
+        	"function sampev.onSetPlayerFightingStyle(playerId, styleId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerVelocity(velocity)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerVelocity(velocity)",
+        "body": [
+        	"function sampev.onSetPlayerVelocity(velocity)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetVehicleVelocity(turn, velocity)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetVehicleVelocity(turn, velocity)",
+        "body": [
+        	"function sampev.onSetVehicleVelocity(turn, velocity)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onServerMessage(color, text)": {
+        "scope": "lua",
+        "prefix": "sampev.onServerMessage(color, text)",
+        "body": [
+        	"function sampev.onServerMessage(color, text)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetWorldTime(hour)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetWorldTime(hour)",
+        "body": [
+        	"function sampev.onSetWorldTime(hour)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onCreatePickup(id, model, pickupType, position)": {
+        "scope": "lua",
+        "prefix": "sampev.onCreatePickup(id, model, pickupType, position)",
+        "body": [
+        	"function sampev.onCreatePickup(id, model, pickupType, position)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onMoveObject(objectId, fromPos, destPos, speed, rotation)": {
+        "scope": "lua",
+        "prefix": "sampev.onMoveObject(objectId, fromPos, destPos, speed, rotation)",
+        "body": [
+        	"function sampev.onMoveObject(objectId, fromPos, destPos, speed, rotation)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onEnableStuntBonus(state)": {
+        "scope": "lua",
+        "prefix": "sampev.onEnableStuntBonus(state)",
+        "body": [
+        	"function sampev.onEnableStuntBonus(state)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onTextDrawSetString(id, text)": {
+        "scope": "lua",
+        "prefix": "sampev.onTextDrawSetString(id, text)",
+        "body": [
+        	"function sampev.onTextDrawSetString(id, text)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetCheckpoint(position, radius)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetCheckpoint(position, radius)",
+        "body": [
+        	"function sampev.onSetCheckpoint(position, radius)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onCreateGangZone(zoneId, squareStart, squareEnd, color)": {
+        "scope": "lua",
+        "prefix": "sampev.onCreateGangZone(zoneId, squareStart, squareEnd, color)",
+        "body": [
+        	"function sampev.onCreateGangZone(zoneId, squareStart, squareEnd, color)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayCrimeReport(suspectId, inVehicle, vehicleModel, vehicleColor, crime, coordinates)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayCrimeReport(suspectId, inVehicle, vehicleModel, vehicleColor, crime, coordinates)",
+        "body": [
+        	"function sampev.onPlayCrimeReport(suspectId, inVehicle, vehicleModel, vehicleColor, crime, coordinates)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onGangZoneDestroy(zoneId)": {
+        "scope": "lua",
+        "prefix": "sampev.onGangZoneDestroy(zoneId)",
+        "body": [
+        	"function sampev.onGangZoneDestroy(zoneId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onGangZoneFlash(zoneId, color)": {
+        "scope": "lua",
+        "prefix": "sampev.onGangZoneFlash(zoneId, color)",
+        "body": [
+        	"function sampev.onGangZoneFlash(zoneId, color)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onStopObject(objectId)": {
+        "scope": "lua",
+        "prefix": "sampev.onStopObject(objectId)",
+        "body": [
+        	"function sampev.onStopObject(objectId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetVehicleNumberPlate(vehicleId, text)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetVehicleNumberPlate(vehicleId, text)",
+        "body": [
+        	"function sampev.onSetVehicleNumberPlate(vehicleId, text)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onTogglePlayerSpectating(state)": {
+        "scope": "lua",
+        "prefix": "sampev.onTogglePlayerSpectating(state)",
+        "body": [
+        	"function sampev.onTogglePlayerSpectating(state)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSpectatePlayer(playerId, camType)": {
+        "scope": "lua",
+        "prefix": "sampev.onSpectatePlayer(playerId, camType)",
+        "body": [
+        	"function sampev.onSpectatePlayer(playerId, camType)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSpectateVehicle(vehicleId, camType)": {
+        "scope": "lua",
+        "prefix": "sampev.onSpectateVehicle(vehicleId, camType)",
+        "body": [
+        	"function sampev.onSpectateVehicle(vehicleId, camType)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onShowTextDraw(textdrawId, data)": {
+        "scope": "lua",
+        "prefix": "sampev.onShowTextDraw(textdrawId, data)",
+        "body": [
+        	"function sampev.onShowTextDraw(textdrawId, data)",
+            "    $0",
+            "end"
+        ],
+        "description": "data:\n - flags (uint8)\n - letterWidth (float)\n - letterHeight (float)\n - letterColor (int32)\n - lineWidth (float)\n - lineHeight (float)\n - boxColor (int32)\n - shadow (uint8)\n - outline (uint8)\n - backgroundColor (int32)\n - style (uint8)\n - selectable (uint8)\n - position (vector2d)\n - modelId (uint16)\n - rotation (vector3d)\n - zoom (float)\n - color1 (int16)\n - color2 (int16)\n - text (string16)"
+    },
+    "sampev.onSetPlayerWantedLevel(wantedLevel)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerWantedLevel(wantedLevel)",
+        "body": [
+        	"function sampev.onSetPlayerWantedLevel(wantedLevel)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onTextDrawHide(textDrawId)": {
+        "scope": "lua",
+        "prefix": "sampev.onTextDrawHide(textDrawId)",
+        "body": [
+        	"function sampev.onTextDrawHide(textDrawId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onRemoveMapIcon(iconId)": {
+        "scope": "lua",
+        "prefix": "sampev.onRemoveMapIcon(iconId)",
+        "body": [
+        	"function sampev.onRemoveMapIcon(iconId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetWeaponAmmo(weaponId, ammo)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetWeaponAmmo(weaponId, ammo)",
+        "body": [
+        	"function sampev.onSetWeaponAmmo(weaponId, ammo)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetGravity(gravity)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetGravity(gravity)",
+        "body": [
+        	"function sampev.onSetGravity(gravity)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetVehicleHealth(vehicleId, health)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetVehicleHealth(vehicleId, health)",
+        "body": [
+        	"function sampev.onSetVehicleHealth(vehicleId, health)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onAttachTrailerToVehicle(trailerId, vehicleId)": {
+        "scope": "lua",
+        "prefix": "sampev.onAttachTrailerToVehicle(trailerId, vehicleId)",
+        "body": [
+        	"function sampev.onAttachTrailerToVehicle(trailerId, vehicleId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onDetachTrailerFromVehicle(vehicleId)": {
+        "scope": "lua",
+        "prefix": "sampev.onDetachTrailerFromVehicle(vehicleId)",
+        "body": [
+        	"function sampev.onDetachTrailerFromVehicle(vehicleId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetWeather(weatherId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetWeather(weatherId)",
+        "body": [
+        	"function sampev.onSetWeather(weatherId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerSkin(playerId, skinId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerSkin(playerId, skinId)",
+        "body": [
+        	"function sampev.onSetPlayerSkin(playerId, skinId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetInterior(interior)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetInterior(interior)",
+        "body": [
+        	"function sampev.onSetInterior(interior)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetCameraPosition(position)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetCameraPosition(position)",
+        "body": [
+        	"function sampev.onSetCameraPosition(position)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetCameraLookAt(lookAtPosition, cutType)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetCameraLookAt(lookAtPosition, cutType)",
+        "body": [
+        	"function sampev.onSetCameraLookAt(lookAtPosition, cutType)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetVehiclePosition(vehicleId, position)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetVehiclePosition(vehicleId, position)",
+        "body": [
+        	"function sampev.onSetVehiclePosition(vehicleId, position)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetVehicleAngle(vehicleId, angle)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetVehicleAngle(vehicleId, angle)",
+        "body": [
+        	"function sampev.onSetVehicleAngle(vehicleId, angle)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetVehicleParams(vehicleId, objective, doorsLocked)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetVehicleParams(vehicleId, objective, doorsLocked)",
+        "body": [
+        	"function sampev.onSetVehicleParams(vehicleId, objective, doorsLocked)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onChatMessage(playerId, text)": {
+        "scope": "lua",
+        "prefix": "sampev.onChatMessage(playerId, text)",
+        "body": [
+        	"function sampev.onChatMessage(playerId, text)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onConnectionRejected(reason)": {
+        "scope": "lua",
+        "prefix": "sampev.onConnectionRejected(reason)",
+        "body": [
+        	"function sampev.onConnectionRejected(reason)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayerStreamOut(playerId)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayerStreamOut(playerId)",
+        "body": [
+        	"function sampev.onPlayerStreamOut(playerId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onVehicleStreamOut(vehicleId)": {
+        "scope": "lua",
+        "prefix": "sampev.onVehicleStreamOut(vehicleId)",
+        "body": [
+        	"function sampev.onVehicleStreamOut(vehicleId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayerDeath(playerId)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayerDeath(playerId)",
+        "body": [
+        	"function sampev.onPlayerDeath(playerId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayerEnterVehicle(playerId, vehicleId, passenger)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayerEnterVehicle(playerId, vehicleId, passenger)",
+        "body": [
+        	"function sampev.onPlayerEnterVehicle(playerId, vehicleId, passenger)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onCreateActor(actorId, skinId, position, rotation, health)": {
+        "scope": "lua",
+        "prefix": "sampev.onCreateActor(actorId, skinId, position, rotation, health)",
+        "body": [
+        	"function sampev.onCreateActor(actorId, skinId, position, rotation, health)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onToggleSelectTextDraw(state, hovercolor)": {
+        "scope": "lua",
+        "prefix": "sampev.onToggleSelectTextDraw(state, hovercolor)",
+        "body": [
+        	"function sampev.onToggleSelectTextDraw(state, hovercolor)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetVehicleParamsEx(vehicleId, params)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetVehicleParamsEx(vehicleId, params)",
+        "body": [
+        	"function sampev.onSetVehicleParamsEx(vehicleId, params)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerAttachedObject(playerId, index, create, object)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerAttachedObject(playerId, index, create, object)",
+        "body": [
+        	"function sampev.onSetPlayerAttachedObject(playerId, index, create, object)",
+            "    $0",
+            "end"
+        ],
+        "description": "object:\n - modelId (int32)\n - bone (int32)\n - offset (vector3d)\n - rotation (vector3d)\n - scale (vector3d)\n - color1 (int32)\n - color2 (int32)"
+    },
+    "sampev.onClientCheck(requestType, subject, offset, length)": {
+        "scope": "lua",
+        "prefix": "sampev.onClientCheck(requestType, subject, offset, length)",
+        "body": [
+        	"function sampev.onClientCheck(requestType, subject, offset, length)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onDestroyActor(actorId)": {
+        "scope": "lua",
+        "prefix": "sampev.onDestroyActor(actorId)",
+        "body": [
+        	"function sampev.onDestroyActor(actorId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onDestroyWeaponPickup(id)": {
+        "scope": "lua",
+        "prefix": "sampev.onDestroyWeaponPickup(id)",
+        "body": [
+        	"function sampev.onDestroyWeaponPickup(id)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onEditAttachedObject(index)": {
+        "scope": "lua",
+        "prefix": "sampev.onEditAttachedObject(index)",
+        "body": [
+        	"function sampev.onEditAttachedObject(index)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onToggleCameraTargetNotifying(enable)": {
+        "scope": "lua",
+        "prefix": "sampev.onToggleCameraTargetNotifying(enable)",
+        "body": [
+        	"function sampev.onToggleCameraTargetNotifying(enable)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayerExitVehicle(playerId, vehicleId)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayerExitVehicle(playerId, vehicleId)",
+        "body": [
+        	"function sampev.onPlayerExitVehicle(playerId, vehicleId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onVehicleTuningNotification(playerId, event, vehicleId, param1, param2)": {
+        "scope": "lua",
+        "prefix": "sampev.onVehicleTuningNotification(playerId, event, vehicleId, param1, param2)",
+        "body": [
+        	"function sampev.onVehicleTuningNotification(playerId, event, vehicleId, param1, param2)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onEnterEditObject(playerObject, objectId)": {
+        "scope": "lua",
+        "prefix": "sampev.onEnterEditObject(playerObject, objectId)",
+        "body": [
+        	"function sampev.onEnterEditObject(playerObject, objectId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onVehicleDamageStatusUpdate(vehicleId, panelDmg, doorDmg, lights, tires)": {
+        "scope": "lua",
+        "prefix": "sampev.onVehicleDamageStatusUpdate(vehicleId, panelDmg, doorDmg, lights, tires)",
+        "body": [
+        	"function sampev.onVehicleDamageStatusUpdate(vehicleId, panelDmg, doorDmg, lights, tires)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onDisableVehicleCollisions(disable)": {
+        "scope": "lua",
+        "prefix": "sampev.onDisableVehicleCollisions(disable)",
+        "body": [
+        	"function sampev.onDisableVehicleCollisions(disable)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onToggleWidescreen(enable)": {
+        "scope": "lua",
+        "prefix": "sampev.onToggleWidescreen(enable)",
+        "body": [
+        	"function sampev.onToggleWidescreen(enable)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetVehicleTires(vehicleId, tires)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetVehicleTires(vehicleId, tires)",
+        "body": [
+        	"function sampev.onSetVehicleTires(vehicleId, tires)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerDrunkVisuals(level)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerDrunkVisuals(level)",
+        "body": [
+        	"function sampev.onSetPlayerDrunkVisuals(level)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerDrunkHandling(level)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerDrunkHandling(level)",
+        "body": [
+        	"function sampev.onSetPlayerDrunkHandling(level)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onApplyActorAnimation(actorId, animLib, animName, frameDelta, loop, lockX, lockY, freeze, time)": {
+        "scope": "lua",
+        "prefix": "sampev.onApplyActorAnimation(actorId, animLib, animName, frameDelta, loop, lockX, lockY, freeze, time)",
+        "body": [
+        	"function sampev.onApplyActorAnimation(actorId, animLib, animName, frameDelta, loop, lockX, lockY, freeze, time)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onClearActorAnimation(actorId)": {
+        "scope": "lua",
+        "prefix": "sampev.onClearActorAnimation(actorId)",
+        "body": [
+        	"function sampev.onClearActorAnimation(actorId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetActorFacingAngle(actorId, angle)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetActorFacingAngle(actorId, angle)",
+        "body": [
+        	"function sampev.onSetActorFacingAngle(actorId, angle)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetActorPos(actorId, position)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetActorPos(actorId, position)",
+        "body": [
+        	"function sampev.onSetActorPos(actorId, position)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetActorHealth(actorId, health)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetActorHealth(actorId, health)",
+        "body": [
+        	"function sampev.onSetActorHealth(actorId, health)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetPlayerObjectNoCameraCol(objectId)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetPlayerObjectNoCameraCol(objectId)",
+        "body": [
+        	"function sampev.onSetPlayerObjectNoCameraCol(objectId)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendRconCommand(command)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendRconCommand(command)",
+        "body": [
+        	"function sampev.onSendRconCommand(command)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendStatsUpdate(money, drunkLevel)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendStatsUpdate(money, drunkLevel)",
+        "body": [
+        	"function sampev.onSendStatsUpdate(money, drunkLevel)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onAimSync(playerId, data)": {
+        "scope": "lua",
+        "prefix": "sampev.onAimSync(playerId, data)",
+        "body": [
+        	"function sampev.onAimSync(playerId, data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onBulletSync(playerId, data)": {
+        "scope": "lua",
+        "prefix": "sampev.onBulletSync(playerId, data)",
+        "body": [
+        	"function sampev.onBulletSync(playerId, data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onUnoccupiedSync(playerId, data)": {
+        "scope": "lua",
+        "prefix": "sampev.onUnoccupiedSync(playerId, data)",
+        "body": [
+        	"function sampev.onUnoccupiedSync(playerId, data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onTrailerSync(playerId, data)": {
+        "scope": "lua",
+        "prefix": "sampev.onTrailerSync(playerId, data)",
+        "body": [
+        	"function sampev.onTrailerSync(playerId, data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPassengerSync(playerId, data)": {
+        "scope": "lua",
+        "prefix": "sampev.onPassengerSync(playerId, data)",
+        "body": [
+        	"function sampev.onPassengerSync(playerId, data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onAuthenticationRequest(key)": {
+        "scope": "lua",
+        "prefix": "sampev.onAuthenticationRequest(key)",
+        "body": [
+        	"function sampev.onAuthenticationRequest(key)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onConnectionRequestAccepted(ip, port, playerId, challenge)": {
+        "scope": "lua",
+        "prefix": "sampev.onConnectionRequestAccepted(ip, port, playerId, challenge)",
+        "body": [
+        	"function sampev.onConnectionRequestAccepted(ip, port, playerId, challenge)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onInitMenu(menuId, menuTitle, x, y, twoColumns, columns, rows, menu)": {
+        "scope": "lua",
+        "prefix": "sampev.onInitMenu(menuId, menuTitle, x, y, twoColumns, columns, rows, menu)",
+        "body": [
+        	"function sampev.onInitMenu(menuId, menuTitle, x, y, twoColumns, columns, rows, menu)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onCreateObject(id, data)": {
+        "scope": "lua",
+        "prefix": "sampev.onCreateObject(id, data)",
+        "body": [
+        	"function sampev.onCreateObject(id, data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onInitGame(playerId, hostName, settings, vehicleModels, vehicleFriendlyFire)": {
+        "scope": "lua",
+        "prefix": "sampev.onInitGame(playerId, hostName, settings, vehicleModels, vehicleFriendlyFire)",
+        "body": [
+        	"function sampev.onInitGame(playerId, hostName, settings, vehicleModels, vehicleFriendlyFire)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onVehicleStreamIn(vehId, data)": {
+        "scope": "lua",
+        "prefix": "sampev.onVehicleStreamIn(vehId, data)",
+        "body": [
+        	"function sampev.onVehicleStreamIn(vehId, data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onUpdateScoresAndPings(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onUpdateScoresAndPings(data)",
+        "body": [
+        	"function sampev.onUpdateScoresAndPings(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetObjectMaterial(objectId, material)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetObjectMaterial(objectId, material)",
+        "body": [
+        	"function sampev.onSetObjectMaterial(objectId, material)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSetObjectMaterialText(objectId, material)": {
+        "scope": "lua",
+        "prefix": "sampev.onSetObjectMaterialText(objectId, material)",
+        "body": [
+        	"function sampev.onSetObjectMaterialText(objectId, material)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendGiveDamage(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendGiveDamage(data)",
+        "body": [
+        	"function sampev.onSendGiveDamage(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendTakeDamage(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendTakeDamage(data)",
+        "body": [
+        	"function sampev.onSendTakeDamage(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendWeaponsUpdate(playerTarget, actorTarget, weapons)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendWeaponsUpdate(playerTarget, actorTarget, weapons)",
+        "body": [
+        	"function sampev.onSendWeaponsUpdate(playerTarget, actorTarget, weapons)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendAuthenticationResponse(response)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendAuthenticationResponse(response)",
+        "body": [
+        	"function sampev.onSendAuthenticationResponse(response)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onPlayerSync(playerId, data)": {
+        "scope": "lua",
+        "prefix": "sampev.onPlayerSync(playerId, data)",
+        "body": [
+        	"function sampev.onPlayerSync(playerId, data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onVehicleSync(playerId, vehicleId, data)": {
+        "scope": "lua",
+        "prefix": "sampev.onVehicleSync(playerId, vehicleId, data)",
+        "body": [
+        	"function sampev.onVehicleSync(playerId, vehicleId, data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onMarkersSync(markers)": {
+        "scope": "lua",
+        "prefix": "sampev.onMarkersSync(markers)",
+        "body": [
+        	"function sampev.onMarkersSync(markers)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendPlayerSync(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendPlayerSync(data)",
+        "body": [
+        	"function sampev.onSendPlayerSync(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendVehicleSync(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendVehicleSync(data)",
+        "body": [
+        	"function sampev.onSendVehicleSync(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendPassengerSync(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendPassengerSync(data)",
+        "body": [
+        	"function sampev.onSendPassengerSync(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendAimSync(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendAimSync(data)",
+        "body": [
+        	"function sampev.onSendAimSync(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendUnoccupiedSync(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendUnoccupiedSync(data)",
+        "body": [
+        	"function sampev.onSendUnoccupiedSync(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendTrailerSync(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendTrailerSync(data)",
+        "body": [
+        	"function sampev.onSendTrailerSync(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendBulletSync(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendBulletSync(data)",
+        "body": [
+        	"function sampev.onSendBulletSync(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    },
+    "sampev.onSendSpectatorSync(data)": {
+        "scope": "lua",
+        "prefix": "sampev.onSendSpectatorSync(data)",
+        "body": [
+        	"function sampev.onSendSpectatorSync(data)",
+            "    $0",
+            "end"
+        ],
+        "description": "NONE"
+    }
+}

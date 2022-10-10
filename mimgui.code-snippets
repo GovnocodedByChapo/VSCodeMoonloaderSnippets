@@ -1,0 +1,3646 @@
+// Visual Studio Code Snippets for mimgui by chapo
+// version: 10.10.2022 - 17:31
+{
+	"imgui.WindowFlags.None": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.None",
+		"body": ["imgui.WindowFlags.None"],
+		"description": "imgui.WindowFlags.None"
+	},
+	"imgui.WindowFlags.NoTitleBar": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoTitleBar",
+		"body": ["imgui.WindowFlags.NoTitleBar"],
+		"description": "imgui.WindowFlags.NoTitleBar"
+	},
+	"imgui.WindowFlags.NoResize": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoResize",
+		"body": ["imgui.WindowFlags.NoResize"],
+		"description": "imgui.WindowFlags.NoResize"
+	},
+	"imgui.WindowFlags.NoMove": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoMove",
+		"body": ["imgui.WindowFlags.NoMove"],
+		"description": "imgui.WindowFlags.NoMove"
+	},
+	"imgui.WindowFlags.NoScrollbar": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoScrollbar",
+		"body": ["imgui.WindowFlags.NoScrollbar"],
+		"description": "imgui.WindowFlags.NoScrollbar"
+	},
+	"imgui.WindowFlags.NoScrollWithMouse": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoScrollWithMouse",
+		"body": ["imgui.WindowFlags.NoScrollWithMouse"],
+		"description": "imgui.WindowFlags.NoScrollWithMouse"
+	},
+	"imgui.WindowFlags.NoCollapse": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoCollapse",
+		"body": ["imgui.WindowFlags.NoCollapse"],
+		"description": "imgui.WindowFlags.NoCollapse"
+	},
+	"imgui.WindowFlags.AlwaysAutoResize": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.AlwaysAutoResize",
+		"body": ["imgui.WindowFlags.AlwaysAutoResize"],
+		"description": "imgui.WindowFlags.AlwaysAutoResize"
+	},
+	"imgui.WindowFlags.NoBackground": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoBackground",
+		"body": ["imgui.WindowFlags.NoBackground"],
+		"description": "imgui.WindowFlags.NoBackground"
+	},
+	"imgui.WindowFlags.NoSavedSettings": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoSavedSettings",
+		"body": ["imgui.WindowFlags.NoSavedSettings"],
+		"description": "imgui.WindowFlags.NoSavedSettings"
+	},
+	"imgui.WindowFlags.NoMouseInputs": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoMouseInputs",
+		"body": ["imgui.WindowFlags.NoMouseInputs"],
+		"description": "imgui.WindowFlags.NoMouseInputs"
+	},
+	"imgui.WindowFlags.MenuBar": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.MenuBar",
+		"body": ["imgui.WindowFlags.MenuBar"],
+		"description": "imgui.WindowFlags.MenuBar"
+	},
+	"imgui.WindowFlags.HorizontalScrollbar": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.HorizontalScrollbar",
+		"body": ["imgui.WindowFlags.HorizontalScrollbar"],
+		"description": "imgui.WindowFlags.HorizontalScrollbar"
+	},
+	"imgui.WindowFlags.NoFocusOnAppearing": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoFocusOnAppearing",
+		"body": ["imgui.WindowFlags.NoFocusOnAppearing"],
+		"description": "imgui.WindowFlags.NoFocusOnAppearing"
+	},
+	"imgui.WindowFlags.NoBringToFrontOnFocus": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoBringToFrontOnFocus",
+		"body": ["imgui.WindowFlags.NoBringToFrontOnFocus"],
+		"description": "imgui.WindowFlags.NoBringToFrontOnFocus"
+	},
+	"imgui.WindowFlags.AlwaysVerticalScrollbar": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.AlwaysVerticalScrollbar",
+		"body": ["imgui.WindowFlags.AlwaysVerticalScrollbar"],
+		"description": "imgui.WindowFlags.AlwaysVerticalScrollbar"
+	},
+	"imgui.WindowFlags.AlwaysHorizontalScrollbar": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.AlwaysHorizontalScrollbar",
+		"body": ["imgui.WindowFlags.AlwaysHorizontalScrollbar"],
+		"description": "imgui.WindowFlags.AlwaysHorizontalScrollbar"
+	},
+	"imgui.WindowFlags.AlwaysUseWindowPadding": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.AlwaysUseWindowPadding",
+		"body": ["imgui.WindowFlags.AlwaysUseWindowPadding"],
+		"description": "imgui.WindowFlags.AlwaysUseWindowPadding"
+	},
+	"imgui.WindowFlags.NoNavInputs": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoNavInputs",
+		"body": ["imgui.WindowFlags.NoNavInputs"],
+		"description": "imgui.WindowFlags.NoNavInputs"
+	},
+	"imgui.WindowFlags.NoNavFocus": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoNavFocus",
+		"body": ["imgui.WindowFlags.NoNavFocus"],
+		"description": "imgui.WindowFlags.NoNavFocus"
+	},
+	"imgui.WindowFlags.UnsavedDocument": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.UnsavedDocument",
+		"body": ["imgui.WindowFlags.UnsavedDocument"],
+		"description": "imgui.WindowFlags.UnsavedDocument"
+	},
+	"imgui.WindowFlags.NoNav": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoNav",
+		"body": ["imgui.WindowFlags.NoNav"],
+		"description": "imgui.WindowFlags.NoNav"
+	},
+	"imgui.WindowFlags.NoDecoration": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoDecoration",
+		"body": ["imgui.WindowFlags.NoDecoration"],
+		"description": "imgui.WindowFlags.NoDecoration"
+	},
+	"imgui.WindowFlags.NoInputs": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NoInputs",
+		"body": ["imgui.WindowFlags.NoInputs"],
+		"description": "imgui.WindowFlags.NoInputs"
+	},
+	"imgui.WindowFlags.NavFlattened": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.NavFlattened",
+		"body": ["imgui.WindowFlags.NavFlattened"],
+		"description": "imgui.WindowFlags.NavFlattened"
+	},
+	"imgui.WindowFlags.ChildWindow": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.ChildWindow",
+		"body": ["imgui.WindowFlags.ChildWindow"],
+		"description": "imgui.WindowFlags.ChildWindow"
+	},
+	"imgui.WindowFlags.Tooltip": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.Tooltip",
+		"body": ["imgui.WindowFlags.Tooltip"],
+		"description": "imgui.WindowFlags.Tooltip"
+	},
+	"imgui.WindowFlags.Popup": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.Popup",
+		"body": ["imgui.WindowFlags.Popup"],
+		"description": "imgui.WindowFlags.Popup"
+	},
+	"imgui.WindowFlags.Modal": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.Modal",
+		"body": ["imgui.WindowFlags.Modal"],
+		"description": "imgui.WindowFlags.Modal"
+	},
+	"imgui.WindowFlags.ChildMenu": {
+		"scope": "lua",
+		"prefix": "imgui.WindowFlags.ChildMenu",
+		"body": ["imgui.WindowFlags.ChildMenu"],
+		"description": "imgui.WindowFlags.ChildMenu"
+	},
+	"imgui.InputTextFlags.None": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.None",
+		"body": ["imgui.InputTextFlags.None"],
+		"description": "imgui.InputTextFlags.None"
+	},
+	"imgui.InputTextFlags.CharsDecimal": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CharsDecimal",
+		"body": ["imgui.InputTextFlags.CharsDecimal"],
+		"description": "imgui.InputTextFlags.CharsDecimal"
+	},
+	"imgui.InputTextFlags.CharsHexadecimal": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CharsHexadecimal",
+		"body": ["imgui.InputTextFlags.CharsHexadecimal"],
+		"description": "imgui.InputTextFlags.CharsHexadecimal"
+	},
+	"imgui.InputTextFlags.CharsUppercase": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CharsUppercase",
+		"body": ["imgui.InputTextFlags.CharsUppercase"],
+		"description": "imgui.InputTextFlags.CharsUppercase"
+	},
+	"imgui.InputTextFlags.CharsNoBlank": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CharsNoBlank",
+		"body": ["imgui.InputTextFlags.CharsNoBlank"],
+		"description": "imgui.InputTextFlags.CharsNoBlank"
+	},
+	"imgui.InputTextFlags.AutoSelectAll": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.AutoSelectAll",
+		"body": ["imgui.InputTextFlags.AutoSelectAll"],
+		"description": "imgui.InputTextFlags.AutoSelectAll"
+	},
+	"imgui.InputTextFlags.EnterReturnsTrue": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.EnterReturnsTrue",
+		"body": ["imgui.InputTextFlags.EnterReturnsTrue"],
+		"description": "imgui.InputTextFlags.EnterReturnsTrue"
+	},
+	"imgui.InputTextFlags.CallbackCompletion": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CallbackCompletion",
+		"body": ["imgui.InputTextFlags.CallbackCompletion"],
+		"description": "imgui.InputTextFlags.CallbackCompletion"
+	},
+	"imgui.InputTextFlags.CallbackHistory": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CallbackHistory",
+		"body": ["imgui.InputTextFlags.CallbackHistory"],
+		"description": "imgui.InputTextFlags.CallbackHistory"
+	},
+	"imgui.InputTextFlags.CallbackAlways": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CallbackAlways",
+		"body": ["imgui.InputTextFlags.CallbackAlways"],
+		"description": "imgui.InputTextFlags.CallbackAlways"
+	},
+	"imgui.InputTextFlags.CallbackCharFilter": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CallbackCharFilter",
+		"body": ["imgui.InputTextFlags.CallbackCharFilter"],
+		"description": "imgui.InputTextFlags.CallbackCharFilter"
+	},
+	"imgui.InputTextFlags.AllowTabInput": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.AllowTabInput",
+		"body": ["imgui.InputTextFlags.AllowTabInput"],
+		"description": "imgui.InputTextFlags.AllowTabInput"
+	},
+	"imgui.InputTextFlags.CtrlEnterForNewLine": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CtrlEnterForNewLine",
+		"body": ["imgui.InputTextFlags.CtrlEnterForNewLine"],
+		"description": "imgui.InputTextFlags.CtrlEnterForNewLine"
+	},
+	"imgui.InputTextFlags.NoHorizontalScroll": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.NoHorizontalScroll",
+		"body": ["imgui.InputTextFlags.NoHorizontalScroll"],
+		"description": "imgui.InputTextFlags.NoHorizontalScroll"
+	},
+	"imgui.InputTextFlags.AlwaysInsertMode": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.AlwaysInsertMode",
+		"body": ["imgui.InputTextFlags.AlwaysInsertMode"],
+		"description": "imgui.InputTextFlags.AlwaysInsertMode"
+	},
+	"imgui.InputTextFlags.ReadOnly": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.ReadOnly",
+		"body": ["imgui.InputTextFlags.ReadOnly"],
+		"description": "imgui.InputTextFlags.ReadOnly"
+	},
+	"imgui.InputTextFlags.Password": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.Password",
+		"body": ["imgui.InputTextFlags.Password"],
+		"description": "imgui.InputTextFlags.Password"
+	},
+	"imgui.InputTextFlags.NoUndoRedo": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.NoUndoRedo",
+		"body": ["imgui.InputTextFlags.NoUndoRedo"],
+		"description": "imgui.InputTextFlags.NoUndoRedo"
+	},
+	"imgui.InputTextFlags.CharsScientific": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CharsScientific",
+		"body": ["imgui.InputTextFlags.CharsScientific"],
+		"description": "imgui.InputTextFlags.CharsScientific"
+	},
+	"imgui.InputTextFlags.CallbackResize": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.CallbackResize",
+		"body": ["imgui.InputTextFlags.CallbackResize"],
+		"description": "imgui.InputTextFlags.CallbackResize"
+	},
+	"imgui.InputTextFlags.Multiline": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.Multiline",
+		"body": ["imgui.InputTextFlags.Multiline"],
+		"description": "imgui.InputTextFlags.Multiline"
+	},
+	"imgui.InputTextFlags.NoMarkEdited": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextFlags.NoMarkEdited",
+		"body": ["imgui.InputTextFlags.NoMarkEdited"],
+		"description": "imgui.InputTextFlags.NoMarkEdited"
+	},
+	"imgui.TreeNodeFlags.None": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.None",
+		"body": ["imgui.TreeNodeFlags.None"],
+		"description": "imgui.TreeNodeFlags.None"
+	},
+	"imgui.TreeNodeFlags.Selected": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.Selected",
+		"body": ["imgui.TreeNodeFlags.Selected"],
+		"description": "imgui.TreeNodeFlags.Selected"
+	},
+	"imgui.TreeNodeFlags.Framed": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.Framed",
+		"body": ["imgui.TreeNodeFlags.Framed"],
+		"description": "imgui.TreeNodeFlags.Framed"
+	},
+	"imgui.TreeNodeFlags.AllowItemOverlap": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.AllowItemOverlap",
+		"body": ["imgui.TreeNodeFlags.AllowItemOverlap"],
+		"description": "imgui.TreeNodeFlags.AllowItemOverlap"
+	},
+	"imgui.TreeNodeFlags.NoTreePushOnOpen": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.NoTreePushOnOpen",
+		"body": ["imgui.TreeNodeFlags.NoTreePushOnOpen"],
+		"description": "imgui.TreeNodeFlags.NoTreePushOnOpen"
+	},
+	"imgui.TreeNodeFlags.NoAutoOpenOnLog": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.NoAutoOpenOnLog",
+		"body": ["imgui.TreeNodeFlags.NoAutoOpenOnLog"],
+		"description": "imgui.TreeNodeFlags.NoAutoOpenOnLog"
+	},
+	"imgui.TreeNodeFlags.DefaultOpen": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.DefaultOpen",
+		"body": ["imgui.TreeNodeFlags.DefaultOpen"],
+		"description": "imgui.TreeNodeFlags.DefaultOpen"
+	},
+	"imgui.TreeNodeFlags.OpenOnDoubleClick": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.OpenOnDoubleClick",
+		"body": ["imgui.TreeNodeFlags.OpenOnDoubleClick"],
+		"description": "imgui.TreeNodeFlags.OpenOnDoubleClick"
+	},
+	"imgui.TreeNodeFlags.OpenOnArrow": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.OpenOnArrow",
+		"body": ["imgui.TreeNodeFlags.OpenOnArrow"],
+		"description": "imgui.TreeNodeFlags.OpenOnArrow"
+	},
+	"imgui.TreeNodeFlags.Leaf": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.Leaf",
+		"body": ["imgui.TreeNodeFlags.Leaf"],
+		"description": "imgui.TreeNodeFlags.Leaf"
+	},
+	"imgui.TreeNodeFlags.Bullet": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.Bullet",
+		"body": ["imgui.TreeNodeFlags.Bullet"],
+		"description": "imgui.TreeNodeFlags.Bullet"
+	},
+	"imgui.TreeNodeFlags.FramePadding": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.FramePadding",
+		"body": ["imgui.TreeNodeFlags.FramePadding"],
+		"description": "imgui.TreeNodeFlags.FramePadding"
+	},
+	"imgui.TreeNodeFlags.NavLeftJumpsBackHere": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.NavLeftJumpsBackHere",
+		"body": ["imgui.TreeNodeFlags.NavLeftJumpsBackHere"],
+		"description": "imgui.TreeNodeFlags.NavLeftJumpsBackHere"
+	},
+	"imgui.TreeNodeFlags.CollapsingHeader": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeFlags.CollapsingHeader",
+		"body": ["imgui.TreeNodeFlags.CollapsingHeader"],
+		"description": "imgui.TreeNodeFlags.CollapsingHeader"
+	},
+	"imgui.SelectableFlags.None": {
+		"scope": "lua",
+		"prefix": "imgui.SelectableFlags.None",
+		"body": ["imgui.SelectableFlags.None"],
+		"description": "imgui.SelectableFlags.None"
+	},
+	"imgui.SelectableFlags.DontClosePopups": {
+		"scope": "lua",
+		"prefix": "imgui.SelectableFlags.DontClosePopups",
+		"body": ["imgui.SelectableFlags.DontClosePopups"],
+		"description": "imgui.SelectableFlags.DontClosePopups"
+	},
+	"imgui.SelectableFlags.SpanAllColumns": {
+		"scope": "lua",
+		"prefix": "imgui.SelectableFlags.SpanAllColumns",
+		"body": ["imgui.SelectableFlags.SpanAllColumns"],
+		"description": "imgui.SelectableFlags.SpanAllColumns"
+	},
+	"imgui.SelectableFlags.AllowDoubleClick": {
+		"scope": "lua",
+		"prefix": "imgui.SelectableFlags.AllowDoubleClick",
+		"body": ["imgui.SelectableFlags.AllowDoubleClick"],
+		"description": "imgui.SelectableFlags.AllowDoubleClick"
+	},
+	"imgui.SelectableFlags.Disabled": {
+		"scope": "lua",
+		"prefix": "imgui.SelectableFlags.Disabled",
+		"body": ["imgui.SelectableFlags.Disabled"],
+		"description": "imgui.SelectableFlags.Disabled"
+	},
+	"imgui.ComboFlags.None": {
+		"scope": "lua",
+		"prefix": "imgui.ComboFlags.None",
+		"body": ["imgui.ComboFlags.None"],
+		"description": "imgui.ComboFlags.None"
+	},
+	"imgui.ComboFlags.PopupAlignLeft": {
+		"scope": "lua",
+		"prefix": "imgui.ComboFlags.PopupAlignLeft",
+		"body": ["imgui.ComboFlags.PopupAlignLeft"],
+		"description": "imgui.ComboFlags.PopupAlignLeft"
+	},
+	"imgui.ComboFlags.HeightSmall": {
+		"scope": "lua",
+		"prefix": "imgui.ComboFlags.HeightSmall",
+		"body": ["imgui.ComboFlags.HeightSmall"],
+		"description": "imgui.ComboFlags.HeightSmall"
+	},
+	"imgui.ComboFlags.HeightRegular": {
+		"scope": "lua",
+		"prefix": "imgui.ComboFlags.HeightRegular",
+		"body": ["imgui.ComboFlags.HeightRegular"],
+		"description": "imgui.ComboFlags.HeightRegular"
+	},
+	"imgui.ComboFlags.HeightLarge": {
+		"scope": "lua",
+		"prefix": "imgui.ComboFlags.HeightLarge",
+		"body": ["imgui.ComboFlags.HeightLarge"],
+		"description": "imgui.ComboFlags.HeightLarge"
+	},
+	"imgui.ComboFlags.HeightLargest": {
+		"scope": "lua",
+		"prefix": "imgui.ComboFlags.HeightLargest",
+		"body": ["imgui.ComboFlags.HeightLargest"],
+		"description": "imgui.ComboFlags.HeightLargest"
+	},
+	"imgui.ComboFlags.NoArrowButton": {
+		"scope": "lua",
+		"prefix": "imgui.ComboFlags.NoArrowButton",
+		"body": ["imgui.ComboFlags.NoArrowButton"],
+		"description": "imgui.ComboFlags.NoArrowButton"
+	},
+	"imgui.ComboFlags.NoPreview": {
+		"scope": "lua",
+		"prefix": "imgui.ComboFlags.NoPreview",
+		"body": ["imgui.ComboFlags.NoPreview"],
+		"description": "imgui.ComboFlags.NoPreview"
+	},
+	"imgui.ComboFlags.HeightMask_": {
+		"scope": "lua",
+		"prefix": "imgui.ComboFlags.HeightMask_",
+		"body": ["imgui.ComboFlags.HeightMask_"],
+		"description": "imgui.ComboFlags.HeightMask_"
+	},
+	"imgui.TabBarFlags.None": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.None",
+		"body": ["imgui.TabBarFlags.None"],
+		"description": "imgui.TabBarFlags.None"
+	},
+	"imgui.TabBarFlags.Reorderable": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.Reorderable",
+		"body": ["imgui.TabBarFlags.Reorderable"],
+		"description": "imgui.TabBarFlags.Reorderable"
+	},
+	"imgui.TabBarFlags.AutoSelectNewTabs": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.AutoSelectNewTabs",
+		"body": ["imgui.TabBarFlags.AutoSelectNewTabs"],
+		"description": "imgui.TabBarFlags.AutoSelectNewTabs"
+	},
+	"imgui.TabBarFlags.TabListPopupButton": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.TabListPopupButton",
+		"body": ["imgui.TabBarFlags.TabListPopupButton"],
+		"description": "imgui.TabBarFlags.TabListPopupButton"
+	},
+	"imgui.TabBarFlags.NoCloseWithMiddleMouseButton": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.NoCloseWithMiddleMouseButton",
+		"body": ["imgui.TabBarFlags.NoCloseWithMiddleMouseButton"],
+		"description": "imgui.TabBarFlags.NoCloseWithMiddleMouseButton"
+	},
+	"imgui.TabBarFlags.NoTabListScrollingButtons": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.NoTabListScrollingButtons",
+		"body": ["imgui.TabBarFlags.NoTabListScrollingButtons"],
+		"description": "imgui.TabBarFlags.NoTabListScrollingButtons"
+	},
+	"imgui.TabBarFlags.NoTooltip": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.NoTooltip",
+		"body": ["imgui.TabBarFlags.NoTooltip"],
+		"description": "imgui.TabBarFlags.NoTooltip"
+	},
+	"imgui.TabBarFlags.FittingPolicyResizeDown": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.FittingPolicyResizeDown",
+		"body": ["imgui.TabBarFlags.FittingPolicyResizeDown"],
+		"description": "imgui.TabBarFlags.FittingPolicyResizeDown"
+	},
+	"imgui.TabBarFlags.FittingPolicyScroll": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.FittingPolicyScroll",
+		"body": ["imgui.TabBarFlags.FittingPolicyScroll"],
+		"description": "imgui.TabBarFlags.FittingPolicyScroll"
+	},
+	"imgui.TabBarFlags.FittingPolicyMask_": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.FittingPolicyMask_",
+		"body": ["imgui.TabBarFlags.FittingPolicyMask_"],
+		"description": "imgui.TabBarFlags.FittingPolicyMask_"
+	},
+	"imgui.TabBarFlags.FittingPolicyDefault_": {
+		"scope": "lua",
+		"prefix": "imgui.TabBarFlags.FittingPolicyDefault_",
+		"body": ["imgui.TabBarFlags.FittingPolicyDefault_"],
+		"description": "imgui.TabBarFlags.FittingPolicyDefault_"
+	},
+	"imgui.FocusedFlags.None": {
+		"scope": "lua",
+		"prefix": "imgui.FocusedFlags.None",
+		"body": ["imgui.FocusedFlags.None"],
+		"description": "imgui.FocusedFlags.None"
+	},
+	"imgui.FocusedFlags.ChildWindows": {
+		"scope": "lua",
+		"prefix": "imgui.FocusedFlags.ChildWindows",
+		"body": ["imgui.FocusedFlags.ChildWindows"],
+		"description": "imgui.FocusedFlags.ChildWindows"
+	},
+	"imgui.FocusedFlags.RootWindow": {
+		"scope": "lua",
+		"prefix": "imgui.FocusedFlags.RootWindow",
+		"body": ["imgui.FocusedFlags.RootWindow"],
+		"description": "imgui.FocusedFlags.RootWindow"
+	},
+	"imgui.FocusedFlags.AnyWindow": {
+		"scope": "lua",
+		"prefix": "imgui.FocusedFlags.AnyWindow",
+		"body": ["imgui.FocusedFlags.AnyWindow"],
+		"description": "imgui.FocusedFlags.AnyWindow"
+	},
+	"imgui.FocusedFlags.RootAndChildWindows": {
+		"scope": "lua",
+		"prefix": "imgui.FocusedFlags.RootAndChildWindows",
+		"body": ["imgui.FocusedFlags.RootAndChildWindows"],
+		"description": "imgui.FocusedFlags.RootAndChildWindows"
+	},
+	"imgui.HoveredFlags.None": {
+		"scope": "lua",
+		"prefix": "imgui.HoveredFlags.None",
+		"body": ["imgui.HoveredFlags.None"],
+		"description": "imgui.HoveredFlags.None"
+	},
+	"imgui.HoveredFlags.ChildWindows": {
+		"scope": "lua",
+		"prefix": "imgui.HoveredFlags.ChildWindows",
+		"body": ["imgui.HoveredFlags.ChildWindows"],
+		"description": "imgui.HoveredFlags.ChildWindows"
+	},
+	"imgui.HoveredFlags.RootWindow": {
+		"scope": "lua",
+		"prefix": "imgui.HoveredFlags.RootWindow",
+		"body": ["imgui.HoveredFlags.RootWindow"],
+		"description": "imgui.HoveredFlags.RootWindow"
+	},
+	"imgui.HoveredFlags.AnyWindow": {
+		"scope": "lua",
+		"prefix": "imgui.HoveredFlags.AnyWindow",
+		"body": ["imgui.HoveredFlags.AnyWindow"],
+		"description": "imgui.HoveredFlags.AnyWindow"
+	},
+	"imgui.HoveredFlags.AllowWhenBlockedByPopup": {
+		"scope": "lua",
+		"prefix": "imgui.HoveredFlags.AllowWhenBlockedByPopup",
+		"body": ["imgui.HoveredFlags.AllowWhenBlockedByPopup"],
+		"description": "imgui.HoveredFlags.AllowWhenBlockedByPopup"
+	},
+	"imgui.HoveredFlags.AllowWhenBlockedByActiveItem": {
+		"scope": "lua",
+		"prefix": "imgui.HoveredFlags.AllowWhenBlockedByActiveItem",
+		"body": ["imgui.HoveredFlags.AllowWhenBlockedByActiveItem"],
+		"description": "imgui.HoveredFlags.AllowWhenBlockedByActiveItem"
+	},
+	"imgui.HoveredFlags.AllowWhenOverlapped": {
+		"scope": "lua",
+		"prefix": "imgui.HoveredFlags.AllowWhenOverlapped",
+		"body": ["imgui.HoveredFlags.AllowWhenOverlapped"],
+		"description": "imgui.HoveredFlags.AllowWhenOverlapped"
+	},
+	"imgui.HoveredFlags.AllowWhenDisabled": {
+		"scope": "lua",
+		"prefix": "imgui.HoveredFlags.AllowWhenDisabled",
+		"body": ["imgui.HoveredFlags.AllowWhenDisabled"],
+		"description": "imgui.HoveredFlags.AllowWhenDisabled"
+	},
+	"imgui.HoveredFlags.RectOnly": {
+		"scope": "lua",
+		"prefix": "imgui.HoveredFlags.RectOnly",
+		"body": ["imgui.HoveredFlags.RectOnly"],
+		"description": "imgui.HoveredFlags.RectOnly"
+	},
+	"imgui.HoveredFlags.RootAndChildWindows": {
+		"scope": "lua",
+		"prefix": "imgui.HoveredFlags.RootAndChildWindows",
+		"body": ["imgui.HoveredFlags.RootAndChildWindows"],
+		"description": "imgui.HoveredFlags.RootAndChildWindows"
+	},
+	"imgui.Col.Text": {
+		"scope": "lua",
+		"prefix": "imgui.Col.Text",
+		"body": ["imgui.Col.Text"],
+		"description": "imgui.Col.Text"
+	},
+	"imgui.Col.TextDisabled": {
+		"scope": "lua",
+		"prefix": "imgui.Col.TextDisabled",
+		"body": ["imgui.Col.TextDisabled"],
+		"description": "imgui.Col.TextDisabled"
+	},
+	"imgui.Col.WindowBg": {
+		"scope": "lua",
+		"prefix": "imgui.Col.WindowBg",
+		"body": ["imgui.Col.WindowBg"],
+		"description": "imgui.Col.WindowBg"
+	},
+	"imgui.Col.ChildBg": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ChildBg",
+		"body": ["imgui.Col.ChildBg"],
+		"description": "imgui.Col.ChildBg"
+	},
+	"imgui.Col.PopupBg": {
+		"scope": "lua",
+		"prefix": "imgui.Col.PopupBg",
+		"body": ["imgui.Col.PopupBg"],
+		"description": "imgui.Col.PopupBg"
+	},
+	"imgui.Col.Border": {
+		"scope": "lua",
+		"prefix": "imgui.Col.Border",
+		"body": ["imgui.Col.Border"],
+		"description": "imgui.Col.Border"
+	},
+	"imgui.Col.BorderShadow": {
+		"scope": "lua",
+		"prefix": "imgui.Col.BorderShadow",
+		"body": ["imgui.Col.BorderShadow"],
+		"description": "imgui.Col.BorderShadow"
+	},
+	"imgui.Col.FrameBg": {
+		"scope": "lua",
+		"prefix": "imgui.Col.FrameBg",
+		"body": ["imgui.Col.FrameBg"],
+		"description": "imgui.Col.FrameBg"
+	},
+	"imgui.Col.FrameBgHovered": {
+		"scope": "lua",
+		"prefix": "imgui.Col.FrameBgHovered",
+		"body": ["imgui.Col.FrameBgHovered"],
+		"description": "imgui.Col.FrameBgHovered"
+	},
+	"imgui.Col.FrameBgActive": {
+		"scope": "lua",
+		"prefix": "imgui.Col.FrameBgActive",
+		"body": ["imgui.Col.FrameBgActive"],
+		"description": "imgui.Col.FrameBgActive"
+	},
+	"imgui.Col.TitleBg": {
+		"scope": "lua",
+		"prefix": "imgui.Col.TitleBg",
+		"body": ["imgui.Col.TitleBg"],
+		"description": "imgui.Col.TitleBg"
+	},
+	"imgui.Col.TitleBgActive": {
+		"scope": "lua",
+		"prefix": "imgui.Col.TitleBgActive",
+		"body": ["imgui.Col.TitleBgActive"],
+		"description": "imgui.Col.TitleBgActive"
+	},
+	"imgui.Col.TitleBgCollapsed": {
+		"scope": "lua",
+		"prefix": "imgui.Col.TitleBgCollapsed",
+		"body": ["imgui.Col.TitleBgCollapsed"],
+		"description": "imgui.Col.TitleBgCollapsed"
+	},
+	"imgui.Col.MenuBarBg": {
+		"scope": "lua",
+		"prefix": "imgui.Col.MenuBarBg",
+		"body": ["imgui.Col.MenuBarBg"],
+		"description": "imgui.Col.MenuBarBg"
+	},
+	"imgui.Col.ScrollbarBg": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ScrollbarBg",
+		"body": ["imgui.Col.ScrollbarBg"],
+		"description": "imgui.Col.ScrollbarBg"
+	},
+	"imgui.Col.ScrollbarGrab": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ScrollbarGrab",
+		"body": ["imgui.Col.ScrollbarGrab"],
+		"description": "imgui.Col.ScrollbarGrab"
+	},
+	"imgui.Col.ScrollbarGrabHovered": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ScrollbarGrabHovered",
+		"body": ["imgui.Col.ScrollbarGrabHovered"],
+		"description": "imgui.Col.ScrollbarGrabHovered"
+	},
+	"imgui.Col.ScrollbarGrabActive": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ScrollbarGrabActive",
+		"body": ["imgui.Col.ScrollbarGrabActive"],
+		"description": "imgui.Col.ScrollbarGrabActive"
+	},
+	"imgui.Col.CheckMark": {
+		"scope": "lua",
+		"prefix": "imgui.Col.CheckMark",
+		"body": ["imgui.Col.CheckMark"],
+		"description": "imgui.Col.CheckMark"
+	},
+	"imgui.Col.SliderGrab": {
+		"scope": "lua",
+		"prefix": "imgui.Col.SliderGrab",
+		"body": ["imgui.Col.SliderGrab"],
+		"description": "imgui.Col.SliderGrab"
+	},
+	"imgui.Col.SliderGrabActive": {
+		"scope": "lua",
+		"prefix": "imgui.Col.SliderGrabActive",
+		"body": ["imgui.Col.SliderGrabActive"],
+		"description": "imgui.Col.SliderGrabActive"
+	},
+	"imgui.Col.Button": {
+		"scope": "lua",
+		"prefix": "imgui.Col.Button",
+		"body": ["imgui.Col.Button"],
+		"description": "imgui.Col.Button"
+	},
+	"imgui.Col.ButtonHovered": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ButtonHovered",
+		"body": ["imgui.Col.ButtonHovered"],
+		"description": "imgui.Col.ButtonHovered"
+	},
+	"imgui.Col.ButtonActive": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ButtonActive",
+		"body": ["imgui.Col.ButtonActive"],
+		"description": "imgui.Col.ButtonActive"
+	},
+	"imgui.Col.Header": {
+		"scope": "lua",
+		"prefix": "imgui.Col.Header",
+		"body": ["imgui.Col.Header"],
+		"description": "imgui.Col.Header"
+	},
+	"imgui.Col.HeaderHovered": {
+		"scope": "lua",
+		"prefix": "imgui.Col.HeaderHovered",
+		"body": ["imgui.Col.HeaderHovered"],
+		"description": "imgui.Col.HeaderHovered"
+	},
+	"imgui.Col.HeaderActive": {
+		"scope": "lua",
+		"prefix": "imgui.Col.HeaderActive",
+		"body": ["imgui.Col.HeaderActive"],
+		"description": "imgui.Col.HeaderActive"
+	},
+	"imgui.Col.Separator": {
+		"scope": "lua",
+		"prefix": "imgui.Col.Separator",
+		"body": ["imgui.Col.Separator"],
+		"description": "imgui.Col.Separator"
+	},
+	"imgui.Col.SeparatorHovered": {
+		"scope": "lua",
+		"prefix": "imgui.Col.SeparatorHovered",
+		"body": ["imgui.Col.SeparatorHovered"],
+		"description": "imgui.Col.SeparatorHovered"
+	},
+	"imgui.Col.SeparatorActive": {
+		"scope": "lua",
+		"prefix": "imgui.Col.SeparatorActive",
+		"body": ["imgui.Col.SeparatorActive"],
+		"description": "imgui.Col.SeparatorActive"
+	},
+	"imgui.Col.ResizeGrip": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ResizeGrip",
+		"body": ["imgui.Col.ResizeGrip"],
+		"description": "imgui.Col.ResizeGrip"
+	},
+	"imgui.Col.ResizeGripHovered": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ResizeGripHovered",
+		"body": ["imgui.Col.ResizeGripHovered"],
+		"description": "imgui.Col.ResizeGripHovered"
+	},
+	"imgui.Col.ResizeGripActive": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ResizeGripActive",
+		"body": ["imgui.Col.ResizeGripActive"],
+		"description": "imgui.Col.ResizeGripActive"
+	},
+	"imgui.Col.Tab": {
+		"scope": "lua",
+		"prefix": "imgui.Col.Tab",
+		"body": ["imgui.Col.Tab"],
+		"description": "imgui.Col.Tab"
+	},
+	"imgui.Col.TabHovered": {
+		"scope": "lua",
+		"prefix": "imgui.Col.TabHovered",
+		"body": ["imgui.Col.TabHovered"],
+		"description": "imgui.Col.TabHovered"
+	},
+	"imgui.Col.TabActive": {
+		"scope": "lua",
+		"prefix": "imgui.Col.TabActive",
+		"body": ["imgui.Col.TabActive"],
+		"description": "imgui.Col.TabActive"
+	},
+	"imgui.Col.TabUnfocused": {
+		"scope": "lua",
+		"prefix": "imgui.Col.TabUnfocused",
+		"body": ["imgui.Col.TabUnfocused"],
+		"description": "imgui.Col.TabUnfocused"
+	},
+	"imgui.Col.TabUnfocusedActive": {
+		"scope": "lua",
+		"prefix": "imgui.Col.TabUnfocusedActive",
+		"body": ["imgui.Col.TabUnfocusedActive"],
+		"description": "imgui.Col.TabUnfocusedActive"
+	},
+	"imgui.Col.PlotLines": {
+		"scope": "lua",
+		"prefix": "imgui.Col.PlotLines",
+		"body": ["imgui.Col.PlotLines"],
+		"description": "imgui.Col.PlotLines"
+	},
+	"imgui.Col.PlotLinesHovered": {
+		"scope": "lua",
+		"prefix": "imgui.Col.PlotLinesHovered",
+		"body": ["imgui.Col.PlotLinesHovered"],
+		"description": "imgui.Col.PlotLinesHovered"
+	},
+	"imgui.Col.PlotHistogram": {
+		"scope": "lua",
+		"prefix": "imgui.Col.PlotHistogram",
+		"body": ["imgui.Col.PlotHistogram"],
+		"description": "imgui.Col.PlotHistogram"
+	},
+	"imgui.Col.PlotHistogramHovered": {
+		"scope": "lua",
+		"prefix": "imgui.Col.PlotHistogramHovered",
+		"body": ["imgui.Col.PlotHistogramHovered"],
+		"description": "imgui.Col.PlotHistogramHovered"
+	},
+	"imgui.Col.TextSelectedBg": {
+		"scope": "lua",
+		"prefix": "imgui.Col.TextSelectedBg",
+		"body": ["imgui.Col.TextSelectedBg"],
+		"description": "imgui.Col.TextSelectedBg"
+	},
+	"imgui.Col.DragDropTarget": {
+		"scope": "lua",
+		"prefix": "imgui.Col.DragDropTarget",
+		"body": ["imgui.Col.DragDropTarget"],
+		"description": "imgui.Col.DragDropTarget"
+	},
+	"imgui.Col.NavHighlight": {
+		"scope": "lua",
+		"prefix": "imgui.Col.NavHighlight",
+		"body": ["imgui.Col.NavHighlight"],
+		"description": "imgui.Col.NavHighlight"
+	},
+	"imgui.Col.NavWindowingHighlight": {
+		"scope": "lua",
+		"prefix": "imgui.Col.NavWindowingHighlight",
+		"body": ["imgui.Col.NavWindowingHighlight"],
+		"description": "imgui.Col.NavWindowingHighlight"
+	},
+	"imgui.Col.NavWindowingDimBg": {
+		"scope": "lua",
+		"prefix": "imgui.Col.NavWindowingDimBg",
+		"body": ["imgui.Col.NavWindowingDimBg"],
+		"description": "imgui.Col.NavWindowingDimBg"
+	},
+	"imgui.Col.ModalWindowDimBg": {
+		"scope": "lua",
+		"prefix": "imgui.Col.ModalWindowDimBg",
+		"body": ["imgui.Col.ModalWindowDimBg"],
+		"description": "imgui.Col.ModalWindowDimBg"
+	},
+	"imgui.Col.COUNT": {
+		"scope": "lua",
+		"prefix": "imgui.Col.COUNT",
+		"body": ["imgui.Col.COUNT"],
+		"description": "imgui.Col.COUNT"
+	},
+	"imgui.StyleVar.Alpha": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.Alpha",
+		"body": ["imgui.StyleVar.Alpha"],
+		"description": "imgui.StyleVar.Alpha"
+	},
+	"imgui.StyleVar.WindowPadding": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.WindowPadding",
+		"body": ["imgui.StyleVar.WindowPadding"],
+		"description": "imgui.StyleVar.WindowPadding"
+	},
+	"imgui.StyleVar.WindowRounding": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.WindowRounding",
+		"body": ["imgui.StyleVar.WindowRounding"],
+		"description": "imgui.StyleVar.WindowRounding"
+	},
+	"imgui.StyleVar.WindowBorderSize": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.WindowBorderSize",
+		"body": ["imgui.StyleVar.WindowBorderSize"],
+		"description": "imgui.StyleVar.WindowBorderSize"
+	},
+	"imgui.StyleVar.WindowMinSize": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.WindowMinSize",
+		"body": ["imgui.StyleVar.WindowMinSize"],
+		"description": "imgui.StyleVar.WindowMinSize"
+	},
+	"imgui.StyleVar.WindowTitleAlign": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.WindowTitleAlign",
+		"body": ["imgui.StyleVar.WindowTitleAlign"],
+		"description": "imgui.StyleVar.WindowTitleAlign"
+	},
+	"imgui.StyleVar.ChildRounding": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.ChildRounding",
+		"body": ["imgui.StyleVar.ChildRounding"],
+		"description": "imgui.StyleVar.ChildRounding"
+	},
+	"imgui.StyleVar.ChildBorderSize": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.ChildBorderSize",
+		"body": ["imgui.StyleVar.ChildBorderSize"],
+		"description": "imgui.StyleVar.ChildBorderSize"
+	},
+	"imgui.StyleVar.PopupRounding": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.PopupRounding",
+		"body": ["imgui.StyleVar.PopupRounding"],
+		"description": "imgui.StyleVar.PopupRounding"
+	},
+	"imgui.StyleVar.PopupBorderSize": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.PopupBorderSize",
+		"body": ["imgui.StyleVar.PopupBorderSize"],
+		"description": "imgui.StyleVar.PopupBorderSize"
+	},
+	"imgui.StyleVar.FramePadding": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.FramePadding",
+		"body": ["imgui.StyleVar.FramePadding"],
+		"description": "imgui.StyleVar.FramePadding"
+	},
+	"imgui.StyleVar.FrameRounding": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.FrameRounding",
+		"body": ["imgui.StyleVar.FrameRounding"],
+		"description": "imgui.StyleVar.FrameRounding"
+	},
+	"imgui.StyleVar.FrameBorderSize": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.FrameBorderSize",
+		"body": ["imgui.StyleVar.FrameBorderSize"],
+		"description": "imgui.StyleVar.FrameBorderSize"
+	},
+	"imgui.StyleVar.ItemSpacing": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.ItemSpacing",
+		"body": ["imgui.StyleVar.ItemSpacing"],
+		"description": "imgui.StyleVar.ItemSpacing"
+	},
+	"imgui.StyleVar.ItemInnerSpacing": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.ItemInnerSpacing",
+		"body": ["imgui.StyleVar.ItemInnerSpacing"],
+		"description": "imgui.StyleVar.ItemInnerSpacing"
+	},
+	"imgui.StyleVar.IndentSpacing": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.IndentSpacing",
+		"body": ["imgui.StyleVar.IndentSpacing"],
+		"description": "imgui.StyleVar.IndentSpacing"
+	},
+	"imgui.StyleVar.ScrollbarSize": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.ScrollbarSize",
+		"body": ["imgui.StyleVar.ScrollbarSize"],
+		"description": "imgui.StyleVar.ScrollbarSize"
+	},
+	"imgui.StyleVar.ScrollbarRounding": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.ScrollbarRounding",
+		"body": ["imgui.StyleVar.ScrollbarRounding"],
+		"description": "imgui.StyleVar.ScrollbarRounding"
+	},
+	"imgui.StyleVar.GrabMinSize": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.GrabMinSize",
+		"body": ["imgui.StyleVar.GrabMinSize"],
+		"description": "imgui.StyleVar.GrabMinSize"
+	},
+	"imgui.StyleVar.GrabRounding": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.GrabRounding",
+		"body": ["imgui.StyleVar.GrabRounding"],
+		"description": "imgui.StyleVar.GrabRounding"
+	},
+	"imgui.StyleVar.TabRounding": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.TabRounding",
+		"body": ["imgui.StyleVar.TabRounding"],
+		"description": "imgui.StyleVar.TabRounding"
+	},
+	"imgui.StyleVar.ButtonTextAlign": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.ButtonTextAlign",
+		"body": ["imgui.StyleVar.ButtonTextAlign"],
+		"description": "imgui.StyleVar.ButtonTextAlign"
+	},
+	"imgui.StyleVar.SelectableTextAlign": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.SelectableTextAlign",
+		"body": ["imgui.StyleVar.SelectableTextAlign"],
+		"description": "imgui.StyleVar.SelectableTextAlign"
+	},
+	"imgui.StyleVar.COUNT": {
+		"scope": "lua",
+		"prefix": "imgui.StyleVar.COUNT",
+		"body": ["imgui.StyleVar.COUNT"],
+		"description": "imgui.StyleVar.COUNT"
+	},
+	"imgui.ColorEditFlags.None": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.None",
+		"body": ["imgui.ColorEditFlags.None"],
+		"description": "imgui.ColorEditFlags.None"
+	},
+	"imgui.ColorEditFlags.NoAlpha": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.NoAlpha",
+		"body": ["imgui.ColorEditFlags.NoAlpha"],
+		"description": "imgui.ColorEditFlags.NoAlpha"
+	},
+	"imgui.ColorEditFlags.NoPicker": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.NoPicker",
+		"body": ["imgui.ColorEditFlags.NoPicker"],
+		"description": "imgui.ColorEditFlags.NoPicker"
+	},
+	"imgui.ColorEditFlags.NoOptions": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.NoOptions",
+		"body": ["imgui.ColorEditFlags.NoOptions"],
+		"description": "imgui.ColorEditFlags.NoOptions"
+	},
+	"imgui.ColorEditFlags.NoSmallPreview": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.NoSmallPreview",
+		"body": ["imgui.ColorEditFlags.NoSmallPreview"],
+		"description": "imgui.ColorEditFlags.NoSmallPreview"
+	},
+	"imgui.ColorEditFlags.NoInputs": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.NoInputs",
+		"body": ["imgui.ColorEditFlags.NoInputs"],
+		"description": "imgui.ColorEditFlags.NoInputs"
+	},
+	"imgui.ColorEditFlags.NoTooltip": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.NoTooltip",
+		"body": ["imgui.ColorEditFlags.NoTooltip"],
+		"description": "imgui.ColorEditFlags.NoTooltip"
+	},
+	"imgui.ColorEditFlags.NoLabel": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.NoLabel",
+		"body": ["imgui.ColorEditFlags.NoLabel"],
+		"description": "imgui.ColorEditFlags.NoLabel"
+	},
+	"imgui.ColorEditFlags.NoSidePreview": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.NoSidePreview",
+		"body": ["imgui.ColorEditFlags.NoSidePreview"],
+		"description": "imgui.ColorEditFlags.NoSidePreview"
+	},
+	"imgui.ColorEditFlags.NoDragDrop": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.NoDragDrop",
+		"body": ["imgui.ColorEditFlags.NoDragDrop"],
+		"description": "imgui.ColorEditFlags.NoDragDrop"
+	},
+	"imgui.ColorEditFlags.AlphaBar": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.AlphaBar",
+		"body": ["imgui.ColorEditFlags.AlphaBar"],
+		"description": "imgui.ColorEditFlags.AlphaBar"
+	},
+	"imgui.ColorEditFlags.AlphaPreview": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.AlphaPreview",
+		"body": ["imgui.ColorEditFlags.AlphaPreview"],
+		"description": "imgui.ColorEditFlags.AlphaPreview"
+	},
+	"imgui.ColorEditFlags.AlphaPreviewHalf": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.AlphaPreviewHalf",
+		"body": ["imgui.ColorEditFlags.AlphaPreviewHalf"],
+		"description": "imgui.ColorEditFlags.AlphaPreviewHalf"
+	},
+	"imgui.ColorEditFlags.HDR": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.HDR",
+		"body": ["imgui.ColorEditFlags.HDR"],
+		"description": "imgui.ColorEditFlags.HDR"
+	},
+	"imgui.ColorEditFlags.DisplayRGB": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.DisplayRGB",
+		"body": ["imgui.ColorEditFlags.DisplayRGB"],
+		"description": "imgui.ColorEditFlags.DisplayRGB"
+	},
+	"imgui.ColorEditFlags.DisplayHSV": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.DisplayHSV",
+		"body": ["imgui.ColorEditFlags.DisplayHSV"],
+		"description": "imgui.ColorEditFlags.DisplayHSV"
+	},
+	"imgui.ColorEditFlags.DisplayHex": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.DisplayHex",
+		"body": ["imgui.ColorEditFlags.DisplayHex"],
+		"description": "imgui.ColorEditFlags.DisplayHex"
+	},
+	"imgui.ColorEditFlags.Uint8": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.Uint8",
+		"body": ["imgui.ColorEditFlags.Uint8"],
+		"description": "imgui.ColorEditFlags.Uint8"
+	},
+	"imgui.ColorEditFlags.Float": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.Float",
+		"body": ["imgui.ColorEditFlags.Float"],
+		"description": "imgui.ColorEditFlags.Float"
+	},
+	"imgui.ColorEditFlags.PickerHueBar": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.PickerHueBar",
+		"body": ["imgui.ColorEditFlags.PickerHueBar"],
+		"description": "imgui.ColorEditFlags.PickerHueBar"
+	},
+	"imgui.ColorEditFlags.PickerHueWheel": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.PickerHueWheel",
+		"body": ["imgui.ColorEditFlags.PickerHueWheel"],
+		"description": "imgui.ColorEditFlags.PickerHueWheel"
+	},
+	"imgui.ColorEditFlags.InputRGB": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.InputRGB",
+		"body": ["imgui.ColorEditFlags.InputRGB"],
+		"description": "imgui.ColorEditFlags.InputRGB"
+	},
+	"imgui.ColorEditFlags.InputHSV": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags.InputHSV",
+		"body": ["imgui.ColorEditFlags.InputHSV"],
+		"description": "imgui.ColorEditFlags.InputHSV"
+	},
+	"imgui.ColorEditFlags._OptionsDefault": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags._OptionsDefault",
+		"body": ["imgui.ColorEditFlags._OptionsDefault"],
+		"description": "imgui.ColorEditFlags._OptionsDefault"
+	},
+	"imgui.ColorEditFlags._DisplayMask": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags._DisplayMask",
+		"body": ["imgui.ColorEditFlags._DisplayMask"],
+		"description": "imgui.ColorEditFlags._DisplayMask"
+	},
+	"imgui.ColorEditFlags._DataTypeMask": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags._DataTypeMask",
+		"body": ["imgui.ColorEditFlags._DataTypeMask"],
+		"description": "imgui.ColorEditFlags._DataTypeMask"
+	},
+	"imgui.ColorEditFlags._PickerMask": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags._PickerMask",
+		"body": ["imgui.ColorEditFlags._PickerMask"],
+		"description": "imgui.ColorEditFlags._PickerMask"
+	},
+	"imgui.ColorEditFlags._InputMask": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEditFlags._InputMask",
+		"body": ["imgui.ColorEditFlags._InputMask"],
+		"description": "imgui.ColorEditFlags._InputMask"
+	},
+	"imgui.Cond.Always": {
+		"scope": "lua",
+		"prefix": "imgui.Cond.Always",
+		"body": ["imgui.Cond.Always"],
+		"description": "imgui.Cond.Always"
+	},
+	"imgui.Cond.Once": {
+		"scope": "lua",
+		"prefix": "imgui.Cond.Once",
+		"body": ["imgui.Cond.Once"],
+		"description": "imgui.Cond.Once"
+	},
+	"imgui.Cond.FirstUseEver": {
+		"scope": "lua",
+		"prefix": "imgui.Cond.FirstUseEver",
+		"body": ["imgui.Cond.FirstUseEver"],
+		"description": "imgui.Cond.FirstUseEver"
+	},
+	"imgui.Cond.Appearing": {
+		"scope": "lua",
+		"prefix": "imgui.Cond.Appearing",
+		"body": ["imgui.Cond.Appearing"],
+		"description": "imgui.Cond.Appearing"
+	},
+
+
+	// DRAWLIST
+	"AddLine": {
+		"scope": "lua",
+		"prefix": "AddLine",
+		"body": ["AddLine(${0:const ImVec2& a, const ImVec2& b, ImU32 col, float thickness = 1.0f})"],
+		"description": "AddLine"
+	},
+	"AddRect": {
+		"scope": "lua",
+		"prefix": "AddRect",
+		"body": ["AddRect(${0:const ImVec2& a, const ImVec2& b, ImU32 col, float rounding = 0.0f, int rounding_corners_flags = ~0, float thickness = 1.0f})"],
+		"description": "AddRect"
+	},
+	"AddRectFilled": {
+		"scope": "lua",
+		"prefix": "AddRectFilled",
+		"body": ["AddRectFilled(${0:const ImVec2& a, const ImVec2& b, ImU32 col, float rounding = 0.0f, int rounding_corners_flags = ~0})"],
+		"description": "AddRectFilled"
+	},
+	"AddRectFilledMultiColor": {
+		"scope": "lua",
+		"prefix": "AddRectFilledMultiColor",
+		"body": ["AddRectFilledMultiColor(${0:const ImVec2& a, const ImVec2& b, ImU32 col_upr_left, ImU32 col_upr_right, ImU32 col_bot_right, ImU32 col_bot_left})"],
+		"description": "AddRectFilledMultiColor"
+	},
+	"AddQuad": {
+		"scope": "lua",
+		"prefix": "AddQuad",
+		"body": ["AddQuad(${0:const ImVec2& a, const ImVec2& b, const ImVec2& c, const ImVec2& d, ImU32 col, float thickness = 1.0f})"],
+		"description": "AddQuad"
+	},
+	"AddQuadFilled": {
+		"scope": "lua",
+		"prefix": "AddQuadFilled",
+		"body": ["AddQuadFilled(${0:const ImVec2& a, const ImVec2& b, const ImVec2& c, const ImVec2& d, ImU32 col})"],
+		"description": "AddQuadFilled"
+	},
+	"AddTriangle": {
+		"scope": "lua",
+		"prefix": "AddTriangle",
+		"body": ["AddTriangle(${0:const ImVec2& a, const ImVec2& b, const ImVec2& c, ImU32 col, float thickness = 1.0f})"],
+		"description": "AddTriangle"
+	},
+	"AddTriangleFilled": {
+		"scope": "lua",
+		"prefix": "AddTriangleFilled",
+		"body": ["AddTriangleFilled(${0:const ImVec2& a, const ImVec2& b, const ImVec2& c, ImU32 col})"],
+		"description": "AddTriangleFilled"
+	},
+	"AddCircle": {
+		"scope": "lua",
+		"prefix": "AddCircle",
+		"body": ["AddCircle(${0:const ImVec2& centre, float radius, ImU32 col, int num_segments = 12, float thickness = 1.0f})"],
+		"description": "AddCircle"
+	},
+	"AddCircleFilled": {
+		"scope": "lua",
+		"prefix": "AddCircleFilled",
+		"body": ["AddCircleFilled(${0:const ImVec2& centre, float radius, ImU32 col, int num_segments = 12})"],
+		"description": "AddCircleFilled"
+	},
+	"AddText": {
+		"scope": "lua",
+		"prefix": "AddText",
+		"body": ["AddText(${0:const ImVec2& pos, ImU32 col, const char* text_begin, const char* text_end = NULL})"],
+		"description": "AddText"
+	},
+	"AddText": {
+		"scope": "lua",
+		"prefix": "AddText",
+		"body": ["AddText(${0:const ImFont* font, float font_size, const ImVec2& pos, ImU32 col, const char* text_begin, const char* text_end = NULL, float wrap_width = 0.0f, const ImVec4* cpu_fine_clip_rect = NULL})"],
+		"description": "AddText"
+	},
+	"AddImage(ImTextureID user_texture_id, const ImVec2& a, const ImVec2& b, const ImVec2& uv_a = ImVec2(0,0), const ImVec2& uv_b = ImVec2": {
+		"scope": "lua",
+		"prefix": "AddImage(ImTextureID user_texture_id, const ImVec2& a, const ImVec2& b, const ImVec2& uv_a = ImVec2(0,0), const ImVec2& uv_b = ImVec2",
+		"body": ["AddImage(ImTextureID user_texture_id, const ImVec2& a, const ImVec2& b, const ImVec2& uv_a = ImVec2(0,0), const ImVec2& uv_b = ImVec2(${0:1,1), ImU32 col = 0xFFFFFFFF})"],
+		"description": "AddImage(ImTextureID user_texture_id, const ImVec2& a, const ImVec2& b, const ImVec2& uv_a = ImVec2(0,0), const ImVec2& uv_b = ImVec2"
+	},
+	"AddImageQuad(ImTextureID user_texture_id, const ImVec2& a, const ImVec2& b, const ImVec2& c, const ImVec2& d, const ImVec2& uv_a = ImVec2(0,0), const ImVec2& uv_b = ImVec2(1,0), const ImVec2& uv_c = ImVec2(1,1), const ImVec2& uv_d = ImVec2": {
+		"scope": "lua",
+		"prefix": "AddImageQuad(ImTextureID user_texture_id, const ImVec2& a, const ImVec2& b, const ImVec2& c, const ImVec2& d, const ImVec2& uv_a = ImVec2(0,0), const ImVec2& uv_b = ImVec2(1,0), const ImVec2& uv_c = ImVec2(1,1), const ImVec2& uv_d = ImVec2",
+		"body": ["AddImageQuad(ImTextureID user_texture_id, const ImVec2& a, const ImVec2& b, const ImVec2& c, const ImVec2& d, const ImVec2& uv_a = ImVec2(0,0), const ImVec2& uv_b = ImVec2(1,0), const ImVec2& uv_c = ImVec2(1,1), const ImVec2& uv_d = ImVec2(${0:0,1), ImU32 col = 0xFFFFFFFF})"],
+		"description": "AddImageQuad(ImTextureID user_texture_id, const ImVec2& a, const ImVec2& b, const ImVec2& c, const ImVec2& d, const ImVec2& uv_a = ImVec2(0,0), const ImVec2& uv_b = ImVec2(1,0), const ImVec2& uv_c = ImVec2(1,1), const ImVec2& uv_d = ImVec2"
+	},
+	"AddPolyline": {
+		"scope": "lua",
+		"prefix": "AddPolyline",
+		"body": ["AddPolyline(${0:const ImVec2* points, const int num_points, ImU32 col, bool closed, float thickness, bool anti_aliased})"],
+		"description": "AddPolyline"
+	},
+	"AddConvexPolyFilled": {
+		"scope": "lua",
+		"prefix": "AddConvexPolyFilled",
+		"body": ["AddConvexPolyFilled(${0:const ImVec2* points, const int num_points, ImU32 col, bool anti_aliased})"],
+		"description": "AddConvexPolyFilled"
+	},
+	"AddBezierCurve": {
+		"scope": "lua",
+		"prefix": "AddBezierCurve",
+		"body": ["AddBezierCurve(${0:const ImVec2& pos0, const ImVec2& cp0, const ImVec2& cp1, const ImVec2& pos1, ImU32 col, float thickness, int num_segments = 0})"],
+		"description": "AddBezierCurve"
+	},
+
+	
+	"imgui.CreateContext": {
+		"scope": "lua",
+		"prefix": "imgui.CreateContext",
+		"body": ["imgui.CreateContext(${0:ImFontAtlas*shared_font_atlas})"],
+		"description": "imgui.CreateContext"
+	},
+	"imgui.DestroyContext": {
+		"scope": "lua",
+		"prefix": "imgui.DestroyContext",
+		"body": ["imgui.DestroyContext(${0:ImGuiContext*ctx})"],
+		"description": "imgui.DestroyContext"
+	},
+	"imgui.GetCurrentContext": {
+		"scope": "lua",
+		"prefix": "imgui.GetCurrentContext",
+		"body": ["imgui.GetCurrentContext(${0:void})"],
+		"description": "imgui.GetCurrentContext"
+	},
+	"imgui.SetCurrentContext": {
+		"scope": "lua",
+		"prefix": "imgui.SetCurrentContext",
+		"body": ["imgui.SetCurrentContext(${0:ImGuiContext*ctx})"],
+		"description": "imgui.SetCurrentContext"
+	},
+	"imgui.DebugCheckVersionAndDataLayout": {
+		"scope": "lua",
+		"prefix": "imgui.DebugCheckVersionAndDataLayout",
+		"body": ["imgui.DebugCheckVersionAndDataLayout(${0:constchar*version_str,size_tsz_io,size_tsz_style,size_tsz_vec2,size_tsz_vec4,size_tsz_drawvert,size_tsz_drawidx})"],
+		"description": "imgui.DebugCheckVersionAndDataLayout"
+	},
+	"imgui.GetIO": {
+		"scope": "lua",
+		"prefix": "imgui.GetIO",
+		"body": ["imgui.GetIO(${0:void})"],
+		"description": "imgui.GetIO"
+	},
+	"imgui.GetStyle": {
+		"scope": "lua",
+		"prefix": "imgui.GetStyle",
+		"body": ["imgui.GetStyle(${0:void})"],
+		"description": "imgui.GetStyle"
+	},
+	"imgui.NewFrame": {
+		"scope": "lua",
+		"prefix": "imgui.NewFrame",
+		"body": ["imgui.NewFrame(${0:void})"],
+		"description": "imgui.NewFrame"
+	},
+	"imgui.EndFrame": {
+		"scope": "lua",
+		"prefix": "imgui.EndFrame",
+		"body": ["imgui.EndFrame(${0:void})"],
+		"description": "imgui.EndFrame"
+	},
+	"imgui.Render": {
+		"scope": "lua",
+		"prefix": "imgui.Render",
+		"body": ["imgui.Render(${0:void})"],
+		"description": "imgui.Render"
+	},
+	"imgui.GetDrawData": {
+		"scope": "lua",
+		"prefix": "imgui.GetDrawData",
+		"body": ["imgui.GetDrawData(${0:void})"],
+		"description": "imgui.GetDrawData"
+	},
+	"imgui.ShowDemoWindow": {
+		"scope": "lua",
+		"prefix": "imgui.ShowDemoWindow",
+		"body": ["imgui.ShowDemoWindow(${0:_Bool*p_open})"],
+		"description": "imgui.ShowDemoWindow"
+	},
+	"imgui.ShowAboutWindow": {
+		"scope": "lua",
+		"prefix": "imgui.ShowAboutWindow",
+		"body": ["imgui.ShowAboutWindow(${0:_Bool*p_open})"],
+		"description": "imgui.ShowAboutWindow"
+	},
+	"imgui.ShowMetricsWindow": {
+		"scope": "lua",
+		"prefix": "imgui.ShowMetricsWindow",
+		"body": ["imgui.ShowMetricsWindow(${0:_Bool*p_open})"],
+		"description": "imgui.ShowMetricsWindow"
+	},
+	"imgui.ShowStyleEditor": {
+		"scope": "lua",
+		"prefix": "imgui.ShowStyleEditor",
+		"body": ["imgui.ShowStyleEditor(${0:ImGuiStyle*ref})"],
+		"description": "imgui.ShowStyleEditor"
+	},
+	"imgui.ShowStyleSelector": {
+		"scope": "lua",
+		"prefix": "imgui.ShowStyleSelector",
+		"body": ["imgui.ShowStyleSelector(${0:constchar*label})"],
+		"description": "imgui.ShowStyleSelector"
+	},
+	"imgui.ShowFontSelector": {
+		"scope": "lua",
+		"prefix": "imgui.ShowFontSelector",
+		"body": ["imgui.ShowFontSelector(${0:constchar*label})"],
+		"description": "imgui.ShowFontSelector"
+	},
+	"imgui.ShowUserGuide": {
+		"scope": "lua",
+		"prefix": "imgui.ShowUserGuide",
+		"body": ["imgui.ShowUserGuide(${0:void})"],
+		"description": "imgui.ShowUserGuide"
+	},
+	"imgui.GetVersion": {
+		"scope": "lua",
+		"prefix": "imgui.GetVersion",
+		"body": ["imgui.GetVersion(${0:void})"],
+		"description": "imgui.GetVersion"
+	},
+	"imgui.StyleColorsDark": {
+		"scope": "lua",
+		"prefix": "imgui.StyleColorsDark",
+		"body": ["imgui.StyleColorsDark(${0:ImGuiStyle*dst})"],
+		"description": "imgui.StyleColorsDark"
+	},
+	"imgui.StyleColorsClassic": {
+		"scope": "lua",
+		"prefix": "imgui.StyleColorsClassic",
+		"body": ["imgui.StyleColorsClassic(${0:ImGuiStyle*dst})"],
+		"description": "imgui.StyleColorsClassic"
+	},
+	"imgui.ht": {
+		"scope": "lua",
+		"prefix": "imgui.ht",
+		"body": ["imgui.ht(${0:ImGuiStyle*dst})"],
+		"description": "imgui.ht"
+	},
+	"imgui.Begin": {
+		"scope": "lua",
+		"prefix": "imgui.Begin",
+		"body": ["imgui.Begin(${0:constchar*name,_Bool*p_open,ImGuiWindowFlagsflags})"],
+		"description": "imgui.Begin"
+	},
+	"imgui.End": {
+		"scope": "lua",
+		"prefix": "imgui.End",
+		"body": ["imgui.End(${0:void})"],
+		"description": "imgui.End"
+	},
+	"imgui.BeginChild": {
+		"scope": "lua",
+		"prefix": "imgui.BeginChild",
+		"body": ["imgui.BeginChild(${0:constchar*str_id,constImVec2size,_Boolborder,ImGuiWindowFlagsflags})"],
+		"description": "imgui.BeginChild"
+	},
+	"imgui.BeginChildID": {
+		"scope": "lua",
+		"prefix": "imgui.BeginChildID",
+		"body": ["imgui.BeginChildID(${0:ImGuiIDid,constImVec2size,_Boolborder,ImGuiWindowFlagsflags})"],
+		"description": "imgui.BeginChildID"
+	},
+	"imgui.EndChild": {
+		"scope": "lua",
+		"prefix": "imgui.EndChild",
+		"body": ["imgui.EndChild(${0:void})"],
+		"description": "imgui.EndChild"
+	},
+	"imgui.IsWindowAppearing": {
+		"scope": "lua",
+		"prefix": "imgui.IsWindowAppearing",
+		"body": ["imgui.IsWindowAppearing(${0:void})"],
+		"description": "imgui.IsWindowAppearing"
+	},
+	"imgui.IsWindowCollapsed": {
+		"scope": "lua",
+		"prefix": "imgui.IsWindowCollapsed",
+		"body": ["imgui.IsWindowCollapsed(${0:void})"],
+		"description": "imgui.IsWindowCollapsed"
+	},
+	"imgui.IsWindowFocused": {
+		"scope": "lua",
+		"prefix": "imgui.IsWindowFocused",
+		"body": ["imgui.IsWindowFocused(${0:ImGuiFocusedFlagsflags})"],
+		"description": "imgui.IsWindowFocused"
+	},
+	"imgui.IsWindowHovered": {
+		"scope": "lua",
+		"prefix": "imgui.IsWindowHovered",
+		"body": ["imgui.IsWindowHovered(${0:ImGuiHoveredFlagsflags})"],
+		"description": "imgui.IsWindowHovered"
+	},
+	"imgui.GetWindowDrawList": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowDrawList",
+		"body": ["imgui.GetWindowDrawList(${0:void})"],
+		"description": "imgui.GetWindowDrawList"
+	},
+	"imgui.GetWindowPos": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowPos",
+		"body": ["imgui.GetWindowPos(${0:void})"],
+		"description": "imgui.GetWindowPos"
+	},
+	"imgui.GetWindowSize": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowSize",
+		"body": ["imgui.GetWindowSize(${0:void})"],
+		"description": "imgui.GetWindowSize"
+	},
+	"imgui.GetWindowWidth": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowWidth",
+		"body": ["imgui.GetWindowWidth(${0:void})"],
+		"description": "imgui.GetWindowWidth"
+	},
+	"imgui.SetNextWindowPos": {
+		"scope": "lua",
+		"prefix": "imgui.SetNextWindowPos",
+		"body": ["imgui.SetNextWindowPos(${0:constImVec2pos,ImGuiCondcond,constImVec2pivot})"],
+		"description": "imgui.SetNextWindowPos"
+	},
+	"imgui.SetNextWindowSize": {
+		"scope": "lua",
+		"prefix": "imgui.SetNextWindowSize",
+		"body": ["imgui.SetNextWindowSize(${0:constImVec2size,ImGuiCondcond})"],
+		"description": "imgui.SetNextWindowSize"
+	},
+	"imgui.SetNextWindowSizeConstraints": {
+		"scope": "lua",
+		"prefix": "imgui.SetNextWindowSizeConstraints",
+		"body": ["imgui.SetNextWindowSizeConstraints(${0:constImVec2size_min,constImVec2size_max,ImGuiSizeCallbackcustom_callback,void*custom_callback_data})"],
+		"description": "imgui.SetNextWindowSizeConstraints"
+	},
+	"imgui.SetNextWindowContentSize": {
+		"scope": "lua",
+		"prefix": "imgui.SetNextWindowContentSize",
+		"body": ["imgui.SetNextWindowContentSize(${0:constImVec2size})"],
+		"description": "imgui.SetNextWindowContentSize"
+	},
+	"imgui.SetNextWindowCollapsed": {
+		"scope": "lua",
+		"prefix": "imgui.SetNextWindowCollapsed",
+		"body": ["imgui.SetNextWindowCollapsed(${0:_Boolcollapsed,ImGuiCondcond})"],
+		"description": "imgui.SetNextWindowCollapsed"
+	},
+	"imgui.SetNextWindowFocus": {
+		"scope": "lua",
+		"prefix": "imgui.SetNextWindowFocus",
+		"body": ["imgui.SetNextWindowFocus(${0:void})"],
+		"description": "imgui.SetNextWindowFocus"
+	},
+	"imgui.SetNextWindowBgAlpha": {
+		"scope": "lua",
+		"prefix": "imgui.SetNextWindowBgAlpha",
+		"body": ["imgui.SetNextWindowBgAlpha(${0:floatalpha})"],
+		"description": "imgui.SetNextWindowBgAlpha"
+	},
+	"imgui.SetWindowPosVec2": {
+		"scope": "lua",
+		"prefix": "imgui.SetWindowPosVec2",
+		"body": ["imgui.SetWindowPosVec2(${0:constImVec2pos,ImGuiCondcond})"],
+		"description": "imgui.SetWindowPosVec2"
+	},
+	"imgui.SetWindowSizeVec2": {
+		"scope": "lua",
+		"prefix": "imgui.SetWindowSizeVec2",
+		"body": ["imgui.SetWindowSizeVec2(${0:constImVec2size,ImGuiCondcond})"],
+		"description": "imgui.SetWindowSizeVec2"
+	},
+	"imgui.SetWindowCollapsedBool": {
+		"scope": "lua",
+		"prefix": "imgui.SetWindowCollapsedBool",
+		"body": ["imgui.SetWindowCollapsedBool(${0:_Boolcollapsed,ImGuiCondcond})"],
+		"description": "imgui.SetWindowCollapsedBool"
+	},
+	"imgui.SetWindowFocus": {
+		"scope": "lua",
+		"prefix": "imgui.SetWindowFocus",
+		"body": ["imgui.SetWindowFocus(${0:void})"],
+		"description": "imgui.SetWindowFocus"
+	},
+	"imgui.SetWindowFontScale": {
+		"scope": "lua",
+		"prefix": "imgui.SetWindowFontScale",
+		"body": ["imgui.SetWindowFontScale(${0:floatscale})"],
+		"description": "imgui.SetWindowFontScale"
+	},
+	"imgui.SetWindowPosStr": {
+		"scope": "lua",
+		"prefix": "imgui.SetWindowPosStr",
+		"body": ["imgui.SetWindowPosStr(${0:constchar*name,constImVec2pos,ImGuiCondcond})"],
+		"description": "imgui.SetWindowPosStr"
+	},
+	"imgui.SetWindowSizeStr": {
+		"scope": "lua",
+		"prefix": "imgui.SetWindowSizeStr",
+		"body": ["imgui.SetWindowSizeStr(${0:constchar*name,constImVec2size,ImGuiCondcond})"],
+		"description": "imgui.SetWindowSizeStr"
+	},
+	"imgui.SetWindowCollapsedStr": {
+		"scope": "lua",
+		"prefix": "imgui.SetWindowCollapsedStr",
+		"body": ["imgui.SetWindowCollapsedStr(${0:constchar*name,_Boolcollapsed,ImGuiCondcond})"],
+		"description": "imgui.SetWindowCollapsedStr"
+	},
+	"imgui.SetWindowFocusStr": {
+		"scope": "lua",
+		"prefix": "imgui.SetWindowFocusStr",
+		"body": ["imgui.SetWindowFocusStr(${0:constchar*name})"],
+		"description": "imgui.SetWindowFocusStr"
+	},
+	"imgui.GetContentRegionMax": {
+		"scope": "lua",
+		"prefix": "imgui.GetContentRegionMax",
+		"body": ["imgui.GetContentRegionMax(${0:void})"],
+		"description": "imgui.GetContentRegionMax"
+	},
+	"imgui.GetContentRegionAvail": {
+		"scope": "lua",
+		"prefix": "imgui.GetContentRegionAvail",
+		"body": ["imgui.GetContentRegionAvail(${0:void})"],
+		"description": "imgui.GetContentRegionAvail"
+	},
+	"imgui.GetWindowContentRegionMin": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowContentRegionMin",
+		"body": ["imgui.GetWindowContentRegionMin(${0:void})"],
+		"description": "imgui.GetWindowContentRegionMin"
+	},
+	"imgui.GetWindowContentRegionMax": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowContentRegionMax",
+		"body": ["imgui.GetWindowContentRegionMax(${0:void})"],
+		"description": "imgui.GetWindowContentRegionMax"
+	},
+	"imgui.GetWindowContentRegionWidth": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowContentRegionWidth",
+		"body": ["imgui.GetWindowContentRegionWidth(${0:void})"],
+		"description": "imgui.GetWindowContentRegionWidth"
+	},
+	"imgui.GetScrollX": {
+		"scope": "lua",
+		"prefix": "imgui.GetScrollX",
+		"body": ["imgui.GetScrollX(${0:void})"],
+		"description": "imgui.GetScrollX"
+	},
+	"imgui.GetScrollY": {
+		"scope": "lua",
+		"prefix": "imgui.GetScrollY",
+		"body": ["imgui.GetScrollY(${0:void})"],
+		"description": "imgui.GetScrollY"
+	},
+	"imgui.GetScrollMaxX": {
+		"scope": "lua",
+		"prefix": "imgui.GetScrollMaxX",
+		"body": ["imgui.GetScrollMaxX(${0:void})"],
+		"description": "imgui.GetScrollMaxX"
+	},
+	"imgui.GetScrollMaxY": {
+		"scope": "lua",
+		"prefix": "imgui.GetScrollMaxY",
+		"body": ["imgui.GetScrollMaxY(${0:void})"],
+		"description": "imgui.GetScrollMaxY"
+	},
+	"imgui.SetScrollX": {
+		"scope": "lua",
+		"prefix": "imgui.SetScrollX",
+		"body": ["imgui.SetScrollX(${0:floatscroll_x})"],
+		"description": "imgui.SetScrollX"
+	},
+	"imgui.SetScrollY": {
+		"scope": "lua",
+		"prefix": "imgui.SetScrollY",
+		"body": ["imgui.SetScrollY(${0:floatscroll_y})"],
+		"description": "imgui.SetScrollY"
+	},
+	"imgui.SetScrollHereX": {
+		"scope": "lua",
+		"prefix": "imgui.SetScrollHereX",
+		"body": ["imgui.SetScrollHereX(${0:floatcenter_x_ratio})"],
+		"description": "imgui.SetScrollHereX"
+	},
+	"imgui.SetScrollHereY": {
+		"scope": "lua",
+		"prefix": "imgui.SetScrollHereY",
+		"body": ["imgui.SetScrollHereY(${0:floatcenter_y_ratio})"],
+		"description": "imgui.SetScrollHereY"
+	},
+	"imgui.SetScrollFromPosX": {
+		"scope": "lua",
+		"prefix": "imgui.SetScrollFromPosX",
+		"body": ["imgui.SetScrollFromPosX(${0:floatlocal_x,floatcenter_x_ratio})"],
+		"description": "imgui.SetScrollFromPosX"
+	},
+	"imgui.SetScrollFromPosY": {
+		"scope": "lua",
+		"prefix": "imgui.SetScrollFromPosY",
+		"body": ["imgui.SetScrollFromPosY(${0:floatlocal_y,floatcenter_y_ratio})"],
+		"description": "imgui.SetScrollFromPosY"
+	},
+	"imgui.PushFont": {
+		"scope": "lua",
+		"prefix": "imgui.PushFont",
+		"body": ["imgui.PushFont(${0:ImFont*font})"],
+		"description": "imgui.PushFont"
+	},
+	"imgui.PopFont": {
+		"scope": "lua",
+		"prefix": "imgui.PopFont",
+		"body": ["imgui.PopFont(${0:void})"],
+		"description": "imgui.PopFont"
+	},
+	"imgui.PushStyleColorU32": {
+		"scope": "lua",
+		"prefix": "imgui.PushStyleColorU32",
+		"body": ["imgui.PushStyleColorU32(${0:ImGuiColidx,ImU32col})"],
+		"description": "imgui.PushStyleColorU32"
+	},
+	"imgui.PushStyleColor": {
+		"scope": "lua",
+		"prefix": "imgui.PushStyleColor",
+		"body": ["imgui.PushStyleColor(${0:ImGuiColidx,constImVec4col})"],
+		"description": "imgui.PushStyleColor"
+	},
+	"imgui.PopStyleColor": {
+		"scope": "lua",
+		"prefix": "imgui.PopStyleColor",
+		"body": ["imgui.PopStyleColor(${0:intcount})"],
+		"description": "imgui.PopStyleColor"
+	},
+	"imgui.PushStyleVarFloat": {
+		"scope": "lua",
+		"prefix": "imgui.PushStyleVarFloat",
+		"body": ["imgui.PushStyleVarFloat(${0:ImGuiStyleVaridx,floatval})"],
+		"description": "imgui.PushStyleVarFloat"
+	},
+	"imgui.PushStyleVarVec2": {
+		"scope": "lua",
+		"prefix": "imgui.PushStyleVarVec2",
+		"body": ["imgui.PushStyleVarVec2(${0:ImGuiStyleVaridx,constImVec2val})"],
+		"description": "imgui.PushStyleVarVec2"
+	},
+	"imgui.PopStyleVar": {
+		"scope": "lua",
+		"prefix": "imgui.PopStyleVar",
+		"body": ["imgui.PopStyleVar(${0:intcount})"],
+		"description": "imgui.PopStyleVar"
+	},
+	"imgui.GetStyleColorVec4": {
+		"scope": "lua",
+		"prefix": "imgui.GetStyleColorVec4",
+		"body": ["imgui.GetStyleColorVec4(${0:ImGuiColidx})"],
+		"description": "imgui.GetStyleColorVec4"
+	},
+	"imgui.GetFont": {
+		"scope": "lua",
+		"prefix": "imgui.GetFont",
+		"body": ["imgui.GetFont(${0:void})"],
+		"description": "imgui.GetFont"
+	},
+	"imgui.GetFontSize": {
+		"scope": "lua",
+		"prefix": "imgui.GetFontSize",
+		"body": ["imgui.GetFontSize(${0:void})"],
+		"description": "imgui.GetFontSize"
+	},
+	"imgui.GetFontTexUvWhitePixel": {
+		"scope": "lua",
+		"prefix": "imgui.GetFontTexUvWhitePixel",
+		"body": ["imgui.GetFontTexUvWhitePixel(${0:void})"],
+		"description": "imgui.GetFontTexUvWhitePixel"
+	},
+	"imgui.GetColorU32": {
+		"scope": "lua",
+		"prefix": "imgui.GetColorU32",
+		"body": ["imgui.GetColorU32(${0:ImGuiColidx,floatalpha_mul})"],
+		"description": "imgui.GetColorU32"
+	},
+	"imgui.GetColorU32Vec4": {
+		"scope": "lua",
+		"prefix": "imgui.GetColorU32Vec4",
+		"body": ["imgui.GetColorU32Vec4(${0:constImVec4col})"],
+		"description": "imgui.GetColorU32Vec4"
+	},
+	"imgui.GetColorU32U32": {
+		"scope": "lua",
+		"prefix": "imgui.GetColorU32U32",
+		"body": ["imgui.GetColorU32U32(${0:ImU32col})"],
+		"description": "imgui.GetColorU32U32"
+	},
+	"imgui.PushItemWidth": {
+		"scope": "lua",
+		"prefix": "imgui.PushItemWidth",
+		"body": ["imgui.PushItemWidth(${0:floatitem_width})"],
+		"description": "imgui.PushItemWidth"
+	},
+	"imgui.PopItemWidth": {
+		"scope": "lua",
+		"prefix": "imgui.PopItemWidth",
+		"body": ["imgui.PopItemWidth(${0:void})"],
+		"description": "imgui.PopItemWidth"
+	},
+	"imgui.SetNextItemWidth": {
+		"scope": "lua",
+		"prefix": "imgui.SetNextItemWidth",
+		"body": ["imgui.SetNextItemWidth(${0:floatitem_width})"],
+		"description": "imgui.SetNextItemWidth"
+	},
+	"imgui.CalcItemWidth": {
+		"scope": "lua",
+		"prefix": "imgui.CalcItemWidth",
+		"body": ["imgui.CalcItemWidth(${0:void})"],
+		"description": "imgui.CalcItemWidth"
+	},
+	"imgui.PushTextWrapPos": {
+		"scope": "lua",
+		"prefix": "imgui.PushTextWrapPos",
+		"body": ["imgui.PushTextWrapPos(${0:floatwrap_local_pos_x})"],
+		"description": "imgui.PushTextWrapPos"
+	},
+	"imgui.PopTextWrapPos": {
+		"scope": "lua",
+		"prefix": "imgui.PopTextWrapPos",
+		"body": ["imgui.PopTextWrapPos(${0:void})"],
+		"description": "imgui.PopTextWrapPos"
+	},
+	"imgui.PushAllowKeyboardFocus": {
+		"scope": "lua",
+		"prefix": "imgui.PushAllowKeyboardFocus",
+		"body": ["imgui.PushAllowKeyboardFocus(${0:_Boolallow_keyboard_focus})"],
+		"description": "imgui.PushAllowKeyboardFocus"
+	},
+	"imgui.PopAllowKeyboardFocus": {
+		"scope": "lua",
+		"prefix": "imgui.PopAllowKeyboardFocus",
+		"body": ["imgui.PopAllowKeyboardFocus(${0:void})"],
+		"description": "imgui.PopAllowKeyboardFocus"
+	},
+	"imgui.PushButtonRepeat": {
+		"scope": "lua",
+		"prefix": "imgui.PushButtonRepeat",
+		"body": ["imgui.PushButtonRepeat(${0:_Boolrepeat})"],
+		"description": "imgui.PushButtonRepeat"
+	},
+	"imgui.PopButtonRepeat": {
+		"scope": "lua",
+		"prefix": "imgui.PopButtonRepeat",
+		"body": ["imgui.PopButtonRepeat(${0:void})"],
+		"description": "imgui.PopButtonRepeat"
+	},
+	"imgui.Separator": {
+		"scope": "lua",
+		"prefix": "imgui.Separator",
+		"body": ["imgui.Separator(${0:void})"],
+		"description": "imgui.Separator"
+	},
+	"imgui.SameLine": {
+		"scope": "lua",
+		"prefix": "imgui.SameLine",
+		"body": ["imgui.SameLine(${0:floatoffset_from_start_x,floatspacing})"],
+		"description": "imgui.SameLine"
+	},
+	"imgui.NewLine": {
+		"scope": "lua",
+		"prefix": "imgui.NewLine",
+		"body": ["imgui.NewLine(${0:void})"],
+		"description": "imgui.NewLine"
+	},
+	"imgui.Spacing": {
+		"scope": "lua",
+		"prefix": "imgui.Spacing",
+		"body": ["imgui.Spacing(${0:void})"],
+		"description": "imgui.Spacing"
+	},
+	"imgui.Dummy": {
+		"scope": "lua",
+		"prefix": "imgui.Dummy",
+		"body": ["imgui.Dummy(${0:constImVec2size})"],
+		"description": "imgui.Dummy"
+	},
+	"imgui.Indent": {
+		"scope": "lua",
+		"prefix": "imgui.Indent",
+		"body": ["imgui.Indent(${0:floatindent_w})"],
+		"description": "imgui.Indent"
+	},
+	"imgui.Unindent": {
+		"scope": "lua",
+		"prefix": "imgui.Unindent",
+		"body": ["imgui.Unindent(${0:floatindent_w})"],
+		"description": "imgui.Unindent"
+	},
+	"imgui.BeginGroup": {
+		"scope": "lua",
+		"prefix": "imgui.BeginGroup",
+		"body": ["imgui.BeginGroup(${0:void})"],
+		"description": "imgui.BeginGroup"
+	},
+	"imgui.EndGroup": {
+		"scope": "lua",
+		"prefix": "imgui.EndGroup",
+		"body": ["imgui.EndGroup(${0:void})"],
+		"description": "imgui.EndGroup"
+	},
+	"imgui.GetCursorPos": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorPos",
+		"body": ["imgui.GetCursorPos(${0:void})"],
+		"description": "imgui.GetCursorPos"
+	},
+	"imgui.GetCursorPosX": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorPosX",
+		"body": ["imgui.GetCursorPosX(${0:void})"],
+		"description": "imgui.GetCursorPosX"
+	},
+	"imgui.GetCursorPosY": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorPosY",
+		"body": ["imgui.GetCursorPosY(${0:void})"],
+		"description": "imgui.GetCursorPosY"
+	},
+	"imgui.SetCursorPos": {
+		"scope": "lua",
+		"prefix": "imgui.SetCursorPos",
+		"body": ["imgui.SetCursorPos(${0:constImVec2local_pos})"],
+		"description": "imgui.SetCursorPos"
+	},
+	"imgui.SetCursorPosX": {
+		"scope": "lua",
+		"prefix": "imgui.SetCursorPosX",
+		"body": ["imgui.SetCursorPosX(${0:floatlocal_x})"],
+		"description": "imgui.SetCursorPosX"
+	},
+	"imgui.SetCursorPosY": {
+		"scope": "lua",
+		"prefix": "imgui.SetCursorPosY",
+		"body": ["imgui.SetCursorPosY(${0:floatlocal_y})"],
+		"description": "imgui.SetCursorPosY"
+	},
+	"imgui.GetCursorStartPos": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorStartPos",
+		"body": ["imgui.GetCursorStartPos(${0:void})"],
+		"description": "imgui.GetCursorStartPos"
+	},
+	"imgui.GetCursorScreenPos": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorScreenPos",
+		"body": ["imgui.GetCursorScreenPos(${0:void})"],
+		"description": "imgui.GetCursorScreenPos"
+	},
+	"imgui.SetCursorScreenPos": {
+		"scope": "lua",
+		"prefix": "imgui.SetCursorScreenPos",
+		"body": ["imgui.SetCursorScreenPos(${0:constImVec2pos})"],
+		"description": "imgui.SetCursorScreenPos"
+	},
+	"imgui.nTextToFramePadding": {
+		"scope": "lua",
+		"prefix": "imgui.nTextToFramePadding",
+		"body": ["imgui.nTextToFramePadding(${0:void})"],
+		"description": "imgui.nTextToFramePadding"
+	},
+	"imgui.PushIDStr": {
+		"scope": "lua",
+		"prefix": "imgui.PushIDStr",
+		"body": ["imgui.PushIDStr(${0:constchar*str_id})"],
+		"description": "imgui.PushIDStr"
+	},
+	"imgui.PushIDRange": {
+		"scope": "lua",
+		"prefix": "imgui.PushIDRange",
+		"body": ["imgui.PushIDRange(${0:constchar*str_id_begin,constchar*str_id_end})"],
+		"description": "imgui.PushIDRange"
+	},
+	"imgui.PushIDPtr": {
+		"scope": "lua",
+		"prefix": "imgui.PushIDPtr",
+		"body": ["imgui.PushIDPtr(${0:constvoid*ptr_id})"],
+		"description": "imgui.PushIDPtr"
+	},
+	"imgui.PushIDInt": {
+		"scope": "lua",
+		"prefix": "imgui.PushIDInt",
+		"body": ["imgui.PushIDInt(${0:intint_id})"],
+		"description": "imgui.PushIDInt"
+	},
+	"imgui.PopID": {
+		"scope": "lua",
+		"prefix": "imgui.PopID",
+		"body": ["imgui.PopID(${0:void})"],
+		"description": "imgui.PopID"
+	},
+	"imgui.GetIDStr": {
+		"scope": "lua",
+		"prefix": "imgui.GetIDStr",
+		"body": ["imgui.GetIDStr(${0:constchar*str_id})"],
+		"description": "imgui.GetIDStr"
+	},
+	"imgui.GetIDRange": {
+		"scope": "lua",
+		"prefix": "imgui.GetIDRange",
+		"body": ["imgui.GetIDRange(${0:constchar*str_id_begin,constchar*str_id_end})"],
+		"description": "imgui.GetIDRange"
+	},
+	"imgui.GetIDPtr": {
+		"scope": "lua",
+		"prefix": "imgui.GetIDPtr",
+		"body": ["imgui.GetIDPtr(${0:constvoid*ptr_id})"],
+		"description": "imgui.GetIDPtr"
+	},
+	"imgui.TextUnformatted": {
+		"scope": "lua",
+		"prefix": "imgui.TextUnformatted",
+		"body": ["imgui.TextUnformatted(${0:constchar*text,constchar*text_end})"],
+		"description": "imgui.TextUnformatted"
+	},
+	"imgui.Text": {
+		"scope": "lua",
+		"prefix": "imgui.Text",
+		"body": ["imgui.Text(${0:constchar*fmt,...})"],
+		"description": "imgui.Text"
+	},
+	"imgui.TextV": {
+		"scope": "lua",
+		"prefix": "imgui.TextV",
+		"body": ["imgui.TextV(${0:constchar*fmt,va_listargs})"],
+		"description": "imgui.TextV"
+	},
+	"imgui.TextColored": {
+		"scope": "lua",
+		"prefix": "imgui.TextColored",
+		"body": ["imgui.TextColored(${0:constImVec4col,constchar*fmt,...})"],
+		"description": "imgui.TextColored"
+	},
+	"imgui.TextColoredV": {
+		"scope": "lua",
+		"prefix": "imgui.TextColoredV",
+		"body": ["imgui.TextColoredV(${0:constImVec4col,constchar*fmt,va_listargs})"],
+		"description": "imgui.TextColoredV"
+	},
+	"imgui.TextDisabled": {
+		"scope": "lua",
+		"prefix": "imgui.TextDisabled",
+		"body": ["imgui.TextDisabled(${0:constchar*fmt,...})"],
+		"description": "imgui.TextDisabled"
+	},
+	"imgui.TextDisabledV": {
+		"scope": "lua",
+		"prefix": "imgui.TextDisabledV",
+		"body": ["imgui.TextDisabledV(${0:constchar*fmt,va_listargs})"],
+		"description": "imgui.TextDisabledV"
+	},
+	"imgui.TextWrapped": {
+		"scope": "lua",
+		"prefix": "imgui.TextWrapped",
+		"body": ["imgui.TextWrapped(${0:constchar*fmt,...})"],
+		"description": "imgui.TextWrapped"
+	},
+	"imgui.TextWrappedV": {
+		"scope": "lua",
+		"prefix": "imgui.TextWrappedV",
+		"body": ["imgui.TextWrappedV(${0:constchar*fmt,va_listargs})"],
+		"description": "imgui.TextWrappedV"
+	},
+	"imgui.LabelText": {
+		"scope": "lua",
+		"prefix": "imgui.LabelText",
+		"body": ["imgui.LabelText(${0:constchar*label,constchar*fmt,...})"],
+		"description": "imgui.LabelText"
+	},
+	"imgui.LabelTextV": {
+		"scope": "lua",
+		"prefix": "imgui.LabelTextV",
+		"body": ["imgui.LabelTextV(${0:constchar*label,constchar*fmt,va_listargs})"],
+		"description": "imgui.LabelTextV"
+	},
+	"imgui.BulletText": {
+		"scope": "lua",
+		"prefix": "imgui.BulletText",
+		"body": ["imgui.BulletText(${0:constchar*fmt,...})"],
+		"description": "imgui.BulletText"
+	},
+	"imgui.BulletTextV": {
+		"scope": "lua",
+		"prefix": "imgui.BulletTextV",
+		"body": ["imgui.BulletTextV(${0:constchar*fmt,va_listargs})"],
+		"description": "imgui.BulletTextV"
+	},
+	"imgui.Button": {
+		"scope": "lua",
+		"prefix": "imgui.Button",
+		"body": ["imgui.Button(${0:constchar*label,constImVec2size})"],
+		"description": "imgui.Button"
+	},
+	"imgui.SmallButton": {
+		"scope": "lua",
+		"prefix": "imgui.SmallButton",
+		"body": ["imgui.SmallButton(${0:constchar*label})"],
+		"description": "imgui.SmallButton"
+	},
+	"imgui.InvisibleButton": {
+		"scope": "lua",
+		"prefix": "imgui.InvisibleButton",
+		"body": ["imgui.InvisibleButton(${0:constchar*str_id,constImVec2size})"],
+		"description": "imgui.InvisibleButton"
+	},
+	"imgui.ArrowButton": {
+		"scope": "lua",
+		"prefix": "imgui.ArrowButton",
+		"body": ["imgui.ArrowButton(${0:constchar*str_id,ImGuiDirdir})"],
+		"description": "imgui.ArrowButton"
+	},
+	"imgui.Image": {
+		"scope": "lua",
+		"prefix": "imgui.Image",
+		"body": ["imgui.Image(${0:ImTextureIDuser_texture_id,constImVec2size,constImVec2uv0,constImVec2uv1,constImVec4tint_col,constImVec4border_col})"],
+		"description": "imgui.Image"
+	},
+	"imgui.ImageButton": {
+		"scope": "lua",
+		"prefix": "imgui.ImageButton",
+		"body": ["imgui.ImageButton(${0:ImTextureIDuser_texture_id,constImVec2size,constImVec2uv0,constImVec2uv1,intframe_padding,constImVec4bg_col,constImVec4tint_col})"],
+		"description": "imgui.ImageButton"
+	},
+	"imgui.Checkbox": {
+		"scope": "lua",
+		"prefix": "imgui.Checkbox",
+		"body": ["imgui.Checkbox(${0:constchar*label,_Bool*v})"],
+		"description": "imgui.Checkbox"
+	},
+	"imgui.CheckboxFlags": {
+		"scope": "lua",
+		"prefix": "imgui.CheckboxFlags",
+		"body": ["imgui.CheckboxFlags(${0:constchar*label,unsignedint*flags,unsignedintflags_value})"],
+		"description": "imgui.CheckboxFlags"
+	},
+	"imgui.RadioButtonBool": {
+		"scope": "lua",
+		"prefix": "imgui.RadioButtonBool",
+		"body": ["imgui.RadioButtonBool(${0:constchar*label,_Boolactive})"],
+		"description": "imgui.RadioButtonBool"
+	},
+	"imgui.RadioButtonIntPtr": {
+		"scope": "lua",
+		"prefix": "imgui.RadioButtonIntPtr",
+		"body": ["imgui.RadioButtonIntPtr(${0:constchar*label,int*v,intv_button})"],
+		"description": "imgui.RadioButtonIntPtr"
+	},
+	"imgui.ProgressBar": {
+		"scope": "lua",
+		"prefix": "imgui.ProgressBar",
+		"body": ["imgui.ProgressBar(${0:floatfraction,constImVec2size_arg,constchar*overlay})"],
+		"description": "imgui.ProgressBar"
+	},
+	"imgui.Bullet": {
+		"scope": "lua",
+		"prefix": "imgui.Bullet",
+		"body": ["imgui.Bullet(${0:void})"],
+		"description": "imgui.Bullet"
+	},
+	"imgui.BeginCombo": {
+		"scope": "lua",
+		"prefix": "imgui.BeginCombo",
+		"body": ["imgui.BeginCombo(${0:constchar*label,constchar*preview_value,ImGuiComboFlagsflags})"],
+		"description": "imgui.BeginCombo"
+	},
+	"imgui.EndCombo": {
+		"scope": "lua",
+		"prefix": "imgui.EndCombo",
+		"body": ["imgui.EndCombo(${0:void})"],
+		"description": "imgui.EndCombo"
+	},
+	"imgui.Combo": {
+		"scope": "lua",
+		"prefix": "imgui.Combo",
+		"body": ["imgui.Combo(${0:constchar*label,int*current_item,constchar*constitems[],intitems_count,intpopup_max_height_in_items})"],
+		"description": "imgui.Combo"
+	},
+	"imgui.ComboStr": {
+		"scope": "lua",
+		"prefix": "imgui.ComboStr",
+		"body": ["imgui.ComboStr(${0:constchar*label,int*current_item,constchar*items_separated_by_zeros,intpopup_max_height_in_items})"],
+		"description": "imgui.ComboStr"
+	},
+	"imgui.ComboFnPtr(constchar*label,int*current_item,_Bool(*items_getter)": {
+		"scope": "lua",
+		"prefix": "imgui.ComboFnPtr(constchar*label,int*current_item,_Bool(*items_getter)",
+		"body": ["imgui.ComboFnPtr(constchar*label,int*current_item,_Bool(*items_getter)(${0:void*data,intidx,constchar**out_text),void*data,intitems_count,intpopup_max_height_in_items})"],
+		"description": "imgui.ComboFnPtr(constchar*label,int*current_item,_Bool(*items_getter)"
+	},
+	"imgui.DragFloat": {
+		"scope": "lua",
+		"prefix": "imgui.DragFloat",
+		"body": ["imgui.DragFloat(${0:constchar*label,float*v,floatv_speed,floatv_min,floatv_max,constchar*format,floatpower})"],
+		"description": "imgui.DragFloat"
+	},
+	"imgui.DragFloat2": {
+		"scope": "lua",
+		"prefix": "imgui.DragFloat2",
+		"body": ["imgui.DragFloat2(${0:constchar*label,floatv[2],floatv_speed,floatv_min,floatv_max,constchar*format,floatpower})"],
+		"description": "imgui.DragFloat2"
+	},
+	"imgui.DragFloat3": {
+		"scope": "lua",
+		"prefix": "imgui.DragFloat3",
+		"body": ["imgui.DragFloat3(${0:constchar*label,floatv[3],floatv_speed,floatv_min,floatv_max,constchar*format,floatpower})"],
+		"description": "imgui.DragFloat3"
+	},
+	"imgui.DragFloat4": {
+		"scope": "lua",
+		"prefix": "imgui.DragFloat4",
+		"body": ["imgui.DragFloat4(${0:constchar*label,floatv[4],floatv_speed,floatv_min,floatv_max,constchar*format,floatpower})"],
+		"description": "imgui.DragFloat4"
+	},
+	"imgui.DragFloatRange2": {
+		"scope": "lua",
+		"prefix": "imgui.DragFloatRange2",
+		"body": ["imgui.DragFloatRange2(${0:constchar*label,float*v_current_min,float*v_current_max,floatv_speed,floatv_min,floatv_max,constchar*format,constchar*format_max,floatpower})"],
+		"description": "imgui.DragFloatRange2"
+	},
+	"imgui.DragInt": {
+		"scope": "lua",
+		"prefix": "imgui.DragInt",
+		"body": ["imgui.DragInt(${0:constchar*label,int*v,floatv_speed,intv_min,intv_max,constchar*format})"],
+		"description": "imgui.DragInt"
+	},
+	"imgui.DragInt2": {
+		"scope": "lua",
+		"prefix": "imgui.DragInt2",
+		"body": ["imgui.DragInt2(${0:constchar*label,intv[2],floatv_speed,intv_min,intv_max,constchar*format})"],
+		"description": "imgui.DragInt2"
+	},
+	"imgui.DragInt3": {
+		"scope": "lua",
+		"prefix": "imgui.DragInt3",
+		"body": ["imgui.DragInt3(${0:constchar*label,intv[3],floatv_speed,intv_min,intv_max,constchar*format})"],
+		"description": "imgui.DragInt3"
+	},
+	"imgui.DragInt4": {
+		"scope": "lua",
+		"prefix": "imgui.DragInt4",
+		"body": ["imgui.DragInt4(${0:constchar*label,intv[4],floatv_speed,intv_min,intv_max,constchar*format})"],
+		"description": "imgui.DragInt4"
+	},
+	"imgui.DragIntRange2": {
+		"scope": "lua",
+		"prefix": "imgui.DragIntRange2",
+		"body": ["imgui.DragIntRange2(${0:constchar*label,int*v_current_min,int*v_current_max,floatv_speed,intv_min,intv_max,constchar*format,constchar*format_max})"],
+		"description": "imgui.DragIntRange2"
+	},
+	"imgui.DragScalar": {
+		"scope": "lua",
+		"prefix": "imgui.DragScalar",
+		"body": ["imgui.DragScalar(${0:constchar*label,ImGuiDataTypedata_type,void*v,floatv_speed,constvoid*v_min,constvoid*v_max,constchar*format,floatpower})"],
+		"description": "imgui.DragScalar"
+	},
+	"imgui.DragScalarN": {
+		"scope": "lua",
+		"prefix": "imgui.DragScalarN",
+		"body": ["imgui.DragScalarN(${0:constchar*label,ImGuiDataTypedata_type,void*v,intcomponents,floatv_speed,constvoid*v_min,constvoid*v_max,constchar*format,floatpower})"],
+		"description": "imgui.DragScalarN"
+	},
+	"imgui.SliderFloat": {
+		"scope": "lua",
+		"prefix": "imgui.SliderFloat",
+		"body": ["imgui.SliderFloat(${0:constchar*label,float*v,floatv_min,floatv_max,constchar*format,floatpower})"],
+		"description": "imgui.SliderFloat"
+	},
+	"imgui.SliderFloat2": {
+		"scope": "lua",
+		"prefix": "imgui.SliderFloat2",
+		"body": ["imgui.SliderFloat2(${0:constchar*label,floatv[2],floatv_min,floatv_max,constchar*format,floatpower})"],
+		"description": "imgui.SliderFloat2"
+	},
+	"imgui.SliderFloat3": {
+		"scope": "lua",
+		"prefix": "imgui.SliderFloat3",
+		"body": ["imgui.SliderFloat3(${0:constchar*label,floatv[3],floatv_min,floatv_max,constchar*format,floatpower})"],
+		"description": "imgui.SliderFloat3"
+	},
+	"imgui.SliderFloat4": {
+		"scope": "lua",
+		"prefix": "imgui.SliderFloat4",
+		"body": ["imgui.SliderFloat4(${0:constchar*label,floatv[4],floatv_min,floatv_max,constchar*format,floatpower})"],
+		"description": "imgui.SliderFloat4"
+	},
+	"imgui.SliderAngle": {
+		"scope": "lua",
+		"prefix": "imgui.SliderAngle",
+		"body": ["imgui.SliderAngle(${0:constchar*label,float*v_rad,floatv_degrees_min,floatv_degrees_max,constchar*format})"],
+		"description": "imgui.SliderAngle"
+	},
+	"imgui.SliderInt": {
+		"scope": "lua",
+		"prefix": "imgui.SliderInt",
+		"body": ["imgui.SliderInt(${0:constchar*label,int*v,intv_min,intv_max,constchar*format})"],
+		"description": "imgui.SliderInt"
+	},
+	"imgui.SliderInt2": {
+		"scope": "lua",
+		"prefix": "imgui.SliderInt2",
+		"body": ["imgui.SliderInt2(${0:constchar*label,intv[2],intv_min,intv_max,constchar*format})"],
+		"description": "imgui.SliderInt2"
+	},
+	"imgui.SliderInt3": {
+		"scope": "lua",
+		"prefix": "imgui.SliderInt3",
+		"body": ["imgui.SliderInt3(${0:constchar*label,intv[3],intv_min,intv_max,constchar*format})"],
+		"description": "imgui.SliderInt3"
+	},
+	"imgui.SliderInt4": {
+		"scope": "lua",
+		"prefix": "imgui.SliderInt4",
+		"body": ["imgui.SliderInt4(${0:constchar*label,intv[4],intv_min,intv_max,constchar*format})"],
+		"description": "imgui.SliderInt4"
+	},
+	"imgui.SliderScalar": {
+		"scope": "lua",
+		"prefix": "imgui.SliderScalar",
+		"body": ["imgui.SliderScalar(${0:constchar*label,ImGuiDataTypedata_type,void*v,constvoid*v_min,constvoid*v_max,constchar*format,floatpower})"],
+		"description": "imgui.SliderScalar"
+	},
+	"imgui.SliderScalarN": {
+		"scope": "lua",
+		"prefix": "imgui.SliderScalarN",
+		"body": ["imgui.SliderScalarN(${0:constchar*label,ImGuiDataTypedata_type,void*v,intcomponents,constvoid*v_min,constvoid*v_max,constchar*format,floatpower})"],
+		"description": "imgui.SliderScalarN"
+	},
+	"imgui.VSliderFloat": {
+		"scope": "lua",
+		"prefix": "imgui.VSliderFloat",
+		"body": ["imgui.VSliderFloat(${0:constchar*label,constImVec2size,float*v,floatv_min,floatv_max,constchar*format,floatpower})"],
+		"description": "imgui.VSliderFloat"
+	},
+	"imgui.VSliderInt": {
+		"scope": "lua",
+		"prefix": "imgui.VSliderInt",
+		"body": ["imgui.VSliderInt(${0:constchar*label,constImVec2size,int*v,intv_min,intv_max,constchar*format})"],
+		"description": "imgui.VSliderInt"
+	},
+	"imgui.VSliderScalar": {
+		"scope": "lua",
+		"prefix": "imgui.VSliderScalar",
+		"body": ["imgui.VSliderScalar(${0:constchar*label,constImVec2size,ImGuiDataTypedata_type,void*v,constvoid*v_min,constvoid*v_max,constchar*format,floatpower})"],
+		"description": "imgui.VSliderScalar"
+	},
+	"imgui.InputText": {
+		"scope": "lua",
+		"prefix": "imgui.InputText",
+		"body": ["imgui.InputText(${0:constchar*label,char*buf,size_tbuf_size,ImGuiInputTextFlagsflags,ImGuiInputTextCallbackcallback,void*user_data})"],
+		"description": "imgui.InputText"
+	},
+	"imgui.InputTextMultiline": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextMultiline",
+		"body": ["imgui.InputTextMultiline(${0:constchar*label,char*buf,size_tbuf_size,constImVec2size,ImGuiInputTextFlagsflags,ImGuiInputTextCallbackcallback,void*user_data})"],
+		"description": "imgui.InputTextMultiline"
+	},
+	"imgui.InputTextWithHint": {
+		"scope": "lua",
+		"prefix": "imgui.InputTextWithHint",
+		"body": ["imgui.InputTextWithHint(${0:constchar*label,constchar*hint,char*buf,size_tbuf_size,ImGuiInputTextFlagsflags,ImGuiInputTextCallbackcallback,void*user_data})"],
+		"description": "imgui.InputTextWithHint"
+	},
+	"imgui.InputFloat": {
+		"scope": "lua",
+		"prefix": "imgui.InputFloat",
+		"body": ["imgui.InputFloat(${0:constchar*label,float*v,floatstep,floatstep_fast,constchar*format,ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputFloat"
+	},
+	"imgui.InputFloat2": {
+		"scope": "lua",
+		"prefix": "imgui.InputFloat2",
+		"body": ["imgui.InputFloat2(${0:constchar*label,floatv[2],constchar*format,ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputFloat2"
+	},
+	"imgui.InputFloat3": {
+		"scope": "lua",
+		"prefix": "imgui.InputFloat3",
+		"body": ["imgui.InputFloat3(${0:constchar*label,floatv[3],constchar*format,ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputFloat3"
+	},
+	"imgui.InputFloat4": {
+		"scope": "lua",
+		"prefix": "imgui.InputFloat4",
+		"body": ["imgui.InputFloat4(${0:constchar*label,floatv[4],constchar*format,ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputFloat4"
+	},
+	"imgui.InputInt": {
+		"scope": "lua",
+		"prefix": "imgui.InputInt",
+		"body": ["imgui.InputInt(${0:constchar*label,int*v,intstep,intstep_fast,ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputInt"
+	},
+	"imgui.InputInt2": {
+		"scope": "lua",
+		"prefix": "imgui.InputInt2",
+		"body": ["imgui.InputInt2(${0:constchar*label,intv[2],ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputInt2"
+	},
+	"imgui.InputInt3": {
+		"scope": "lua",
+		"prefix": "imgui.InputInt3",
+		"body": ["imgui.InputInt3(${0:constchar*label,intv[3],ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputInt3"
+	},
+	"imgui.InputInt4": {
+		"scope": "lua",
+		"prefix": "imgui.InputInt4",
+		"body": ["imgui.InputInt4(${0:constchar*label,intv[4],ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputInt4"
+	},
+	"imgui.InputDouble": {
+		"scope": "lua",
+		"prefix": "imgui.InputDouble",
+		"body": ["imgui.InputDouble(${0:constchar*label,double*v,doublestep,doublestep_fast,constchar*format,ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputDouble"
+	},
+	"imgui.InputScalar": {
+		"scope": "lua",
+		"prefix": "imgui.InputScalar",
+		"body": ["imgui.InputScalar(${0:constchar*label,ImGuiDataTypedata_type,void*v,constvoid*step,constvoid*step_fast,constchar*format,ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputScalar"
+	},
+	"imgui.InputScalarN": {
+		"scope": "lua",
+		"prefix": "imgui.InputScalarN",
+		"body": ["imgui.InputScalarN(${0:constchar*label,ImGuiDataTypedata_type,void*v,intcomponents,constvoid*step,constvoid*step_fast,constchar*format,ImGuiInputTextFlagsflags})"],
+		"description": "imgui.InputScalarN"
+	},
+	"imgui.ColorEdit3": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEdit3",
+		"body": ["imgui.ColorEdit3(${0:constchar*label,floatcol[3],ImGuiColorEditFlagsflags})"],
+		"description": "imgui.ColorEdit3"
+	},
+	"imgui.ColorEdit4": {
+		"scope": "lua",
+		"prefix": "imgui.ColorEdit4",
+		"body": ["imgui.ColorEdit4(${0:constchar*label,floatcol[4],ImGuiColorEditFlagsflags})"],
+		"description": "imgui.ColorEdit4"
+	},
+	"imgui.ColorPicker3": {
+		"scope": "lua",
+		"prefix": "imgui.ColorPicker3",
+		"body": ["imgui.ColorPicker3(${0:constchar*label,floatcol[3],ImGuiColorEditFlagsflags})"],
+		"description": "imgui.ColorPicker3"
+	},
+	"imgui.ColorPicker4": {
+		"scope": "lua",
+		"prefix": "imgui.ColorPicker4",
+		"body": ["imgui.ColorPicker4(${0:constchar*label,floatcol[4],ImGuiColorEditFlagsflags,constfloat*ref_col})"],
+		"description": "imgui.ColorPicker4"
+	},
+	"imgui.ColorButton": {
+		"scope": "lua",
+		"prefix": "imgui.ColorButton",
+		"body": ["imgui.ColorButton(${0:constchar*desc_id,constImVec4col,ImGuiColorEditFlagsflags,ImVec2size})"],
+		"description": "imgui.ColorButton"
+	},
+	"imgui.SetColorEditOptions": {
+		"scope": "lua",
+		"prefix": "imgui.SetColorEditOptions",
+		"body": ["imgui.SetColorEditOptions(${0:ImGuiColorEditFlagsflags})"],
+		"description": "imgui.SetColorEditOptions"
+	},
+	"imgui.TreeNodeStr": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeStr",
+		"body": ["imgui.TreeNodeStr(${0:constchar*label})"],
+		"description": "imgui.TreeNodeStr"
+	},
+	"imgui.TreeNodeStrStr": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeStrStr",
+		"body": ["imgui.TreeNodeStrStr(${0:constchar*str_id,constchar*fmt,...})"],
+		"description": "imgui.TreeNodeStrStr"
+	},
+	"imgui.TreeNodePtr": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodePtr",
+		"body": ["imgui.TreeNodePtr(${0:constvoid*ptr_id,constchar*fmt,...})"],
+		"description": "imgui.TreeNodePtr"
+	},
+	"imgui.TreeNodeVStr": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeVStr",
+		"body": ["imgui.TreeNodeVStr(${0:constchar*str_id,constchar*fmt,va_listargs})"],
+		"description": "imgui.TreeNodeVStr"
+	},
+	"imgui.TreeNodeVPtr": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeVPtr",
+		"body": ["imgui.TreeNodeVPtr(${0:constvoid*ptr_id,constchar*fmt,va_listargs})"],
+		"description": "imgui.TreeNodeVPtr"
+	},
+	"imgui.TreeNodeExStr": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeExStr",
+		"body": ["imgui.TreeNodeExStr(${0:constchar*label,ImGuiTreeNodeFlagsflags})"],
+		"description": "imgui.TreeNodeExStr"
+	},
+	"imgui.TreeNodeExStrStr": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeExStrStr",
+		"body": ["imgui.TreeNodeExStrStr(${0:constchar*str_id,ImGuiTreeNodeFlagsflags,constchar*fmt,...})"],
+		"description": "imgui.TreeNodeExStrStr"
+	},
+	"imgui.TreeNodeExPtr": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeExPtr",
+		"body": ["imgui.TreeNodeExPtr(${0:constvoid*ptr_id,ImGuiTreeNodeFlagsflags,constchar*fmt,...})"],
+		"description": "imgui.TreeNodeExPtr"
+	},
+	"imgui.TreeNodeExVStr": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeExVStr",
+		"body": ["imgui.TreeNodeExVStr(${0:constchar*str_id,ImGuiTreeNodeFlagsflags,constchar*fmt,va_listargs})"],
+		"description": "imgui.TreeNodeExVStr"
+	},
+	"imgui.TreeNodeExVPtr": {
+		"scope": "lua",
+		"prefix": "imgui.TreeNodeExVPtr",
+		"body": ["imgui.TreeNodeExVPtr(${0:constvoid*ptr_id,ImGuiTreeNodeFlagsflags,constchar*fmt,va_listargs})"],
+		"description": "imgui.TreeNodeExVPtr"
+	},
+	"imgui.TreePushStr": {
+		"scope": "lua",
+		"prefix": "imgui.TreePushStr",
+		"body": ["imgui.TreePushStr(${0:constchar*str_id})"],
+		"description": "imgui.TreePushStr"
+	},
+	"imgui.TreePushPtr": {
+		"scope": "lua",
+		"prefix": "imgui.TreePushPtr",
+		"body": ["imgui.TreePushPtr(${0:constvoid*ptr_id})"],
+		"description": "imgui.TreePushPtr"
+	},
+	"imgui.TreePop": {
+		"scope": "lua",
+		"prefix": "imgui.TreePop",
+		"body": ["imgui.TreePop(${0:void})"],
+		"description": "imgui.TreePop"
+	},
+	"imgui.GetTreeNodeToLabelSpacing": {
+		"scope": "lua",
+		"prefix": "imgui.GetTreeNodeToLabelSpacing",
+		"body": ["imgui.GetTreeNodeToLabelSpacing(${0:void})"],
+		"description": "imgui.GetTreeNodeToLabelSpacing"
+	},
+	"imgui.CollapsingHeader": {
+		"scope": "lua",
+		"prefix": "imgui.CollapsingHeader",
+		"body": ["imgui.CollapsingHeader(${0:constchar*label,ImGuiTreeNodeFlagsflags})"],
+		"description": "imgui.CollapsingHeader"
+	},
+	"imgui.CollapsingHeaderBoolPtr": {
+		"scope": "lua",
+		"prefix": "imgui.CollapsingHeaderBoolPtr",
+		"body": ["imgui.CollapsingHeaderBoolPtr(${0:constchar*label,_Bool*p_open,ImGuiTreeNodeFlagsflags})"],
+		"description": "imgui.CollapsingHeaderBoolPtr"
+	},
+	"imgui.SetNextItemOpen": {
+		"scope": "lua",
+		"prefix": "imgui.SetNextItemOpen",
+		"body": ["imgui.SetNextItemOpen(${0:_Boolis_open,ImGuiCondcond})"],
+		"description": "imgui.SetNextItemOpen"
+	},
+	"imgui.Selectable": {
+		"scope": "lua",
+		"prefix": "imgui.Selectable",
+		"body": ["imgui.Selectable(${0:constchar*label,_Boolselected,ImGuiSelectableFlagsflags,constImVec2size})"],
+		"description": "imgui.Selectable"
+	},
+	"imgui.SelectableBoolPtr": {
+		"scope": "lua",
+		"prefix": "imgui.SelectableBoolPtr",
+		"body": ["imgui.SelectableBoolPtr(${0:constchar*label,_Bool*p_selected,ImGuiSelectableFlagsflags,constImVec2size})"],
+		"description": "imgui.SelectableBoolPtr"
+	},
+	"imgui.ListBoxStr_arr": {
+		"scope": "lua",
+		"prefix": "imgui.ListBoxStr_arr",
+		"body": ["imgui.ListBoxStr_arr(${0:constchar*label,int*current_item,constchar*constitems[],intitems_count,intheight_in_items})"],
+		"description": "imgui.ListBoxStr_arr"
+	},
+	"imgui.ListBoxFnPtr(constchar*label,int*current_item,_Bool(*items_getter)": {
+		"scope": "lua",
+		"prefix": "imgui.ListBoxFnPtr(constchar*label,int*current_item,_Bool(*items_getter)",
+		"body": ["imgui.ListBoxFnPtr(constchar*label,int*current_item,_Bool(*items_getter)(${0:void*data,intidx,constchar**out_text),void*data,intitems_count,intheight_in_items})"],
+		"description": "imgui.ListBoxFnPtr(constchar*label,int*current_item,_Bool(*items_getter)"
+	},
+	"imgui.ListBoxHeaderVec2": {
+		"scope": "lua",
+		"prefix": "imgui.ListBoxHeaderVec2",
+		"body": ["imgui.ListBoxHeaderVec2(${0:constchar*label,constImVec2size})"],
+		"description": "imgui.ListBoxHeaderVec2"
+	},
+	"imgui.ListBoxHeaderInt": {
+		"scope": "lua",
+		"prefix": "imgui.ListBoxHeaderInt",
+		"body": ["imgui.ListBoxHeaderInt(${0:constchar*label,intitems_count,intheight_in_items})"],
+		"description": "imgui.ListBoxHeaderInt"
+	},
+	"imgui.ListBoxFooter": {
+		"scope": "lua",
+		"prefix": "imgui.ListBoxFooter",
+		"body": ["imgui.ListBoxFooter(${0:void})"],
+		"description": "imgui.ListBoxFooter"
+	},
+	"imgui.PlotLines": {
+		"scope": "lua",
+		"prefix": "imgui.PlotLines",
+		"body": ["imgui.PlotLines(${0:constchar*label,constfloat*values,intvalues_count,intvalues_offset,constchar*overlay_text,floatscale_min,floatscale_max,ImVec2graph_size,intstride})"],
+		"description": "imgui.PlotLines"
+	},
+	"imgui.PlotLinesFnPtr(constchar*label,float(*values_getter)": {
+		"scope": "lua",
+		"prefix": "imgui.PlotLinesFnPtr(constchar*label,float(*values_getter)",
+		"body": ["imgui.PlotLinesFnPtr(constchar*label,float(*values_getter)(${0:void*data,intidx),void*data,intvalues_count,intvalues_offset,constchar*overlay_text,floatscale_min,floatscale_max,ImVec2graph_size})"],
+		"description": "imgui.PlotLinesFnPtr(constchar*label,float(*values_getter)"
+	},
+	"imgui.PlotHistogramFloatPtr": {
+		"scope": "lua",
+		"prefix": "imgui.PlotHistogramFloatPtr",
+		"body": ["imgui.PlotHistogramFloatPtr(${0:constchar*label,constfloat*values,intvalues_count,intvalues_offset,constchar*overlay_text,floatscale_min,floatscale_max,ImVec2graph_size,intstride})"],
+		"description": "imgui.PlotHistogramFloatPtr"
+	},
+	"imgui.PlotHistogramFnPtr(constchar*label,float(*values_getter)": {
+		"scope": "lua",
+		"prefix": "imgui.PlotHistogramFnPtr(constchar*label,float(*values_getter)",
+		"body": ["imgui.PlotHistogramFnPtr(constchar*label,float(*values_getter)(${0:void*data,intidx),void*data,intvalues_count,intvalues_offset,constchar*overlay_text,floatscale_min,floatscale_max,ImVec2graph_size})"],
+		"description": "imgui.PlotHistogramFnPtr(constchar*label,float(*values_getter)"
+	},
+	"imgui.ValueBool": {
+		"scope": "lua",
+		"prefix": "imgui.ValueBool",
+		"body": ["imgui.ValueBool(${0:constchar*prefix,_Boolb})"],
+		"description": "imgui.ValueBool"
+	},
+	"imgui.ValueInt": {
+		"scope": "lua",
+		"prefix": "imgui.ValueInt",
+		"body": ["imgui.ValueInt(${0:constchar*prefix,intv})"],
+		"description": "imgui.ValueInt"
+	},
+	"imgui.ValueUint": {
+		"scope": "lua",
+		"prefix": "imgui.ValueUint",
+		"body": ["imgui.ValueUint(${0:constchar*prefix,unsignedintv})"],
+		"description": "imgui.ValueUint"
+	},
+	"imgui.ValueFloat": {
+		"scope": "lua",
+		"prefix": "imgui.ValueFloat",
+		"body": ["imgui.ValueFloat(${0:constchar*prefix,floatv,constchar*float_format})"],
+		"description": "imgui.ValueFloat"
+	},
+	"imgui.BeginMainMenuBar": {
+		"scope": "lua",
+		"prefix": "imgui.BeginMainMenuBar",
+		"body": ["imgui.BeginMainMenuBar(${0:void})"],
+		"description": "imgui.BeginMainMenuBar"
+	},
+	"imgui.EndMainMenuBar": {
+		"scope": "lua",
+		"prefix": "imgui.EndMainMenuBar",
+		"body": ["imgui.EndMainMenuBar(${0:void})"],
+		"description": "imgui.EndMainMenuBar"
+	},
+	"imgui.BeginMenuBar": {
+		"scope": "lua",
+		"prefix": "imgui.BeginMenuBar",
+		"body": ["imgui.BeginMenuBar(${0:void})"],
+		"description": "imgui.BeginMenuBar"
+	},
+	"imgui.EndMenuBar": {
+		"scope": "lua",
+		"prefix": "imgui.EndMenuBar",
+		"body": ["imgui.EndMenuBar(${0:void})"],
+		"description": "imgui.EndMenuBar"
+	},
+	"imgui.BeginMenu": {
+		"scope": "lua",
+		"prefix": "imgui.BeginMenu",
+		"body": ["imgui.BeginMenu(${0:constchar*label,_Boolenabled})"],
+		"description": "imgui.BeginMenu"
+	},
+	"imgui.EndMenu": {
+		"scope": "lua",
+		"prefix": "imgui.EndMenu",
+		"body": ["imgui.EndMenu(${0:void})"],
+		"description": "imgui.EndMenu"
+	},
+	"imgui.MenuItemBool": {
+		"scope": "lua",
+		"prefix": "imgui.MenuItemBool",
+		"body": ["imgui.MenuItemBool(${0:constchar*label,constchar*shortcut,_Boolselected,_Boolenabled})"],
+		"description": "imgui.MenuItemBool"
+	},
+	"imgui.MenuItemBoolPtr": {
+		"scope": "lua",
+		"prefix": "imgui.MenuItemBoolPtr",
+		"body": ["imgui.MenuItemBoolPtr(${0:constchar*label,constchar*shortcut,_Bool*p_selected,_Boolenabled})"],
+		"description": "imgui.MenuItemBoolPtr"
+	},
+	"imgui.BeginTooltip": {
+		"scope": "lua",
+		"prefix": "imgui.BeginTooltip",
+		"body": ["imgui.BeginTooltip(${0:void})"],
+		"description": "imgui.BeginTooltip"
+	},
+	"imgui.EndTooltip": {
+		"scope": "lua",
+		"prefix": "imgui.EndTooltip",
+		"body": ["imgui.EndTooltip(${0:void})"],
+		"description": "imgui.EndTooltip"
+	},
+	"imgui.SetTooltip": {
+		"scope": "lua",
+		"prefix": "imgui.SetTooltip",
+		"body": ["imgui.SetTooltip(${0:constchar*fmt,...})"],
+		"description": "imgui.SetTooltip"
+	},
+	"imgui.SetTooltipV": {
+		"scope": "lua",
+		"prefix": "imgui.SetTooltipV",
+		"body": ["imgui.SetTooltipV(${0:constchar*fmt,va_listargs})"],
+		"description": "imgui.SetTooltipV"
+	},
+	"imgui.OpenPopup": {
+		"scope": "lua",
+		"prefix": "imgui.OpenPopup",
+		"body": ["imgui.OpenPopup(${0:constchar*str_id})"],
+		"description": "imgui.OpenPopup"
+	},
+	"imgui.BeginPopup": {
+		"scope": "lua",
+		"prefix": "imgui.BeginPopup",
+		"body": ["imgui.BeginPopup(${0:constchar*str_id,ImGuiWindowFlagsflags})"],
+		"description": "imgui.BeginPopup"
+	},
+	"imgui.BeginPopupContextItem": {
+		"scope": "lua",
+		"prefix": "imgui.BeginPopupContextItem",
+		"body": ["imgui.BeginPopupContextItem(${0:constchar*str_id,intmouse_button})"],
+		"description": "imgui.BeginPopupContextItem"
+	},
+	"imgui.BeginPopupContextWindow": {
+		"scope": "lua",
+		"prefix": "imgui.BeginPopupContextWindow",
+		"body": ["imgui.BeginPopupContextWindow(${0:constchar*str_id,intmouse_button,_Boolalso_over_items})"],
+		"description": "imgui.BeginPopupContextWindow"
+	},
+	"imgui.BeginPopupContextVoid": {
+		"scope": "lua",
+		"prefix": "imgui.BeginPopupContextVoid",
+		"body": ["imgui.BeginPopupContextVoid(${0:constchar*str_id,intmouse_button})"],
+		"description": "imgui.BeginPopupContextVoid"
+	},
+	"imgui.BeginPopupModal": {
+		"scope": "lua",
+		"prefix": "imgui.BeginPopupModal",
+		"body": ["imgui.BeginPopupModal(${0:constchar*name,_Bool*p_open,ImGuiWindowFlagsflags})"],
+		"description": "imgui.BeginPopupModal"
+	},
+	"imgui.EndPopup": {
+		"scope": "lua",
+		"prefix": "imgui.EndPopup",
+		"body": ["imgui.EndPopup(${0:void})"],
+		"description": "imgui.EndPopup"
+	},
+	"imgui.OpenPopupOnItemClick": {
+		"scope": "lua",
+		"prefix": "imgui.OpenPopupOnItemClick",
+		"body": ["imgui.OpenPopupOnItemClick(${0:constchar*str_id,intmouse_button})"],
+		"description": "imgui.OpenPopupOnItemClick"
+	},
+	"imgui.IsPopupOpen": {
+		"scope": "lua",
+		"prefix": "imgui.IsPopupOpen",
+		"body": ["imgui.IsPopupOpen(${0:constchar*str_id})"],
+		"description": "imgui.IsPopupOpen"
+	},
+	"imgui.CloseCurrentPopup": {
+		"scope": "lua",
+		"prefix": "imgui.CloseCurrentPopup",
+		"body": ["imgui.CloseCurrentPopup(${0:void})"],
+		"description": "imgui.CloseCurrentPopup"
+	},
+	"imgui.Columns": {
+		"scope": "lua",
+		"prefix": "imgui.Columns",
+		"body": ["imgui.Columns(${0:intcount,constchar*id,_Boolborder})"],
+		"description": "imgui.Columns"
+	},
+	"imgui.NextColumn": {
+		"scope": "lua",
+		"prefix": "imgui.NextColumn",
+		"body": ["imgui.NextColumn(${0:void})"],
+		"description": "imgui.NextColumn"
+	},
+	"imgui.GetColumnIndex": {
+		"scope": "lua",
+		"prefix": "imgui.GetColumnIndex",
+		"body": ["imgui.GetColumnIndex(${0:void})"],
+		"description": "imgui.GetColumnIndex"
+	},
+	"imgui.GetColumnWidth": {
+		"scope": "lua",
+		"prefix": "imgui.GetColumnWidth",
+		"body": ["imgui.GetColumnWidth(${0:intcolumn_index})"],
+		"description": "imgui.GetColumnWidth"
+	},
+	"imgui.SetColumnWidth": {
+		"scope": "lua",
+		"prefix": "imgui.SetColumnWidth",
+		"body": ["imgui.SetColumnWidth(${0:intcolumn_index,floatwidth})"],
+		"description": "imgui.SetColumnWidth"
+	},
+	"imgui.GetColumnOffset": {
+		"scope": "lua",
+		"prefix": "imgui.GetColumnOffset",
+		"body": ["imgui.GetColumnOffset(${0:intcolumn_index})"],
+		"description": "imgui.GetColumnOffset"
+	},
+	"imgui.SetColumnOffset": {
+		"scope": "lua",
+		"prefix": "imgui.SetColumnOffset",
+		"body": ["imgui.SetColumnOffset(${0:intcolumn_index,floatoffset_x})"],
+		"description": "imgui.SetColumnOffset"
+	},
+	"imgui.GetColumnsCount": {
+		"scope": "lua",
+		"prefix": "imgui.GetColumnsCount",
+		"body": ["imgui.GetColumnsCount(${0:void})"],
+		"description": "imgui.GetColumnsCount"
+	},
+	"imgui.BeginTabBar": {
+		"scope": "lua",
+		"prefix": "imgui.BeginTabBar",
+		"body": ["imgui.BeginTabBar(${0:constchar*str_id,ImGuiTabBarFlagsflags})"],
+		"description": "imgui.BeginTabBar"
+	},
+	"imgui.EndTabBar": {
+		"scope": "lua",
+		"prefix": "imgui.EndTabBar",
+		"body": ["imgui.EndTabBar(${0:void})"],
+		"description": "imgui.EndTabBar"
+	},
+	"imgui.BeginTabItem": {
+		"scope": "lua",
+		"prefix": "imgui.BeginTabItem",
+		"body": ["imgui.BeginTabItem(${0:constchar*label,_Bool*p_open,ImGuiTabItemFlagsflags})"],
+		"description": "imgui.BeginTabItem"
+	},
+	"imgui.EndTabItem": {
+		"scope": "lua",
+		"prefix": "imgui.EndTabItem",
+		"body": ["imgui.EndTabItem(${0:void})"],
+		"description": "imgui.EndTabItem"
+	},
+	"imgui.SetTabItemClosed": {
+		"scope": "lua",
+		"prefix": "imgui.SetTabItemClosed",
+		"body": ["imgui.SetTabItemClosed(${0:constchar*tab_or_docked_window_label})"],
+		"description": "imgui.SetTabItemClosed"
+	},
+	"imgui.LogToTTY": {
+		"scope": "lua",
+		"prefix": "imgui.LogToTTY",
+		"body": ["imgui.LogToTTY(${0:intauto_open_depth})"],
+		"description": "imgui.LogToTTY"
+	},
+	"imgui.LogToFile": {
+		"scope": "lua",
+		"prefix": "imgui.LogToFile",
+		"body": ["imgui.LogToFile(${0:intauto_open_depth,constchar*filename})"],
+		"description": "imgui.LogToFile"
+	},
+	"imgui.LogToClipboard": {
+		"scope": "lua",
+		"prefix": "imgui.LogToClipboard",
+		"body": ["imgui.LogToClipboard(${0:intauto_open_depth})"],
+		"description": "imgui.LogToClipboard"
+	},
+	"imgui.LogFinish": {
+		"scope": "lua",
+		"prefix": "imgui.LogFinish",
+		"body": ["imgui.LogFinish(${0:void})"],
+		"description": "imgui.LogFinish"
+	},
+	"imgui.LogButtons": {
+		"scope": "lua",
+		"prefix": "imgui.LogButtons",
+		"body": ["imgui.LogButtons(${0:void})"],
+		"description": "imgui.LogButtons"
+	},
+	"imgui.BeginDragDropSource": {
+		"scope": "lua",
+		"prefix": "imgui.BeginDragDropSource",
+		"body": ["imgui.BeginDragDropSource(${0:ImGuiDragDropFlagsflags})"],
+		"description": "imgui.BeginDragDropSource"
+	},
+	"imgui.SetDragDropPayload": {
+		"scope": "lua",
+		"prefix": "imgui.SetDragDropPayload",
+		"body": ["imgui.SetDragDropPayload(${0:constchar*type,constvoid*data,size_tsz,ImGuiCondcond})"],
+		"description": "imgui.SetDragDropPayload"
+	},
+	"imgui.EndDragDropSource": {
+		"scope": "lua",
+		"prefix": "imgui.EndDragDropSource",
+		"body": ["imgui.EndDragDropSource(${0:void})"],
+		"description": "imgui.EndDragDropSource"
+	},
+	"imgui.BeginDragDropTarget": {
+		"scope": "lua",
+		"prefix": "imgui.BeginDragDropTarget",
+		"body": ["imgui.BeginDragDropTarget(${0:void})"],
+		"description": "imgui.BeginDragDropTarget"
+	},
+	"imgui.AcceptDragDropPayload": {
+		"scope": "lua",
+		"prefix": "imgui.AcceptDragDropPayload",
+		"body": ["imgui.AcceptDragDropPayload(${0:constchar*type,ImGuiDragDropFlagsflags})"],
+		"description": "imgui.AcceptDragDropPayload"
+	},
+	"imgui.EndDragDropTarget": {
+		"scope": "lua",
+		"prefix": "imgui.EndDragDropTarget",
+		"body": ["imgui.EndDragDropTarget(${0:void})"],
+		"description": "imgui.EndDragDropTarget"
+	},
+	"imgui.GetDragDropPayload": {
+		"scope": "lua",
+		"prefix": "imgui.GetDragDropPayload",
+		"body": ["imgui.GetDragDropPayload(${0:void})"],
+		"description": "imgui.GetDragDropPayload"
+	},
+	"imgui.PushClipRect": {
+		"scope": "lua",
+		"prefix": "imgui.PushClipRect",
+		"body": ["imgui.PushClipRect(${0:constImVec2clip_rect_min,constImVec2clip_rect_max,_Boolintersect_with_current_clip_rect})"],
+		"description": "imgui.PushClipRect"
+	},
+	"imgui.PopClipRect": {
+		"scope": "lua",
+		"prefix": "imgui.PopClipRect",
+		"body": ["imgui.PopClipRect(${0:void})"],
+		"description": "imgui.PopClipRect"
+	},
+	"imgui.SetItemDefaultFocus": {
+		"scope": "lua",
+		"prefix": "imgui.SetItemDefaultFocus",
+		"body": ["imgui.SetItemDefaultFocus(${0:void})"],
+		"description": "imgui.SetItemDefaultFocus"
+	},
+	"imgui.SetKeyboardFocusHere": {
+		"scope": "lua",
+		"prefix": "imgui.SetKeyboardFocusHere",
+		"body": ["imgui.SetKeyboardFocusHere(${0:intoffset})"],
+		"description": "imgui.SetKeyboardFocusHere"
+	},
+	"imgui.IsItemHovered": {
+		"scope": "lua",
+		"prefix": "imgui.IsItemHovered",
+		"body": ["imgui.IsItemHovered(${0:ImGuiHoveredFlagsflags})"],
+		"description": "imgui.IsItemHovered"
+	},
+	"imgui.IsItemActive": {
+		"scope": "lua",
+		"prefix": "imgui.IsItemActive",
+		"body": ["imgui.IsItemActive(${0:void})"],
+		"description": "imgui.IsItemActive"
+	},
+	"imgui.IsItemFocused": {
+		"scope": "lua",
+		"prefix": "imgui.IsItemFocused",
+		"body": ["imgui.IsItemFocused(${0:void})"],
+		"description": "imgui.IsItemFocused"
+	},
+	"imgui.IsItemClicked": {
+		"scope": "lua",
+		"prefix": "imgui.IsItemClicked",
+		"body": ["imgui.IsItemClicked(${0:intmouse_button})"],
+		"description": "imgui.IsItemClicked"
+	},
+	"imgui.IsItemVisible": {
+		"scope": "lua",
+		"prefix": "imgui.IsItemVisible",
+		"body": ["imgui.IsItemVisible(${0:void})"],
+		"description": "imgui.IsItemVisible"
+	},
+	"imgui.IsItemEdited": {
+		"scope": "lua",
+		"prefix": "imgui.IsItemEdited",
+		"body": ["imgui.IsItemEdited(${0:void})"],
+		"description": "imgui.IsItemEdited"
+	},
+	"imgui.IsItemActivated": {
+		"scope": "lua",
+		"prefix": "imgui.IsItemActivated",
+		"body": ["imgui.IsItemActivated(${0:void})"],
+		"description": "imgui.IsItemActivated"
+	},
+	"imgui.IsItemDeactivated": {
+		"scope": "lua",
+		"prefix": "imgui.IsItemDeactivated",
+		"body": ["imgui.IsItemDeactivated(${0:void})"],
+		"description": "imgui.IsItemDeactivated"
+	},
+	"imgui.IsItemDeactivatedAfterEdit": {
+		"scope": "lua",
+		"prefix": "imgui.IsItemDeactivatedAfterEdit",
+		"body": ["imgui.IsItemDeactivatedAfterEdit(${0:void})"],
+		"description": "imgui.IsItemDeactivatedAfterEdit"
+	},
+	"imgui.IsAnyItemHovered": {
+		"scope": "lua",
+		"prefix": "imgui.IsAnyItemHovered",
+		"body": ["imgui.IsAnyItemHovered(${0:void})"],
+		"description": "imgui.IsAnyItemHovered"
+	},
+	"imgui.IsAnyItemActive": {
+		"scope": "lua",
+		"prefix": "imgui.IsAnyItemActive",
+		"body": ["imgui.IsAnyItemActive(${0:void})"],
+		"description": "imgui.IsAnyItemActive"
+	},
+	"imgui.IsAnyItemFocused": {
+		"scope": "lua",
+		"prefix": "imgui.IsAnyItemFocused",
+		"body": ["imgui.IsAnyItemFocused(${0:void})"],
+		"description": "imgui.IsAnyItemFocused"
+	},
+	"imgui.GetItemRectMin": {
+		"scope": "lua",
+		"prefix": "imgui.GetItemRectMin",
+		"body": ["imgui.GetItemRectMin(${0:void})"],
+		"description": "imgui.GetItemRectMin"
+	},
+	"imgui.GetItemRectMax": {
+		"scope": "lua",
+		"prefix": "imgui.GetItemRectMax",
+		"body": ["imgui.GetItemRectMax(${0:void})"],
+		"description": "imgui.GetItemRectMax"
+	},
+	"imgui.GetItemRectSize": {
+		"scope": "lua",
+		"prefix": "imgui.GetItemRectSize",
+		"body": ["imgui.GetItemRectSize(${0:void})"],
+		"description": "imgui.GetItemRectSize"
+	},
+	"imgui.SetItemAllowOverlap": {
+		"scope": "lua",
+		"prefix": "imgui.SetItemAllowOverlap",
+		"body": ["imgui.SetItemAllowOverlap(${0:void})"],
+		"description": "imgui.SetItemAllowOverlap"
+	},
+	"imgui.IsRectVisible": {
+		"scope": "lua",
+		"prefix": "imgui.IsRectVisible",
+		"body": ["imgui.IsRectVisible(${0:constImVec2size})"],
+		"description": "imgui.IsRectVisible"
+	},
+	"imgui.IsRectVisibleVec2": {
+		"scope": "lua",
+		"prefix": "imgui.IsRectVisibleVec2",
+		"body": ["imgui.IsRectVisibleVec2(${0:constImVec2rect_min,constImVec2rect_max})"],
+		"description": "imgui.IsRectVisibleVec2"
+	},
+	"imgui.GetTime": {
+		"scope": "lua",
+		"prefix": "imgui.GetTime",
+		"body": ["imgui.GetTime(${0:void})"],
+		"description": "imgui.GetTime"
+	},
+	"imgui.GetFrameCount": {
+		"scope": "lua",
+		"prefix": "imgui.GetFrameCount",
+		"body": ["imgui.GetFrameCount(${0:void})"],
+		"description": "imgui.GetFrameCount"
+	},
+	"imgui.GetBackgroundDrawList": {
+		"scope": "lua",
+		"prefix": "imgui.GetBackgroundDrawList",
+		"body": ["imgui.GetBackgroundDrawList(${0:void})"],
+		"description": "imgui.GetBackgroundDrawList"
+	},
+	"imgui.GetForegroundDrawList": {
+		"scope": "lua",
+		"prefix": "imgui.GetForegroundDrawList",
+		"body": ["imgui.GetForegroundDrawList(${0:void})"],
+		"description": "imgui.GetForegroundDrawList"
+	},
+	"imgui.GetDrawListSharedData": {
+		"scope": "lua",
+		"prefix": "imgui.GetDrawListSharedData",
+		"body": ["imgui.GetDrawListSharedData(${0:void})"],
+		"description": "imgui.GetDrawListSharedData"
+	},
+	"imgui.GetStyleColorName": {
+		"scope": "lua",
+		"prefix": "imgui.GetStyleColorName",
+		"body": ["imgui.GetStyleColorName(${0:ImGuiColidx})"],
+		"description": "imgui.GetStyleColorName"
+	},
+	"imgui.SetStateStorage": {
+		"scope": "lua",
+		"prefix": "imgui.SetStateStorage",
+		"body": ["imgui.SetStateStorage(${0:ImGuiStorage*storage})"],
+		"description": "imgui.SetStateStorage"
+	},
+	"imgui.GetStateStorage": {
+		"scope": "lua",
+		"prefix": "imgui.GetStateStorage",
+		"body": ["imgui.GetStateStorage(${0:void})"],
+		"description": "imgui.GetStateStorage"
+	},
+	"imgui.CalcTextSize": {
+		"scope": "lua",
+		"prefix": "imgui.CalcTextSize",
+		"body": ["imgui.CalcTextSize(${0:constchar*text,constchar*text_end,_Boolhide_text_after_double_hash,floatwrap_width})"],
+		"description": "imgui.CalcTextSize"
+	},
+	"imgui.CalcListClipping": {
+		"scope": "lua",
+		"prefix": "imgui.CalcListClipping",
+		"body": ["imgui.CalcListClipping(${0:intitems_count,floatitems_height,int*out_items_display_start,int*out_items_display_end})"],
+		"description": "imgui.CalcListClipping"
+	},
+	"imgui.BeginChildFrame": {
+		"scope": "lua",
+		"prefix": "imgui.BeginChildFrame",
+		"body": ["imgui.BeginChildFrame(${0:ImGuiIDid,constImVec2size,ImGuiWindowFlagsflags})"],
+		"description": "imgui.BeginChildFrame"
+	},
+	"imgui.EndChildFrame": {
+		"scope": "lua",
+		"prefix": "imgui.EndChildFrame",
+		"body": ["imgui.EndChildFrame(${0:void})"],
+		"description": "imgui.EndChildFrame"
+	},
+	"imgui.ColorConvertU32ToFloat4": {
+		"scope": "lua",
+		"prefix": "imgui.ColorConvertU32ToFloat4",
+		"body": ["imgui.ColorConvertU32ToFloat4(${0:ImU32in})"],
+		"description": "imgui.ColorConvertU32ToFloat4"
+	},
+	"imgui.ColorConvertFloat4ToU32": {
+		"scope": "lua",
+		"prefix": "imgui.ColorConvertFloat4ToU32",
+		"body": ["imgui.ColorConvertFloat4ToU32(${0:constImVec4in})"],
+		"description": "imgui.ColorConvertFloat4ToU32"
+	},
+	"imgui.GetKeyIndex": {
+		"scope": "lua",
+		"prefix": "imgui.GetKeyIndex",
+		"body": ["imgui.GetKeyIndex(${0:ImGuiKeyimgui_key})"],
+		"description": "imgui.GetKeyIndex"
+	},
+	"imgui.IsKeyDown": {
+		"scope": "lua",
+		"prefix": "imgui.IsKeyDown",
+		"body": ["imgui.IsKeyDown(${0:intuser_key_index})"],
+		"description": "imgui.IsKeyDown"
+	},
+	"imgui.IsKeyPressed": {
+		"scope": "lua",
+		"prefix": "imgui.IsKeyPressed",
+		"body": ["imgui.IsKeyPressed(${0:intuser_key_index,_Boolrepeat})"],
+		"description": "imgui.IsKeyPressed"
+	},
+	"imgui.IsKeyReleased": {
+		"scope": "lua",
+		"prefix": "imgui.IsKeyReleased",
+		"body": ["imgui.IsKeyReleased(${0:intuser_key_index})"],
+		"description": "imgui.IsKeyReleased"
+	},
+	"imgui.GetKeyPressedAmount": {
+		"scope": "lua",
+		"prefix": "imgui.GetKeyPressedAmount",
+		"body": ["imgui.GetKeyPressedAmount(${0:intkey_index,floatrepeat_delay,floatrate})"],
+		"description": "imgui.GetKeyPressedAmount"
+	},
+	"imgui.IsMouseDown": {
+		"scope": "lua",
+		"prefix": "imgui.IsMouseDown",
+		"body": ["imgui.IsMouseDown(${0:intbutton})"],
+		"description": "imgui.IsMouseDown"
+	},
+	"imgui.IsAnyMouseDown": {
+		"scope": "lua",
+		"prefix": "imgui.IsAnyMouseDown",
+		"body": ["imgui.IsAnyMouseDown(${0:void})"],
+		"description": "imgui.IsAnyMouseDown"
+	},
+	"imgui.IsMouseClicked": {
+		"scope": "lua",
+		"prefix": "imgui.IsMouseClicked",
+		"body": ["imgui.IsMouseClicked(${0:intbutton,_Boolrepeat})"],
+		"description": "imgui.IsMouseClicked"
+	},
+	"imgui.IsMouseDoubleClicked": {
+		"scope": "lua",
+		"prefix": "imgui.IsMouseDoubleClicked",
+		"body": ["imgui.IsMouseDoubleClicked(${0:intbutton})"],
+		"description": "imgui.IsMouseDoubleClicked"
+	},
+	"imgui.IsMouseReleased": {
+		"scope": "lua",
+		"prefix": "imgui.IsMouseReleased",
+		"body": ["imgui.IsMouseReleased(${0:intbutton})"],
+		"description": "imgui.IsMouseReleased"
+	},
+	"imgui.IsMouseDragging": {
+		"scope": "lua",
+		"prefix": "imgui.IsMouseDragging",
+		"body": ["imgui.IsMouseDragging(${0:intbutton,floatlock_threshold})"],
+		"description": "imgui.IsMouseDragging"
+	},
+	"imgui.IsMouseHoveringRect": {
+		"scope": "lua",
+		"prefix": "imgui.IsMouseHoveringRect",
+		"body": ["imgui.IsMouseHoveringRect(${0:constImVec2r_min,constImVec2r_max,_Boolclip})"],
+		"description": "imgui.IsMouseHoveringRect"
+	},
+	"imgui.IsMousePosValid": {
+		"scope": "lua",
+		"prefix": "imgui.IsMousePosValid",
+		"body": ["imgui.IsMousePosValid(${0:constImVec2*mouse_pos})"],
+		"description": "imgui.IsMousePosValid"
+	},
+	"imgui.GetMousePos": {
+		"scope": "lua",
+		"prefix": "imgui.GetMousePos",
+		"body": ["imgui.GetMousePos(${0:void})"],
+		"description": "imgui.GetMousePos"
+	},
+	"imgui.GetMousePosOnOpeningCurrentPopup": {
+		"scope": "lua",
+		"prefix": "imgui.GetMousePosOnOpeningCurrentPopup",
+		"body": ["imgui.GetMousePosOnOpeningCurrentPopup(${0:void})"],
+		"description": "imgui.GetMousePosOnOpeningCurrentPopup"
+	},
+	"imgui.GetMouseDragDelta": {
+		"scope": "lua",
+		"prefix": "imgui.GetMouseDragDelta",
+		"body": ["imgui.GetMouseDragDelta(${0:intbutton,floatlock_threshold})"],
+		"description": "imgui.GetMouseDragDelta"
+	},
+	"imgui.ResetMouseDragDelta": {
+		"scope": "lua",
+		"prefix": "imgui.ResetMouseDragDelta",
+		"body": ["imgui.ResetMouseDragDelta(${0:intbutton})"],
+		"description": "imgui.ResetMouseDragDelta"
+	},
+	"imgui.GetMouseCursor": {
+		"scope": "lua",
+		"prefix": "imgui.GetMouseCursor",
+		"body": ["imgui.GetMouseCursor(${0:void})"],
+		"description": "imgui.GetMouseCursor"
+	},
+	"imgui.SetMouseCursor": {
+		"scope": "lua",
+		"prefix": "imgui.SetMouseCursor",
+		"body": ["imgui.SetMouseCursor(${0:ImGuiMouseCursortype})"],
+		"description": "imgui.SetMouseCursor"
+	},
+	"imgui.CaptureKeyboardFromApp": {
+		"scope": "lua",
+		"prefix": "imgui.CaptureKeyboardFromApp",
+		"body": ["imgui.CaptureKeyboardFromApp(${0:_Boolwant_capture_keyboard_value})"],
+		"description": "imgui.CaptureKeyboardFromApp"
+	},
+	"imgui.CaptureMouseFromApp": {
+		"scope": "lua",
+		"prefix": "imgui.CaptureMouseFromApp",
+		"body": ["imgui.CaptureMouseFromApp(${0:_Boolwant_capture_mouse_value})"],
+		"description": "imgui.CaptureMouseFromApp"
+	},
+	"imgui.GetClipboardText": {
+		"scope": "lua",
+		"prefix": "imgui.GetClipboardText",
+		"body": ["imgui.GetClipboardText(${0:void})"],
+		"description": "imgui.GetClipboardText"
+	},
+	"imgui.SetClipboardText": {
+		"scope": "lua",
+		"prefix": "imgui.SetClipboardText",
+		"body": ["imgui.SetClipboardText(${0:constchar*text})"],
+		"description": "imgui.SetClipboardText"
+	},
+	"imgui.LoadIniSettingsFromDisk": {
+		"scope": "lua",
+		"prefix": "imgui.LoadIniSettingsFromDisk",
+		"body": ["imgui.LoadIniSettingsFromDisk(${0:constchar*ini_filename})"],
+		"description": "imgui.LoadIniSettingsFromDisk"
+	},
+	"imgui.LoadIniSettingsFromMemory": {
+		"scope": "lua",
+		"prefix": "imgui.LoadIniSettingsFromMemory",
+		"body": ["imgui.LoadIniSettingsFromMemory(${0:constchar*ini_data,size_tini_size})"],
+		"description": "imgui.LoadIniSettingsFromMemory"
+	},
+	"imgui.SaveIniSettingsToDisk": {
+		"scope": "lua",
+		"prefix": "imgui.SaveIniSettingsToDisk",
+		"body": ["imgui.SaveIniSettingsToDisk(${0:constchar*ini_filename})"],
+		"description": "imgui.SaveIniSettingsToDisk"
+	},
+	"imgui.SaveIniSettingsToMemory": {
+		"scope": "lua",
+		"prefix": "imgui.SaveIniSettingsToMemory",
+		"body": ["imgui.SaveIniSettingsToMemory(${0:size_t*out_ini_size})"],
+		"description": "imgui.SaveIniSettingsToMemory"
+	},
+	"imgui.SetAllocatorFunctions(void*(*alloc_func)(size_tsz,void*user_data),void(*free_func)": {
+		"scope": "lua",
+		"prefix": "imgui.SetAllocatorFunctions(void*(*alloc_func)(size_tsz,void*user_data),void(*free_func)",
+		"body": ["imgui.SetAllocatorFunctions(void*(*alloc_func)(size_tsz,void*user_data),void(*free_func)(${0:void*ptr,void*user_data),void*user_data})"],
+		"description": "imgui.SetAllocatorFunctions(void*(*alloc_func)(size_tsz,void*user_data),void(*free_func)"
+	},
+	"imgui.MemAlloc": {
+		"scope": "lua",
+		"prefix": "imgui.MemAlloc",
+		"body": ["imgui.MemAlloc(${0:size_tsize})"],
+		"description": "imgui.MemAlloc"
+	},
+	"imgui.MemFree": {
+		"scope": "lua",
+		"prefix": "imgui.MemFree",
+		"body": ["imgui.MemFree(${0:void*ptr})"],
+		"description": "imgui.MemFree"
+	},
+	"imgui.GetWindowPos_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowPos_nonUDT",
+		"body": ["imgui.GetWindowPos_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetWindowPos_nonUDT"
+	},
+	"imgui.GetWindowPos_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowPos_nonUDT2",
+		"body": ["imgui.GetWindowPos_nonUDT2(${0:void})"],
+		"description": "imgui.GetWindowPos_nonUDT2"
+	},
+	"imgui.GetWindowSize_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowSize_nonUDT",
+		"body": ["imgui.GetWindowSize_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetWindowSize_nonUDT"
+	},
+	"imgui.GetWindowSize_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowSize_nonUDT2",
+		"body": ["imgui.GetWindowSize_nonUDT2(${0:void})"],
+		"description": "imgui.GetWindowSize_nonUDT2"
+	},
+	"imgui.GetContentRegionMax_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetContentRegionMax_nonUDT",
+		"body": ["imgui.GetContentRegionMax_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetContentRegionMax_nonUDT"
+	},
+	"imgui.GetContentRegionMax_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetContentRegionMax_nonUDT2",
+		"body": ["imgui.GetContentRegionMax_nonUDT2(${0:void})"],
+		"description": "imgui.GetContentRegionMax_nonUDT2"
+	},
+	"imgui.GetContentRegionAvail_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetContentRegionAvail_nonUDT",
+		"body": ["imgui.GetContentRegionAvail_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetContentRegionAvail_nonUDT"
+	},
+	"imgui.GetContentRegionAvail_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetContentRegionAvail_nonUDT2",
+		"body": ["imgui.GetContentRegionAvail_nonUDT2(${0:void})"],
+		"description": "imgui.GetContentRegionAvail_nonUDT2"
+	},
+	"imgui.GetWindowContentRegionMin_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowContentRegionMin_nonUDT",
+		"body": ["imgui.GetWindowContentRegionMin_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetWindowContentRegionMin_nonUDT"
+	},
+	"imgui.GetWindowContentRegionMin_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowContentRegionMin_nonUDT2",
+		"body": ["imgui.GetWindowContentRegionMin_nonUDT2(${0:void})"],
+		"description": "imgui.GetWindowContentRegionMin_nonUDT2"
+	},
+	"imgui.GetWindowContentRegionMax_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowContentRegionMax_nonUDT",
+		"body": ["imgui.GetWindowContentRegionMax_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetWindowContentRegionMax_nonUDT"
+	},
+	"imgui.GetWindowContentRegionMax_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetWindowContentRegionMax_nonUDT2",
+		"body": ["imgui.GetWindowContentRegionMax_nonUDT2(${0:void})"],
+		"description": "imgui.GetWindowContentRegionMax_nonUDT2"
+	},
+	"imgui.GetFontTexUvWhitePixel_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetFontTexUvWhitePixel_nonUDT",
+		"body": ["imgui.GetFontTexUvWhitePixel_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetFontTexUvWhitePixel_nonUDT"
+	},
+	"imgui.GetFontTexUvWhitePixel_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetFontTexUvWhitePixel_nonUDT2",
+		"body": ["imgui.GetFontTexUvWhitePixel_nonUDT2(${0:void})"],
+		"description": "imgui.GetFontTexUvWhitePixel_nonUDT2"
+	},
+	"imgui.GetCursorPos_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorPos_nonUDT",
+		"body": ["imgui.GetCursorPos_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetCursorPos_nonUDT"
+	},
+	"imgui.GetCursorPos_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorPos_nonUDT2",
+		"body": ["imgui.GetCursorPos_nonUDT2(${0:void})"],
+		"description": "imgui.GetCursorPos_nonUDT2"
+	},
+	"imgui.GetCursorStartPos_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorStartPos_nonUDT",
+		"body": ["imgui.GetCursorStartPos_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetCursorStartPos_nonUDT"
+	},
+	"imgui.GetCursorStartPos_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorStartPos_nonUDT2",
+		"body": ["imgui.GetCursorStartPos_nonUDT2(${0:void})"],
+		"description": "imgui.GetCursorStartPos_nonUDT2"
+	},
+	"imgui.GetCursorScreenPos_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorScreenPos_nonUDT",
+		"body": ["imgui.GetCursorScreenPos_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetCursorScreenPos_nonUDT"
+	},
+	"imgui.GetCursorScreenPos_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetCursorScreenPos_nonUDT2",
+		"body": ["imgui.GetCursorScreenPos_nonUDT2(${0:void})"],
+		"description": "imgui.GetCursorScreenPos_nonUDT2"
+	},
+	"imgui.GetItemRectMin_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetItemRectMin_nonUDT",
+		"body": ["imgui.GetItemRectMin_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetItemRectMin_nonUDT"
+	},
+	"imgui.GetItemRectMin_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetItemRectMin_nonUDT2",
+		"body": ["imgui.GetItemRectMin_nonUDT2(${0:void})"],
+		"description": "imgui.GetItemRectMin_nonUDT2"
+	},
+	"imgui.GetItemRectMax_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetItemRectMax_nonUDT",
+		"body": ["imgui.GetItemRectMax_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetItemRectMax_nonUDT"
+	},
+	"imgui.GetItemRectMax_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetItemRectMax_nonUDT2",
+		"body": ["imgui.GetItemRectMax_nonUDT2(${0:void})"],
+		"description": "imgui.GetItemRectMax_nonUDT2"
+	},
+	"imgui.GetItemRectSize_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetItemRectSize_nonUDT",
+		"body": ["imgui.GetItemRectSize_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetItemRectSize_nonUDT"
+	},
+	"imgui.GetItemRectSize_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetItemRectSize_nonUDT2",
+		"body": ["imgui.GetItemRectSize_nonUDT2(${0:void})"],
+		"description": "imgui.GetItemRectSize_nonUDT2"
+	},
+	"imgui.CalcTextSize_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.CalcTextSize_nonUDT",
+		"body": ["imgui.CalcTextSize_nonUDT(${0:ImVec2*pOut,constchar*text,constchar*text_end,_Boolhide_text_after_double_hash,floatwrap_width})"],
+		"description": "imgui.CalcTextSize_nonUDT"
+	},
+	"imgui.CalcTextSize_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.CalcTextSize_nonUDT2",
+		"body": ["imgui.CalcTextSize_nonUDT2(${0:constchar*text,constchar*text_end,_Boolhide_text_after_double_hash,floatwrap_width})"],
+		"description": "imgui.CalcTextSize_nonUDT2"
+	},
+	"imgui.ColorConvertU32ToFloat4_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.ColorConvertU32ToFloat4_nonUDT",
+		"body": ["imgui.ColorConvertU32ToFloat4_nonUDT(${0:ImVec4*pOut,ImU32in})"],
+		"description": "imgui.ColorConvertU32ToFloat4_nonUDT"
+	},
+	"imgui.ColorConvertU32ToFloat4_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.ColorConvertU32ToFloat4_nonUDT2",
+		"body": ["imgui.ColorConvertU32ToFloat4_nonUDT2(${0:ImU32in})"],
+		"description": "imgui.ColorConvertU32ToFloat4_nonUDT2"
+	},
+	"imgui.GetMousePos_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetMousePos_nonUDT",
+		"body": ["imgui.GetMousePos_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetMousePos_nonUDT"
+	},
+	"imgui.GetMousePos_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetMousePos_nonUDT2",
+		"body": ["imgui.GetMousePos_nonUDT2(${0:void})"],
+		"description": "imgui.GetMousePos_nonUDT2"
+	},
+	"imgui.GetMousePosOnOpeningCurrentPopup_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetMousePosOnOpeningCurrentPopup_nonUDT",
+		"body": ["imgui.GetMousePosOnOpeningCurrentPopup_nonUDT(${0:ImVec2*pOut})"],
+		"description": "imgui.GetMousePosOnOpeningCurrentPopup_nonUDT"
+	},
+	"imgui.GetMousePosOnOpeningCurrentPopup_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetMousePosOnOpeningCurrentPopup_nonUDT2",
+		"body": ["imgui.GetMousePosOnOpeningCurrentPopup_nonUDT2(${0:void})"],
+		"description": "imgui.GetMousePosOnOpeningCurrentPopup_nonUDT2"
+	},
+	"imgui.GetMouseDragDelta_nonUDT": {
+		"scope": "lua",
+		"prefix": "imgui.GetMouseDragDelta_nonUDT",
+		"body": ["imgui.GetMouseDragDelta_nonUDT(${0:ImVec2*pOut,intbutton,floatlock_threshold})"],
+		"description": "imgui.GetMouseDragDelta_nonUDT"
+	},
+	"imgui.GetMouseDragDelta_nonUDT2": {
+		"scope": "lua",
+		"prefix": "imgui.GetMouseDragDelta_nonUDT2",
+		"body": ["imgui.GetMouseDragDelta_nonUDT2(${0:intbutton,floatlock_threshold})"],
+		"description": "imgui.GetMouseDragDelta_nonUDT2"
+	},
+	"imgui.LogText": {
+		"scope": "lua",
+		"prefix": "imgui.LogText",
+		"body": ["imgui.LogText(${0:constchar*fmt,...})"],
+		"description": "imgui.LogText"
+	},
+	"imgui.ColorConvertRGBtoHSV": {
+		"scope": "lua",
+		"prefix": "imgui.ColorConvertRGBtoHSV",
+		"body": ["imgui.ColorConvertRGBtoHSV(${0:floatr,floatg,floatb,float*out_h,float*out_s,float*out_v})"],
+		"description": "imgui.ColorConvertRGBtoHSV"
+	},
+	"imgui.ColorConvertHSVtoRGB": {
+		"scope": "lua",
+		"prefix": "imgui.ColorConvertHSVtoRGB",
+		"body": ["imgui.ColorConvertHSVtoRGB(${0:floath,floats,floatv,float*out_r,float*out_g,float*out_b})"],
+		"description": "imgui.ColorConvertHSVtoRGB"
+	}
+	
+}
