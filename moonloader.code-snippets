@@ -5750,7 +5750,7 @@
 	        "        local sizeX, sizeY = 300, 300",
 	        "        imgui.SetNextWindowPos(imgui.ImVec2(resX / 2, resY / 2), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))",
 	        "        imgui.SetNextWindowSize(imgui.ImVec2(sizeX, sizeY), imgui.Cond.FirstUseEver)",
-	        "        if imgui.Begin('Main Window', renderWindow)",
+	        "        if imgui.Begin('Main Window', renderWindow) then",
 	        "            $0     ",
 	        "            imgui.End()",
 	        "        end",
