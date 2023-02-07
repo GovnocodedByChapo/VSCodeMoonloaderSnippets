@@ -1,0 +1,941 @@
+{
+    "[RakBot] bitStreamReadDWord -  Считывает 4 байта из потока BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamReadDWord",
+        "description":"bitStreamReadDWord:  Считывает 4 байта из потока BitStream",
+        "body":[
+            "bitStreamReadDWord(bs)"
+        ]
+    },
+    "[RakBot] downloadFile -  Загрузить файл по ссылке":{
+        "scope":"lua",
+        "prefix":"downloadFile",
+        "description":"downloadFile:  Загрузить файл по ссылке",
+        "body":[
+            "downloadFile(url, file)"
+        ]
+    },
+    "[RakBot] setReferer -  Установить ник рефферала для авторегистрации":{
+        "scope":"lua",
+        "prefix":"setReferer",
+        "description":"setReferer:  Установить ник рефферала для авторегистрации",
+        "body":[
+            "setReferer(referer)"
+        ]
+    },
+    "[RakBot] setIniString -  Установить значение в INI файлеПримечание: Тип аргумента value - string":{
+        "scope":"lua",
+        "prefix":"setIniString",
+        "description":"setIniString:  Установить значение в INI файлеПримечание: Тип аргумента value - string",
+        "body":[
+            "setIniString(file, section, key, value)"
+        ]
+    },
+    "[RakBot] sendPacket -  Функция, которая отправляет пакет на сервер":{
+        "scope":"lua",
+        "prefix":"sendPacket",
+        "description":"sendPacket:  Функция, которая отправляет пакет на сервер",
+        "body":[
+            "sendPacket(bs)"
+        ]
+    },
+    "[RakBot] setPassword -  Установить новый пароль для авторизации":{
+        "scope":"lua",
+        "prefix":"setPassword",
+        "description":"setPassword:  Установить новый пароль для авторизации",
+        "body":[
+            "setPassword(password)"
+        ]
+    },
+    "[RakBot] enterVehicle -  Сесть в транспортное средство":{
+        "scope":"lua",
+        "prefix":"enterVehicle",
+        "description":"enterVehicle:  Сесть в транспортное средство",
+        "body":[
+            "enterVehicle(vehicleId, seatId)"
+        ]
+    },
+    "[RakBot] setWeapon -  Выдает оружие боту":{
+        "scope":"lua",
+        "prefix":"setWeapon",
+        "description":"setWeapon:  Выдает оружие боту",
+        "body":[
+            "setWeapon(weaponId)"
+        ]
+    },
+    "[RakBot] bitStreamIgnore -  Игнорирует байты в потоке BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamIgnore",
+        "description":"bitStreamIgnore:  Игнорирует байты в потоке BitStream",
+        "body":[
+            "bitStreamIgnore(bs, amount)"
+        ]
+    },
+    "[RakBot] setServerAddress -  Установить новый IP адрес сервера":{
+        "scope":"lua",
+        "prefix":"setServerAddress",
+        "description":"setServerAddress:  Установить новый IP адрес сервера",
+        "body":[
+            "setServerAddress(address)"
+        ]
+    },
+    "[RakBot] sendPickup -  Отправляет серверу информацию о поднятии пикапа и телепортируется к нему":{
+        "scope":"lua",
+        "prefix":"sendPickup",
+        "description":"sendPickup:  Отправляет серверу информацию о поднятии пикапа и телепортируется к нему",
+        "body":[
+            "sendPickup(pickupId, checkDist)"
+        ]
+    },
+    "[RakBot] bitStreamWriteDWord -  Записывает 4 байта в поток BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamWriteDWord",
+        "description":"bitStreamWriteDWord:  Записывает 4 байта в поток BitStream",
+        "body":[
+            "bitStreamWriteDWord(bs, value[, compressed])"
+        ]
+    },
+    "[RakBot] getRaceCheckpoint()Возвращаемый массив: { size, type, distance, position[x, y, z], nextPosition[x, y, z] }Информация:size - размер  -  Получает информацию о гоночном чекпоинте":{
+        "scope":"lua",
+        "prefix":"getRaceCheckpoint()Возвращаемый массив: { size, type, distance, position[x, y, z], nextPosition[x, y, z] }Информация:size - размер ",
+        "description":"getRaceCheckpoint()Возвращаемый массив: { size, type, distance, position[x, y, z], nextPosition[x, y, z] }Информация:size - размер :  Получает информацию о гоночном чекпоинте",
+        "body":[
+            "getRaceCheckpoint()Возвращаемый массив: { size, type, distance, position[x, y, z], nextPosition[x, y, z] }Информация:size - размер (диаметр)"
+        ]
+    },
+    "[RakBot] bitStreamData -  Возвращает данные потока BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamData",
+        "description":"bitStreamData:  Возвращает данные потока BitStream",
+        "body":[
+            "bitStreamData(bs)"
+        ]
+    },
+    "[RakBot] sleep -  Функция, которая замораживает выполнение функции":{
+        "scope":"lua",
+        "prefix":"sleep",
+        "description":"sleep:  Функция, которая замораживает выполнение функции",
+        "body":[
+            "sleep(delay)"
+        ]
+    },
+    "[RakBot] bitStreamWriteByte -  Записывает 1 байт в поток BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamWriteByte",
+        "description":"bitStreamWriteByte:  Записывает 1 байт в поток BitStream",
+        "body":[
+            "bitStreamWriteByte(bs, value[, compressed])"
+        ]
+    },
+    "[RakBot] openUrl -  Отправка GET запроса по ссылке через сетевой адаптер, указанный в custom.ini":{
+        "scope":"lua",
+        "prefix":"openUrl",
+        "description":"openUrl:  Отправка GET запроса по ссылке через сетевой адаптер, указанный в custom.ini",
+        "body":[
+            "openUrl(url)"
+        ]
+    },
+    "[RakBot] bitStreamReadByte -  Считывает 1 байт из потока BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamReadByte",
+        "description":"bitStreamReadByte:  Считывает 1 байт из потока BitStream",
+        "body":[
+            "bitStreamReadByte(bs)"
+        ]
+    },
+    "[RakBot] getIniString -  Получить значение из INI файла":{
+        "scope":"lua",
+        "prefix":"getIniString",
+        "description":"getIniString:  Получить значение из INI файла",
+        "body":[
+            "getIniString(file, section, key)"
+        ]
+    },
+    "[RakBot] bitStreamReadString -  Считывает string из потока BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamReadString",
+        "description":"bitStreamReadString:  Считывает string из потока BitStream",
+        "body":[
+            "bitStreamReadString(bs, size[, encode])"
+        ]
+    },
+    "[RakBot] reset -  Функция, которая сбрасывает состояние бота":{
+        "scope":"lua",
+        "prefix":"reset",
+        "description":"reset:  Функция, которая сбрасывает состояние бота",
+        "body":[
+            "reset(reconnect)"
+        ]
+    },
+    "[RakBot] runCommand -  Печать строки в лог окно программы":{
+        "scope":"lua",
+        "prefix":"runCommand",
+        "description":"runCommand:  Печать строки в лог окно программы",
+        "body":[
+            "runCommand(command)"
+        ]
+    },
+    "[RakBot] setSpeed -  Установить скорость боту по координатам":{
+        "scope":"lua",
+        "prefix":"setSpeed",
+        "description":"setSpeed:  Установить скорость боту по координатам",
+        "body":[
+            "setSpeed(x, y, z)"
+        ]
+    },
+    "[RakBot] bitStreamDelete -  Удаление ранее созданного объекта BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamDelete",
+        "description":"bitStreamDelete:  Удаление ранее созданного объекта BitStream",
+        "body":[
+            "bitStreamDelete(bs)"
+        ]
+    },
+    "[RakBot] bitStreamInit -  Создание нового объекта BitStream из готовых данных":{
+        "scope":"lua",
+        "prefix":"bitStreamInit",
+        "description":"bitStreamInit:  Создание нового объекта BitStream из готовых данных",
+        "body":[
+            "bitStreamInit(data, size)"
+        ]
+    },
+    "[RakBot] setQuaternion -  Установить кватернион боту":{
+        "scope":"lua",
+        "prefix":"setQuaternion",
+        "description":"setQuaternion:  Установить кватернион боту",
+        "body":[
+            "setQuaternion(w, x, y, z)"
+        ]
+    },
+    "[RakBot] bitStreamReadFloat -  Считывает float из потока BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamReadFloat",
+        "description":"bitStreamReadFloat:  Считывает float из потока BitStream",
+        "body":[
+            "bitStreamReadFloat(bs)"
+        ]
+    },
+    "[RakBot] bitStreamWriteString -  Записывает строку в поток BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamWriteString",
+        "description":"bitStreamWriteString:  Записывает строку в поток BitStream",
+        "body":[
+            "bitStreamWriteString(bs, str, len[, encode])"
+        ]
+    },
+    "[RakBot] setMail -  Установить e-mail для авторегистрации":{
+        "scope":"lua",
+        "prefix":"setMail",
+        "description":"setMail:  Установить e-mail для авторегистрации",
+        "body":[
+            "setMail(mail)"
+        ]
+    },
+    "[RakBot] setKeys -  Установка \"нажатых\" клавиш для исходящей синхронизации":{
+        "scope":"lua",
+        "prefix":"setKeys",
+        "description":"setKeys:  Установка \"нажатых\" клавиш для исходящей синхронизации",
+        "body":[
+            "setKeys(keys, leftRightKey, upDownKey)"
+        ]
+    },
+    "[RakBot] printLog -  Вывод строки в лог-окно бота":{
+        "scope":"lua",
+        "prefix":"printLog",
+        "description":"printLog:  Вывод строки в лог-окно бота",
+        "body":[
+            "printLog(text)"
+        ]
+    },
+    "[RakBot] createDialog -  Функция, создающая оффлайн диалог":{
+        "scope":"lua",
+        "prefix":"createDialog",
+        "description":"createDialog:  Функция, создающая оффлайн диалог",
+        "body":[
+            "createDialog(dialogId, dialogStyle, title, btn1, btn2, text)"
+        ]
+    },
+    "[RakBot] getPlayer -  Получение информации и игроке":{
+        "scope":"lua",
+        "prefix":"getPlayer",
+        "description":"getPlayer:  Получение информации и игроке",
+        "body":[
+            "getPlayer(playerId)"
+        ]
+    },
+    "[RakBot] requestClass -  Отправляет запрос серверу на смену класса":{
+        "scope":"lua",
+        "prefix":"requestClass",
+        "description":"requestClass:  Отправляет запрос серверу на смену класса",
+        "body":[
+            "requestClass(classId)"
+        ]
+    },
+    "[RakBot] getPickup -  Получение информации о пикапе":{
+        "scope":"lua",
+        "prefix":"getPickup",
+        "description":"getPickup:  Получение информации о пикапе",
+        "body":[
+            "getPickup(pickupId)"
+        ]
+    },
+    "[RakBot] setPosition -  Установить координаты боту":{
+        "scope":"lua",
+        "prefix":"setPosition",
+        "description":"setPosition:  Установить координаты боту",
+        "body":[
+            "setPosition(x, y, z)"
+        ]
+    },
+    "[RakBot] coordMasterStart -  Запустить коордмастер":{
+        "scope":"lua",
+        "prefix":"coordMasterStart",
+        "description":"coordMasterStart:  Запустить коордмастер",
+        "body":[
+            "coordMasterStart(posX, posY, posZ)"
+        ]
+    },
+    "[RakBot] defCallAdd -  Создать отложенный вызов функции":{
+        "scope":"lua",
+        "prefix":"defCallAdd",
+        "description":"defCallAdd:  Создать отложенный вызов функции",
+        "body":[
+            "defCallAdd(delay, repeat, func[, params])"
+        ]
+    },
+    "[RakBot] setOwnAutoReg -  Включить собственную авторегистрацию":{
+        "scope":"lua",
+        "prefix":"setOwnAutoReg",
+        "description":"setOwnAutoReg:  Включить собственную авторегистрацию",
+        "body":[
+            "setOwnAutoReg(state)"
+        ]
+    },
+    "[RakBot] dumpMem -  Получение строки дампа участка памяти":{
+        "scope":"lua",
+        "prefix":"dumpMem",
+        "description":"dumpMem:  Получение строки дампа участка памяти",
+        "body":[
+            "dumpMem(data, size)"
+        ]
+    },
+    "[RakBot] getObject -  Получение информации и объекте":{
+        "scope":"lua",
+        "prefix":"getObject",
+        "description":"getObject:  Получение информации и объекте",
+        "body":[
+            "getObject(objectId)"
+        ]
+    },
+    "[RakBot] bitStreamSetReadOffset -  Устанавливает смещение для чтения":{
+        "scope":"lua",
+        "prefix":"bitStreamSetReadOffset",
+        "description":"bitStreamSetReadOffset:  Устанавливает смещение для чтения",
+        "body":[
+            "bitStreamSetReadOffset(bs, offset)"
+        ]
+    },
+    "[RakBot] setSex -  Установить пол для авторегистрации":{
+        "scope":"lua",
+        "prefix":"setSex",
+        "description":"setSex:  Установить пол для авторегистрации",
+        "body":[
+            "setSex(sex)"
+        ]
+    },
+    "[RakBot] setArmour -  Установить броню боту":{
+        "scope":"lua",
+        "prefix":"setArmour",
+        "description":"setArmour:  Установить броню боту",
+        "body":[
+            "setArmour(armour)"
+        ]
+    },
+    "[RakBot] clickTextDraw -  Отправка клика по текстдраву":{
+        "scope":"lua",
+        "prefix":"clickTextDraw",
+        "description":"clickTextDraw:  Отправка клика по текстдраву",
+        "body":[
+            "clickTextDraw(textDrawId)"
+        ]
+    },
+    "[RakBot] setServerPassword -  Устанавливает пароль сервера":{
+        "scope":"lua",
+        "prefix":"setServerPassword",
+        "description":"setServerPassword:  Устанавливает пароль сервера",
+        "body":[
+            "setServerPassword(password)"
+        ]
+    },
+    "[RakBot] setAnimation -  Установить боту анимацию":{
+        "scope":"lua",
+        "prefix":"setAnimation",
+        "description":"setAnimation:  Установить боту анимацию",
+        "body":[
+            "setAnimation(animId, animFlags)"
+        ]
+    },
+    "[RakBot] disconnect(timeout)Примечание:Аргумент timeout - bool  -  Отключить бота от сервера":{
+        "scope":"lua",
+        "prefix":"disconnect(timeout)Примечание:Аргумент timeout - bool ",
+        "description":"disconnect(timeout)Примечание:Аргумент timeout - bool :  Отключить бота от сервера",
+        "body":[
+            "disconnect(timeout)Примечание:Аргумент timeout - bool (true/false)"
+        ]
+    },
+    "[RakBot] bitStreamSetWriteOffset -  Устанавливает смещение для записи":{
+        "scope":"lua",
+        "prefix":"bitStreamSetWriteOffset",
+        "description":"bitStreamSetWriteOffset:  Устанавливает смещение для записи",
+        "body":[
+            "bitStreamSetWriteOffset(bs, offset)"
+        ]
+    },
+    "[RakBot] bitStreamSize -  Возвращает размер данных потока BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamSize",
+        "description":"bitStreamSize:  Возвращает размер данных потока BitStream",
+        "body":[
+            "bitStreamSize(bs)"
+        ]
+    },
+    "[RakBot] bitStreamReset -  Очистка потока BitSteam":{
+        "scope":"lua",
+        "prefix":"bitStreamReset",
+        "description":"bitStreamReset:  Очистка потока BitSteam",
+        "body":[
+            "bitStreamReset(bs)"
+        ]
+    },
+    "[RakBot] setNickName -  Устанавливает новый ник боту для входа":{
+        "scope":"lua",
+        "prefix":"setNickName",
+        "description":"setNickName:  Устанавливает новый ник боту для входа",
+        "body":[
+            "setNickName(nickname)"
+        ]
+    },
+    "[RakBot] adminsAdd -  Добавляет ник в список администрации":{
+        "scope":"lua",
+        "prefix":"adminsAdd",
+        "description":"adminsAdd:  Добавляет ник в список администрации",
+        "body":[
+            "adminsAdd(admin)"
+        ]
+    },
+    "[RakBot] messageBox -  Показывает окно с указанным текстом":{
+        "scope":"lua",
+        "prefix":"messageBox",
+        "description":"messageBox:  Показывает окно с указанным текстом",
+        "body":[
+            "messageBox(message)"
+        ]
+    },
+    "[RakBot] sendVkNotify -  Функция отправляет оповещение на страницу ВКонтакте, привязанную к учетной записи на сайте":{
+        "scope":"lua",
+        "prefix":"sendVkNotify",
+        "description":"sendVkNotify:  Функция отправляет оповещение на страницу ВКонтакте, привязанную к учетной записи на сайте",
+        "body":[
+            "sendVkNotify(message)"
+        ]
+    },
+    "[RakBot] bitStreamWriteWord -  Записывает 2 байта в поток BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamWriteWord",
+        "description":"bitStreamWriteWord:  Записывает 2 байта в поток BitStream",
+        "body":[
+            "bitStreamWriteWord(bs, value[, compressed])"
+        ]
+    },
+    "[RakBot] getVehicle -  Получение информации о автомобиле":{
+        "scope":"lua",
+        "prefix":"getVehicle",
+        "description":"getVehicle:  Получение информации о автомобиле",
+        "body":[
+            "getVehicle(vehicleId)"
+        ]
+    },
+    "[RakBot] setHealth -  Установить ХП боту":{
+        "scope":"lua",
+        "prefix":"setHealth",
+        "description":"setHealth:  Установить ХП боту",
+        "body":[
+            "setHealth(health)"
+        ]
+    },
+    "[RakBot] reconnect -  Перезаход на сервер":{
+        "scope":"lua",
+        "prefix":"reconnect",
+        "description":"reconnect:  Перезаход на сервер",
+        "body":[
+            "reconnect(reconnectDelay)"
+        ]
+    },
+    "[RakBot] defCallDelete -  Удалить отложенный вызов функции":{
+        "scope":"lua",
+        "prefix":"defCallDelete",
+        "description":"defCallDelete:  Удалить отложенный вызов функции",
+        "body":[
+            "defCallDelete(defCallId)"
+        ]
+    },
+    "[RakBot] bitStreamWriteFloat -  Записывает float в поток BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamWriteFloat",
+        "description":"bitStreamWriteFloat:  Записывает float в поток BitStream",
+        "body":[
+            "bitStreamWriteFloat(bs, value[, compressed])"
+        ]
+    },
+    "[RakBot] randomString -  Генерация случайной строки":{
+        "scope":"lua",
+        "prefix":"randomString",
+        "description":"randomString:  Генерация случайной строки",
+        "body":[
+            "randomString(len, numbers)"
+        ]
+    },
+    "[RakBot] sendRpc -  Функция, которая отправляет RPC на сервер":{
+        "scope":"lua",
+        "prefix":"sendRpc",
+        "description":"sendRpc:  Функция, которая отправляет RPC на сервер",
+        "body":[
+            "sendRpc(id, bs)"
+        ]
+    },
+    "[RakBot] sendDialog -  Отправляет серверу информацию об использовании диалога":{
+        "scope":"lua",
+        "prefix":"sendDialog",
+        "description":"sendDialog:  Отправляет серверу информацию об использовании диалога",
+        "body":[
+            "sendDialog(dialogId, button, item, input)"
+        ]
+    },
+    "[RakBot] setReconnectDelay -  Установить значение задержки переподключения":{
+        "scope":"lua",
+        "prefix":"setReconnectDelay",
+        "description":"setReconnectDelay:  Установить значение задержки переподключения",
+        "body":[
+            "setReconnectDelay(delay)"
+        ]
+    },
+    "[RakBot] sendInput -  Отправка сообщения серверу (команда или чат)":{
+        "scope":"lua",
+        "prefix":"sendInput",
+        "description":"sendInput:  Отправка сообщения серверу (команда или чат)",
+        "body":[
+            "sendInput(input)"
+        ]
+    },
+    "[RakBot] bitStreamReadWord -  Считывает 2 байта из потока BitStream":{
+        "scope":"lua",
+        "prefix":"bitStreamReadWord",
+        "description":"bitStreamReadWord:  Считывает 2 байта из потока BitStream",
+        "body":[
+            "bitStreamReadWord(bs)"
+        ]
+    },
+    "[RakBot] getRakBotPath -  Получить путь относительно корневой папки бота":{
+        "scope":"lua",
+        "prefix":"getRakBotPath",
+        "description":"getRakBotPath:  Получить путь относительно корневой папки бота",
+        "body":[
+            "getRakBotPath(append)"
+        ]
+    },
+
+    
+    "[RakBot] onAttachObjectToPlayer -  Событие, вызываемое при прикреплении объекта к игроку":{
+        "body":[
+            "onAttachObjectToPlayer(playerId, slotId, attach)"
+        ],
+        "description":"onAttachObjectToPlayer:  Событие, вызываемое при прикреплении объекта к игроку",
+        "prefix":"onAttachObjectToPlayer",
+        "scope":"lua"
+    },
+    "[RakBot] onSetPosition -  Событие, вызываемое при изменении позиции бота сервером":{
+        "body":[
+            "onSetPosition(x, y, z)Примечание: Функция не отдает x, y, z. Получайте их через getPosition()"
+        ],
+        "description":"onSetPosition:  Событие, вызываемое при изменении позиции бота сервером",
+        "prefix":"onSetPosition",
+        "scope":"lua"
+    },
+    "[RakBot] onTextLabelShow -  Событие, вызываемое при создании 3D текста":{
+        "body":[
+            "onTextLabelShow(labelId, positionX, positionY, positionZ, labelString)"
+        ],
+        "description":"onTextLabelShow:  Событие, вызываемое при создании 3D текста",
+        "prefix":"onTextLabelShow",
+        "scope":"lua"
+    },
+    "[RakBot] onPlayerQuit -  Событие, вызываемое при выходе игрока с сервера":{
+        "body":[
+            "onPlayerQuit(playerId, reasonId)"
+        ],
+        "description":"onPlayerQuit:  Событие, вызываемое при выходе игрока с сервера",
+        "prefix":"onPlayerQuit",
+        "scope":"lua"
+    },
+    "[RakBot] onDisconnect -  Событие, вызываемое при отключении бота от сервера":{
+        "body":[
+            "onDisconnect(reason)"
+        ],
+        "description":"onDisconnect:  Событие, вызываемое при отключении бота от сервера",
+        "prefix":"onDisconnect",
+        "scope":"lua"
+    },
+    "[RakBot] onCoordMasterStart -  Событие, вызываемое при начале работы коордмастера":{
+        "body":[
+            "onCoordMasterStart(targetX, targetY, targetZ)"
+        ],
+        "description":"onCoordMasterStart:  Событие, вызываемое при начале работы коордмастера",
+        "prefix":"onCoordMasterStart",
+        "scope":"lua"
+    },
+    "[RakBot] onPickUpPickup -  Событие, вызываемое при поднятии ботом пикапа":{
+        "body":[
+            "onPickUpPickup(pickupId)"
+        ],
+        "description":"onPickUpPickup:  Событие, вызываемое при поднятии ботом пикапа",
+        "prefix":"onPickUpPickup",
+        "scope":"lua"
+    },
+    "[RakBot] onPlayerDeath -  Событие, вызываемое при смерти игрока":{
+        "body":[
+            "onPlayerDeath(playerId)"
+        ],
+        "description":"onPlayerDeath:  Событие, вызываемое при смерти игрока",
+        "prefix":"onPlayerDeath",
+        "scope":"lua"
+    },
+    "[RakBot] onSendPacket -  Событие, вызываемое при отправке пакета":{
+        "body":[
+            "onSendPacket(id, data, size)"
+        ],
+        "description":"onSendPacket:  Событие, вызываемое при отправке пакета",
+        "prefix":"onSendPacket",
+        "scope":"lua"
+    },
+    "[RakBot] onApplyAnimation -  Событие, вызываемое при установке игроку анимации сервером":{
+        "body":[
+            "onApplyAnimation(playerId, animId)"
+        ],
+        "description":"onApplyAnimation:  Событие, вызываемое при установке игроку анимации сервером",
+        "prefix":"onApplyAnimation",
+        "scope":"lua"
+    },
+    "[RakBot] onRecvRpc -  Событие, вызываемое при получении RPC":{
+        "body":[
+            "onRecvRpc(id, data, size)"
+        ],
+        "description":"onRecvRpc:  Событие, вызываемое при получении RPC",
+        "prefix":"onRecvRpc",
+        "scope":"lua"
+    },
+    "[RakBot] onServerMessage -  Событие, вызываемое при получении ботом сообщения от сервера":{
+        "body":[
+            "onServerMessage(message)"
+        ],
+        "description":"onServerMessage:  Событие, вызываемое при получении ботом сообщения от сервера",
+        "prefix":"onServerMessage",
+        "scope":"lua"
+    },
+    "[RakBot] onPlayerRemoveFromWorld -  Событие, вызываемое при исчезновении игрока из зоны прорисовки":{
+        "body":[
+            "onPlayerRemoveFromWorld(playerId)"
+        ],
+        "description":"onPlayerRemoveFromWorld:  Событие, вызываемое при исчезновении игрока из зоны прорисовки",
+        "prefix":"onPlayerRemoveFromWorld",
+        "scope":"lua"
+    },
+    "[RakBot] onDialogResponse -  Событие, вызываемое при отправке ответа диалога ботом":{
+        "body":[
+            "onDialogResponse(dialogId, dialogButton, dialogItem, dialogInput)"
+        ],
+        "description":"onDialogResponse:  Событие, вызываемое при отправке ответа диалога ботом",
+        "prefix":"onDialogResponse",
+        "scope":"lua"
+    },
+    "[RakBot] onCreateObject -  Событие, вызываемое при создании объекта":{
+        "body":[
+            "onCreateObject(objectId)"
+        ],
+        "description":"onCreateObject:  Событие, вызываемое при создании объекта",
+        "prefix":"onCreateObject",
+        "scope":"lua"
+    },
+    "[RakBot] onCreateVehicle -  Событие, вызываемое при появлении транспорта":{
+        "body":[
+            "onCreateVehicle(vehicleId)"
+        ],
+        "description":"onCreateVehicle:  Событие, вызываемое при появлении транспорта",
+        "prefix":"onCreateVehicle",
+        "scope":"lua"
+    },
+    "[RakBot] onSendInput -  Событие, вызываемое при отправке ввода серверу ботом":{
+        "body":[
+            "onSendInput(input)"
+        ],
+        "description":"onSendInput:  Событие, вызываемое при отправке ввода серверу ботом",
+        "prefix":"onSendInput",
+        "scope":"lua"
+    },
+    "[RakBot] onSetHealth -  Событие, вызываемое при изменении уровня здоровья боту сервером":{
+        "body":[
+            "onSetHealth(health)"
+        ],
+        "description":"onSetHealth:  Событие, вызываемое при изменении уровня здоровья боту сервером",
+        "prefix":"onSetHealth",
+        "scope":"lua"
+    },
+    "[RakBot] onDestroyVehicle -  Событие, вызываемое при исчезновении транспорта":{
+        "body":[
+            "onDestroyVehicle(vehicleId)"
+        ],
+        "description":"onDestroyVehicle:  Событие, вызываемое при исчезновении транспорта",
+        "prefix":"onDestroyVehicle",
+        "scope":"lua"
+    },
+    "[RakBot] onRecvPacket -  Событие, вызываемое при получении пакета":{
+        "body":[
+            "onRecvPacket(packetId, packetData, packetSize)"
+        ],
+        "description":"onRecvPacket:  Событие, вызываемое при получении пакета",
+        "prefix":"onRecvPacket",
+        "scope":"lua"
+    },
+    "[RakBot] onBotSpawn -  Событие, вызываемое при спавне бота. Отдает координаты спавна.":{
+        "body":[
+            "onBotSpawn(x, y, z)"
+        ],
+        "description":"onBotSpawn:  Событие, вызываемое при спавне бота. Отдает координаты спавна.",
+        "prefix":"onBotSpawn",
+        "scope":"lua"
+    },
+    "[RakBot] onSetArmour -  Событие, вызываемое при изменении уровня брони бота сервером":{
+        "body":[
+            "onSetArmour(armour)"
+        ],
+        "description":"onSetArmour:  Событие, вызываемое при изменении уровня брони бота сервером",
+        "prefix":"onSetArmour",
+        "scope":"lua"
+    },
+    "[RakBot] onChatMessage -  Событие, вызываемое при получении ботом сообщения из чата":{
+        "body":[
+            "onChatMessage(playerId, message)"
+        ],
+        "description":"onChatMessage:  Событие, вызываемое при получении ботом сообщения из чата",
+        "prefix":"onChatMessage",
+        "scope":"lua"
+    },
+    "[RakBot] onDestroyObject -  Событие, вызываемое при удалении объекта":{
+        "body":[
+            "onDestroyObject(objectId)"
+        ],
+        "description":"onDestroyObject:  Событие, вызываемое при удалении объекта",
+        "prefix":"onDestroyObject",
+        "scope":"lua"
+    },
+    "[RakBot] onPlayerPutInVehicle -  Событие, вызываемое при посадке бота сервером в транспорт":{
+        "body":[
+            "onPlayerPutInVehicle(vehicleId, seatId)"
+        ],
+        "description":"onPlayerPutInVehicle:  Событие, вызываемое при посадке бота сервером в транспорт",
+        "prefix":"onPlayerPutInVehicle",
+        "scope":"lua"
+    },
+    "[RakBot] onTextDrawSetString -  Событие, вызываемое при изменении содержимого текстдава":{
+        "body":[
+            "onTextDrawSetString(textDrawId, textDrawString)"
+        ],
+        "description":"onTextDrawSetString:  Событие, вызываемое при изменении содержимого текстдава",
+        "prefix":"onTextDrawSetString",
+        "scope":"lua"
+    },
+    "[RakBot] onCreatePickup -  Событие, вызываемое при создании пикапа":{
+        "body":[
+            "onCreatePickup(pickupId)"
+        ],
+        "description":"onCreatePickup:  Событие, вызываемое при создании пикапа",
+        "prefix":"onCreatePickup",
+        "scope":"lua"
+    },
+    "[RakBot] onTextDrawHide -  Событие, вызываемое при скрытии текстдрава":{
+        "body":[
+            "onTextDrawHide(textDrawId)"
+        ],
+        "description":"onTextDrawHide:  Событие, вызываемое при скрытии текстдрава",
+        "prefix":"onTextDrawHide",
+        "scope":"lua"
+    },
+    "[RakBot] onSetSkin -  Событие, вызываемое при установке игроку скина с сервера":{
+        "body":[
+            "onSetSkin(playerid, skinId)"
+        ],
+        "description":"onSetSkin:  Событие, вызываемое при установке игроку скина с сервера",
+        "prefix":"onSetSkin",
+        "scope":"lua"
+    },
+    "[RakBot] onRunCommand -  Событие, вызываемое при выполнении команды ботом":{
+        "body":[
+            "onRunCommand(command)"
+        ],
+        "description":"onRunCommand:  Событие, вызываемое при выполнении команды ботом",
+        "prefix":"onRunCommand",
+        "scope":"lua"
+    },
+    "[RakBot] onTakeCheckpoint -  Событие, вызываемое при поднятии ботом чекпоинта":{
+        "body":[
+            "onTakeCheckpoint(x, y, z)"
+        ],
+        "description":"onTakeCheckpoint:  Событие, вызываемое при поднятии ботом чекпоинта",
+        "prefix":"onTakeCheckpoint",
+        "scope":"lua"
+    },
+    "[RakBot] onSpawned -  Событие, вызываемое при спавне бота":{
+        "body":[
+            "onSpawned(x, y, z)"
+        ],
+        "description":"onSpawned:  Событие, вызываемое при спавне бота",
+        "prefix":"onSpawned",
+        "scope":"lua"
+    },
+    "[RakBot] onTextDrawShow -  Событие, вызываемое при появлении текстдрава":{
+        "body":[
+            "onTextDrawShow(textDrawId, positionX, positionY, textDrawString)"
+        ],
+        "description":"onTextDrawShow:  Событие, вызываемое при появлении текстдрава",
+        "prefix":"onTextDrawShow",
+        "scope":"lua"
+    },
+    "[RakBot] onSetSpawnPos -  Событие, вызываемое при изменении сервером стандартной позиции спавна":{
+        "body":[
+            "onSetSpawnPos(x, y, z)"
+        ],
+        "description":"onSetSpawnPos:  Событие, вызываемое при изменении сервером стандартной позиции спавна",
+        "prefix":"onSetSpawnPos",
+        "scope":"lua"
+    },
+    "[RakBot] onTextDrawClick -  Событие, вызываемое при клике бота по текстдраву":{
+        "body":[
+            "onTextDrawClick(textDrawId)"
+        ],
+        "description":"onTextDrawClick:  Событие, вызываемое при клике бота по текстдраву",
+        "prefix":"onTextDrawClick",
+        "scope":"lua"
+    },
+    "[RakBot] onSendRpc -  Событие, вызываемое при отправке RPC":{
+        "body":[
+            "onSendRpc(id, data, size)"
+        ],
+        "description":"onSendRpc:  Событие, вызываемое при отправке RPC",
+        "prefix":"onSendRpc",
+        "scope":"lua"
+    },
+    "[RakBot] onSetMoney -  Событие, вызываемое при изменении количества денег бота сервером":{
+        "body":[
+            "onSetMoney(money)"
+        ],
+        "description":"onSetMoney:  Событие, вызываемое при изменении количества денег бота сервером",
+        "prefix":"onSetMoney",
+        "scope":"lua"
+    },
+    "[RakBot] onGameText -  Событие, вызываемое при получении ботом GameText":{
+        "body":[
+            "onGameText(gametext)"
+        ],
+        "description":"onGameText:  Событие, вызываемое при получении ботом GameText",
+        "prefix":"onGameText",
+        "scope":"lua"
+    },
+    "[RakBot] onServerQuit -  Событие, вызываемое при выходе другого игрока с сервера":{
+        "body":[
+            "onServerQuit(playerId, reason)"
+        ],
+        "description":"onServerQuit:  Событие, вызываемое при выходе другого игрока с сервера",
+        "prefix":"onServerQuit",
+        "scope":"lua"
+    },
+    "[RakBot] onPrintLog -  Событие, вызываемое при добавлении новой строки в лог окно бота":{
+        "body":[
+            "onPrintLog(str)"
+        ],
+        "description":"onPrintLog:  Событие, вызываемое при добавлении новой строки в лог окно бота",
+        "prefix":"onPrintLog",
+        "scope":"lua"
+    },
+    "[RakBot] onTeleport -  Событие, вызываемое при телепорте бота":{
+        "body":[
+            "onTeleport(positionX, positionY, positionZ)"
+        ],
+        "description":"onTeleport:  Событие, вызываемое при телепорте бота",
+        "prefix":"onTeleport",
+        "scope":"lua"
+    },
+    "[RakBot] onDialogResponseSent -  Событие, вызываемое после отправки ответа диалогу на сервер":{
+        "body":[
+            "onDialogResponseSent(dialogId, dialogButton, dialogItem, dialogInput)"
+        ],
+        "description":"onDialogResponseSent:  Событие, вызываемое после отправки ответа диалогу на сервер",
+        "prefix":"onDialogResponseSent",
+        "scope":"lua"
+    },
+    "[RakBot] onPlayerJoin -  Событие, вызываемое при подключении игрока к серверу":{
+        "body":[
+            "onPlayerJoin(playerId, playerName)"
+        ],
+        "description":"onPlayerJoin:  Событие, вызываемое при подключении игрока к серверу",
+        "prefix":"onPlayerJoin",
+        "scope":"lua"
+    },
+    "[RakBot] onDestroyPickup -  Событие, вызываемое при удалении пикапа":{
+        "body":[
+            "onDestroyPickup(pickupId)"
+        ],
+        "description":"onDestroyPickup:  Событие, вызываемое при удалении пикапа",
+        "prefix":"onDestroyPickup",
+        "scope":"lua"
+    },
+    "[RakBot] onDialogShow -  Событие, вызываемое при входящем диалоге":{
+        "body":[
+            "onDialogShow(dialogId, dialogStyle, dialogTitle, okButtonText, cancelButtonText, dialogText)"
+        ],
+        "description":"onDialogShow:  Событие, вызываемое при входящем диалоге",
+        "prefix":"onDialogShow",
+        "scope":"lua"
+    },
+    "[RakBot] onSetVehicleParams -  Событие, вызываемое при изменении параметров транспорта":{
+        "body":[
+            "onSetVehicleParams(vehicleId)"
+        ],
+        "description":"onSetVehicleParams:  Событие, вызываемое при изменении параметров транспорта",
+        "prefix":"onSetVehicleParams",
+        "scope":"lua"
+    },
+    "[RakBot] onServerJoin -  Событие, вызываемое при заходе другого игрока на сервер":{
+        "body":[
+            "onServerJoin(playerId, nickname)"
+        ],
+        "description":"onServerJoin:  Событие, вызываемое при заходе другого игрока на сервер",
+        "prefix":"onServerJoin",
+        "scope":"lua"
+    },
+    "[RakBot] onReconnect -  Событие, вызываемое при переподключении бота к серверу":{
+        "body":[
+            "onReconnect(delay)"
+        ],
+        "description":"onReconnect:  Событие, вызываемое при переподключении бота к серверу",
+        "prefix":"onReconnect",
+        "scope":"lua"
+    },
+    "[RakBot] onPlayerAddInWorld -  Событие, вызываемое при появлении игрока в зоне прорисовки":{
+        "body":[
+            "onPlayerAddInWorld(playerId)"
+        ],
+        "description":"onPlayerAddInWorld:  Событие, вызываемое при появлении игрока в зоне прорисовки",
+        "prefix":"onPlayerAddInWorld",
+        "scope":"lua"
+    }
+    
+}
